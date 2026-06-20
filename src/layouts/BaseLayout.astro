@@ -10,8 +10,9 @@ interface Props {
 
 const { title, description = "Your trusted partner for starting, growing, and scaling your business in the UK." } = Astro.props;
 
-// Compute canonical URL
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ukstartupflow.com');
+// Compute canonical URL and strip trailing slash to match internal links consistently
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const canonicalURL = new URL(pathname, Astro.site || 'https://ukstartupflow.com');
 ---
 
 <!doctype html>
