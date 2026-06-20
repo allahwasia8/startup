@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Passports"
 seo_title: "How to Change Address for Passport: A Simple Step-by-Step Guide"
 seo_description: "Learn how to change your address for your passport with this simple step-by-step guide. Follow our instructions and ensure your information is up to date!"
-image: "/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png"
+image: "/images/blog/change-address-uk-passport-main.webp"
 ---
 
 <p>If you have recently moved home or started a new job in a different city, you might be wondering whether you need to change address for passport records. The short answer may surprise you. Here is everything you need to know about UK passport address rules, when you actually need a new passport, and how the application process works.</p>

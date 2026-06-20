@@ -3,7 +3,7 @@ title: "Letterbox collection times: how to find the last collection time for Roy
 excerpt: "Knowing exactly when your local post box is emptied can mean the difference between your letter being delivered the next day or sitting untouched u..."
 date: "Oct 15, 2026"
 category: "Business"
-image: "/images/blog/00d16526-b213-4631-8a72-3bac4aa77776.png"
+image: "/images/blog/letterbox-collection-times-find-main.webp"
 seo_title: "Letterbox collection times: how to find the last collection..."
 seo_description: "Knowing exactly when your local post box is emptied can mean the difference between your letter being delivered the next day or sitting untouched u..."
 ---

@@ -3,7 +3,7 @@ title: "British Passport Price in 2026: Full Guide to Passport Fees and Ways to 
 excerpt: "If you need a new passport or a passport renewal this year, you're paying more than ever. Here's exactly what a british passport costs in 2026, wha..."
 date: "Oct 15, 2026"
 category: "Passports"
-image: "/images/blog/75a93757-99f9-4ba0-a821-daaca284ace3.png"
+image: "/images/blog/british-passport-price-2026-main.webp"
 seo_title: "British Passport Price in 2026: Full Guide to Passport Fees..."
 seo_description: "If you need a new passport or a passport renewal this year, you're paying more than ever. Here's exactly what a british passport costs in 2026, wha..."
 ---
@@ -36,7 +36,7 @@ seo_description: "If you need a new passport or a passport renewal this year, yo
 
 ### Taking Your Own Passport Photo Correctly
 
-<p>DIY photos are a major saving, but they can cause delays if they don't meet the passport office requirements. You need to get this right.</p><ul><li><p>Use a smartphone camera against a plain light background, showing head and shoulders only</p></li><li><p>Do not use filters or heavy editing - leave cropping to the online system built into the application form</p></li><li><p>Look straight at the camera with a neutral expression, no head coverings (unless for religious or medical reasons), and no reflections on glasses</p></li><li><p>For children and babies, check the latest photo rules on Gov.uk for detailed criteria</p></li></ul><img src="/images/blog/7de722b8-d21e-499a-8c97-9d06bb049312.png" alt="A person is taking a passport-style photo with a smartphone in front of a plain white wall at home, preparing for their passport application process. This digital photo will be essential for their new British passport or passport renewal, ensuring they meet the requirements set by HM Passport Office.">
+<p>DIY photos are a major saving, but they can cause delays if they don't meet the passport office requirements. You need to get this right.</p><ul><li><p>Use a smartphone camera against a plain light background, showing head and shoulders only</p></li><li><p>Do not use filters or heavy editing - leave cropping to the online system built into the application form</p></li><li><p>Look straight at the camera with a neutral expression, no head coverings (unless for religious or medical reasons), and no reflections on glasses</p></li><li><p>For children and babies, check the latest photo rules on Gov.uk for detailed criteria</p></li></ul><img src="/images/blog/british-passport-price-2026-2.webp" alt="A person is taking a passport-style photo with a smartphone in front of a plain white wall at home, preparing for their passport application process. This digital photo will be essential for their new British passport or passport renewal, ensuring they meet the requirements set by HM Passport Office.">
 
 ## Standard vs Urgent Passport Services and Their Prices
 

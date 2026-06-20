@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Benefits"
 seo_title: "Understanding Universal Credits: A Guide to Your Benefits and Support"
 seo_description: "Discover how Universal Credits work, what benefits you’re entitled to, and how to access support. Read the guide to navigate your financial aid effectively."
-image: "/images/blog/3fe8cb56-c776-4cca-ac69-af2af05678bc.png"
+image: "/images/blog/universal-credit-complete-2026-main.webp"
 ---
 
 <p>Universal Credit is the single benefit system that now covers most working-age people in the UK who need financial support. Whether you are out of work, on a low income, managing a health condition, or caring for someone, your entitlement runs through this one system. With significant rule changes taking effect from 6 April 2026, getting the details right matters more than ever. This guide walks you through everything you need to know, from eligibility and payment amounts to special situations and how to challenge decisions.</p>
@@ -84,7 +84,7 @@ image: "/images/blog/3fe8cb56-c776-4cca-ac69-af2af05678bc.png"
 
 ### Additional elements
 
-<p>The different elements added on top of the standard allowance include:</p><ul><li><p><strong>Child element</strong>: £303.94 per eligible child (with some variation for children born before April 2017)</p></li><li><p><strong>Childcare costs element</strong>: up to £1,071.09/month for one child, £1,836.16 for two or more</p></li><li><p><strong>Carer element</strong>: £209.34/month</p></li><li><p><strong>Housing costs element</strong>: based on your eligible rent or Local Housing Allowance</p></li><li><p><strong>Health/LCWRA element</strong>: higher and lower rates of health support are available for universal credit claimants - the protected rate is approximately £429.80/month, while new claimants from April 2026 receive a lower rate of approximately £217.26/month</p></li></ul><img src="/images/blog/3e8f6965-8fb9-442e-99a2-c48b15c5ca00.png" alt="The image features a calculator, a stack of coins, and a notebook filled with budget notes on a desk, illustrating the process of managing living costs and planning for universal credit payments. This scene emphasizes the importance of budgeting for those navigating their universal credit claim and other financial support allowances.">
+<p>The different elements added on top of the standard allowance include:</p><ul><li><p><strong>Child element</strong>: £303.94 per eligible child (with some variation for children born before April 2017)</p></li><li><p><strong>Childcare costs element</strong>: up to £1,071.09/month for one child, £1,836.16 for two or more</p></li><li><p><strong>Carer element</strong>: £209.34/month</p></li><li><p><strong>Housing costs element</strong>: based on your eligible rent or Local Housing Allowance</p></li><li><p><strong>Health/LCWRA element</strong>: higher and lower rates of health support are available for universal credit claimants - the protected rate is approximately £429.80/month, while new claimants from April 2026 receive a lower rate of approximately £217.26/month</p></li></ul><img src="/images/blog/universal-credit-complete-2026-2.webp" alt="The image features a calculator, a stack of coins, and a notebook filled with budget notes on a desk, illustrating the process of managing living costs and planning for universal credit payments. This scene emphasizes the importance of budgeting for those navigating their universal credit claim and other financial support allowances.">
 
 ### Transitional element
 
@@ -152,7 +152,7 @@ image: "/images/blog/3fe8cb56-c776-4cca-ac69-af2af05678bc.png"
 
 ### Conditionality groups
 
-<p>DWP places claimants into different groups depending on their circumstances:</p><ul><li><p><strong>All work-related requirements</strong>: Expected to look for full-time work</p></li><li><p><strong>Work preparation only</strong>: For example, some people with limited capability for work, or parents with very young children</p></li><li><p><strong>Work-focused interviews only</strong>: Lighter obligations, such as attending periodic reviews</p></li><li><p><strong>No work-related activity</strong>: For people with severe health conditions, terminal illness, or heavy caring responsibilities</p></li></ul><img src="/images/blog/4fe781d5-a41e-428d-b476-30a78ee8036c.png" alt="In a bright office, two people are seated across from each other at a desk, engaged in a conversation about various benefits, including universal credit claims and housing costs. The discussion likely involves navigating financial support options such as personal independence payments and employment and support allowances.">
+<p>DWP places claimants into different groups depending on their circumstances:</p><ul><li><p><strong>All work-related requirements</strong>: Expected to look for full-time work</p></li><li><p><strong>Work preparation only</strong>: For example, some people with limited capability for work, or parents with very young children</p></li><li><p><strong>Work-focused interviews only</strong>: Lighter obligations, such as attending periodic reviews</p></li><li><p><strong>No work-related activity</strong>: For people with severe health conditions, terminal illness, or heavy caring responsibilities</p></li></ul><img src="/images/blog/universal-credit-complete-2026-3.webp" alt="In a bright office, two people are seated across from each other at a desk, engaged in a conversation about various benefits, including universal credit claims and housing costs. The discussion likely involves navigating financial support options such as personal independence payments and employment and support allowances.">
 
 ### Support allowance and health
 
@@ -220,7 +220,7 @@ image: "/images/blog/3fe8cb56-c776-4cca-ac69-af2af05678bc.png"
 
 ### Payment frequency
 
-<p>Universal Credit is paid monthly to align with monthly salaries - this is the default in England and Wales. In Scotland, you can request twice-monthly payments. In northern ireland, payments are normally every two weeks.</p><img src="/images/blog/2f746d05-0b01-4a8c-a63a-6e2081bc7c4a.png" alt="The image shows a wall calendar with a specific date circled in red, indicating an important deadline, positioned next to a clock on a desk. This setup suggests a focus on timely actions related to financial matters, such as making a universal credit claim or preparing for upcoming payments.">
+<p>Universal Credit is paid monthly to align with monthly salaries - this is the default in England and Wales. In Scotland, you can request twice-monthly payments. In northern ireland, payments are normally every two weeks.</p><img src="/images/blog/universal-credit-complete-2026-4.webp" alt="The image shows a wall calendar with a specific date circled in red, indicating an important deadline, positioned next to a clock on a desk. This setup suggests a focus on timely actions related to financial matters, such as making a universal credit claim or preparing for upcoming payments.">
 
 ### Budgeting across the month
 
@@ -268,7 +268,7 @@ image: "/images/blog/3fe8cb56-c776-4cca-ac69-af2af05678bc.png"
 
 ### Fluctuating income
 
-<p>A high-earning month can reduce or completely remove Universal Credit for that assessment period. If your award drops to zero, your claim ends. You may be able to ask DWP to keep your claim open for a time if your income is likely to fall again, avoiding the need for a completely new claim.</p><img src="/images/blog/53605110-c55c-4a95-9bd1-1d72fe057581.png" alt="A small business owner is seated at a desk in their home, surrounded by invoices and a laptop, working diligently to manage their finances. This scene highlights the challenges of maintaining a business while navigating essential financial matters, such as claiming universal credit and managing living costs.">
+<p>A high-earning month can reduce or completely remove Universal Credit for that assessment period. If your award drops to zero, your claim ends. You may be able to ask DWP to keep your claim open for a time if your income is likely to fall again, avoiding the need for a completely new claim.</p><img src="/images/blog/universal-credit-complete-2026-5.webp" alt="A small business owner is seated at a desk in their home, surrounded by invoices and a laptop, working diligently to manage their finances. This scene highlights the challenges of maintaining a business while navigating essential financial matters, such as claiming universal credit and managing living costs.">
 
 ### Practical tips for self-employed claimants
 

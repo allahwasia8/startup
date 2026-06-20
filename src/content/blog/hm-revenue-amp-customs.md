@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Tax"
 seo_title: "Essential Guide to Understanding HM Revenue and Your Tax Obligations"
 seo_description: "Navigate your tax obligations with ease in this essential guide to HM Revenue. Understand your responsibilities and stay compliant. Read more to learn how."
-image: "/images/blog/629061e1-fcdb-4e42-a643-056cbdbbfd83.png"
+image: "/images/blog/hm-revenue-amp-customs-main.webp"
 ---
 
 
@@ -40,7 +40,7 @@ image: "/images/blog/629061e1-fcdb-4e42-a643-056cbdbbfd83.png"
 
 ## Digital Services: Personal Tax Account and HMRC App
 
-<p>HMRC is transitioning to a digital-first organization for tax filings and interactions, and it promotes digital adoption through online services and an official app. Your personal tax account on GOV.UK lets you:</p><ul><li><p>Check income tax and PAYE details</p></li><li><p>Update employment information and view tax codes</p></li><li><p>See Self Assessment status, payments and deadlines</p></li><li><p>Claim certain refunds</p></li></ul><p>The hmrc app provides mobile access to similar features. You can view your national insurance number, student loan balance and upcoming payments from your phone. Download the app only from official app stores to stay secure, and sign in regularly to keep your information current - especially when changing jobs, moving home or starting self-employment.</p><img src="/images/blog/a22fdeb7-e4a2-4097-b48c-2a4357f8766a.png" alt="A person is holding a smartphone that displays a modern financial dashboard app interface, showcasing important information related to income, tax returns, and expenses. The app appears to be part of the HMRC system, allowing users to manage their tax assessments and access targeted financial support.">
+<p>HMRC is transitioning to a digital-first organization for tax filings and interactions, and it promotes digital adoption through online services and an official app. Your personal tax account on GOV.UK lets you:</p><ul><li><p>Check income tax and PAYE details</p></li><li><p>Update employment information and view tax codes</p></li><li><p>See Self Assessment status, payments and deadlines</p></li><li><p>Claim certain refunds</p></li></ul><p>The hmrc app provides mobile access to similar features. You can view your national insurance number, student loan balance and upcoming payments from your phone. Download the app only from official app stores to stay secure, and sign in regularly to keep your information current - especially when changing jobs, moving home or starting self-employment.</p><img src="/images/blog/hm-revenue-amp-customs-2.webp" alt="A person is holding a smartphone that displays a modern financial dashboard app interface, showcasing important information related to income, tax returns, and expenses. The app appears to be part of the HMRC system, allowing users to manage their tax assessments and access targeted financial support.">
 
 ### Signing In or Setting Up an HMRC Online Account
 

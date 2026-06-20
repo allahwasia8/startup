@@ -3,7 +3,7 @@ title: "Child's UK Passport: How to Apply, Renew and Get It in Time for Travel"
 excerpt: "Every child under 16 needs their own uk passport for international travel. Here is everything you need to know to apply for a first child passport,..."
 date: "Oct 15, 2026"
 category: "Passports"
-image: "/images/blog/48c945fd-c3b6-4f71-9e82-4342304b8f41.png"
+image: "/images/blog/child-s-uk-passport-main.webp"
 seo_title: "Child's UK Passport: How to Apply, Renew and Get It in Time..."
 seo_description: "Every child under 16 needs their own uk passport for international travel. Here is everything you need to know to apply for a first child passport,..."
 ---
@@ -72,7 +72,7 @@ seo_description: "Every child under 16 needs their own uk passport for internati
 
 ## Child passport photos and confirming your child's identity
 
-<p>Getting an acceptable photo often takes several attempts, especially for babies. HM Passport Office applies strict standards, though relaxed rules exist for children under 1.</p><ul><li><p>Plain light background, in colour, no filters or shadows</p></li><li><p>No toys, dummies, or hats - eyes open where possible</p></li><li><p>Neutral expression for children aged 6 and over</p></li><li><p>Digital photos must be at least 600 × 750 pixels for online uploads</p></li></ul><p>A countersignatory must certify your child's photo for every first child passport and for children under 12 on renewal. Children under 12 may require a digital referee for identity confirmation. You need someone to confirm your child's identity who is a person of good standing, holds a british passport, and has known the parent for at least 2 years. They cannot be a family member. HM Passport Office may also ask you to provide evidence of the child's identity from sources like school records, nhs records, or child benefits correspondence.</p><img src="/images/blog/48c945fd-c3b6-4f71-9e82-4342304b8f41.png" alt="A baby is lying on a plain white sheet, gazing up at the camera as part of a photo session for a child's passport application. The image captures the innocence and curiosity of the child, essential for obtaining a valid passport.">
+<p>Getting an acceptable photo often takes several attempts, especially for babies. HM Passport Office applies strict standards, though relaxed rules exist for children under 1.</p><ul><li><p>Plain light background, in colour, no filters or shadows</p></li><li><p>No toys, dummies, or hats - eyes open where possible</p></li><li><p>Neutral expression for children aged 6 and over</p></li><li><p>Digital photos must be at least 600 × 750 pixels for online uploads</p></li></ul><p>A countersignatory must certify your child's photo for every first child passport and for children under 12 on renewal. Children under 12 may require a digital referee for identity confirmation. You need someone to confirm your child's identity who is a person of good standing, holds a british passport, and has known the parent for at least 2 years. They cannot be a family member. HM Passport Office may also ask you to provide evidence of the child's identity from sources like school records, nhs records, or child benefits correspondence.</p><img src="/images/blog/child-s-uk-passport-main.webp" alt="A baby is lying on a plain white sheet, gazing up at the camera as part of a photo session for a child's passport application. The image captures the innocence and curiosity of the child, essential for obtaining a valid passport.">
 
 ## How to apply for a first child passport
 

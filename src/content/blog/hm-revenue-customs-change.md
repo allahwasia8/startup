@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Business"
 seo_title: "Essential Steps for HM Revenue and Customs Change Address Notification"
 seo_description: "Learn the essential steps to notify HM Revenue and Customs of your address change. Ensure your information is up-to-date—read the article for guidance."
-image: "/images/blog/ba722ab2-9956-4390-b0ed-531f4ba176f3.png"
+image: "/images/blog/hm-revenue-customs-change-main.webp"
 ---
 
 
@@ -40,7 +40,7 @@ image: "/images/blog/ba722ab2-9956-4390-b0ed-531f4ba176f3.png"
 
 ### Step 4: Confirm And Submit Your HMRC Address Change
 
-<p>You will see a summary screen showing your old and new address alongside the effective date of the change. Double-check spelling, flat numbers, and postcodes before pressing confirm. This address will be used for letters, official notices, and any future refund cheques.</p><p>Once you submit, hm revenue and customs systems will begin updating linked records. Changes via the personal tax account take effect within 48 hours for most services. Consider taking a screenshot or saving the confirmation page for your own records in case of any dispute later.</p><img src="/images/blog/6c62f674-d01b-41d1-80dc-e1efa714a1c7.png" alt="The image shows a person sitting at a desk, focused on their laptop computer, with a warm cup of tea placed beside them. This scene suggests they might be working on their personal tax account or preparing their self assessment tax return, emphasizing a quiet and productive workspace.">
+<p>You will see a summary screen showing your old and new address alongside the effective date of the change. Double-check spelling, flat numbers, and postcodes before pressing confirm. This address will be used for letters, official notices, and any future refund cheques.</p><p>Once you submit, hm revenue and customs systems will begin updating linked records. Changes via the personal tax account take effect within 48 hours for most services. Consider taking a screenshot or saving the confirmation page for your own records in case of any dispute later.</p><img src="/images/blog/hm-revenue-customs-change-2.webp" alt="The image shows a person sitting at a desk, focused on their laptop computer, with a warm cup of tea placed beside them. This scene suggests they might be working on their personal tax account or preparing their self assessment tax return, emphasizing a quiet and productive workspace.">
 
 ### Step 5: Check That Your Address Has Updated Across HMRC Services
 
@@ -48,7 +48,7 @@ image: "/images/blog/ba722ab2-9956-4390-b0ed-531f4ba176f3.png"
 
 ## Using The HMRC App To Change Your Address
 
-<p>The free hmrc app is available on both Android and Apple devices and offers most of the same services as the online personal tax account. The HMRC app allows address updates on mobile devices, making it convenient if you prefer managing your tax on the go.</p><p>Sign into the app with your government gateway details. Once logged in, navigate to the profile or personal details area and select "change address." The app supports postcode lookup and manual address entry, just like the website.</p><p>Using the hmrc app is a secure way to change your address. Address changes submitted through the app usually update just as fast as website changes, often within 24–48 hours. The app can also show tax codes, refund status, and payments on account, so it is worth keeping installed after your move.</p><img src="/images/blog/f8024b14-12b8-4ee1-bb02-d0c5912ee0de.png" alt="A pair of hands is holding a smartphone displaying a confirmation screen related to a personal tax account. The screen likely contains important information regarding income tax or self-assessment details, possibly prompting the user to verify their personal details or update their address with HM Revenue and Customs.">
+<p>The free hmrc app is available on both Android and Apple devices and offers most of the same services as the online personal tax account. The HMRC app allows address updates on mobile devices, making it convenient if you prefer managing your tax on the go.</p><p>Sign into the app with your government gateway details. Once logged in, navigate to the profile or personal details area and select "change address." The app supports postcode lookup and manual address entry, just like the website.</p><p>Using the hmrc app is a secure way to change your address. Address changes submitted through the app usually update just as fast as website changes, often within 24–48 hours. The app can also show tax codes, refund status, and payments on account, so it is worth keeping installed after your move.</p><img src="/images/blog/hm-revenue-customs-change-3.webp" alt="A pair of hands is holding a smartphone displaying a confirmation screen related to a personal tax account. The screen likely contains important information regarding income tax or self-assessment details, possibly prompting the user to verify their personal details or update their address with HM Revenue and Customs.">
 
 ## Alternative Ways To Contact HMRC To Change Your Address
 

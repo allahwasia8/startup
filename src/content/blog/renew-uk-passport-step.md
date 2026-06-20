@@ -4,7 +4,7 @@ excerpt: "Renewing a UK passport is straightforward when you start early and use
 date: "Oct 15, 2026"
 category: "Passports"
 seo_description: "Renewing a UK passport is straightforward when you start early and use the official gov uk service. This step by step guide covers everything you n..."
-image: "/images/blog/0da9ed97-39fb-40a0-ae0f-31d8c5ad3f8d.png"
+image: "/images/blog/renew-uk-passport-step-main.webp"
 seo_title: "Renew UK passport: step-by-step guide to getting your new pa..."
 ---
 

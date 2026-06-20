@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Business"
 seo_title: "How to Easily Find Companies House Information for Your Business"
 seo_description: "Discover how to easily access Companies House information for your business. Get the insights you need to make informed decisions. Read the article now!"
-image: "/images/blog/005bcf73-0128-407f-896b-1e843f948008.png"
+image: "/images/blog/find-companies-house-search-main.webp"
 ---
 
 

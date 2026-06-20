@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Motoring"
 seo_title: "Essential Pre MOT Check: Your Comprehensive Guide to Vehicle Readiness"
 seo_description: "Ensure your vehicle is ready for its MOT with our essential pre-check guide. Discover key steps to avoid surprises and keep your car safe. Read more!"
-image: "/images/blog/24d7510a-b0a8-41e7-a986-faf8f7ed73e2.png"
+image: "/images/blog/pre-mot-check-complete-main.webp"
 ---
 
 <p>Around 1.5 million vehicles fail their MOT each year due to simple issues that could have been spotted on the driveway. A thorough pre MOT check takes as little as ten minutes and targets the exact areas that cause the most failures: lights, tyres, brakes, visibility, and fluid levels. This guide walks you through every check, step by step, so your car has the best chance of passing first time.</p>
@@ -56,7 +56,7 @@ image: "/images/blog/24d7510a-b0a8-41e7-a986-faf8f7ed73e2.png"
 
 ### Fluids and warning lights
 
-<p>Open the bonnet and check the brake fluid reservoir. The level should sit between the MIN and MAX marks. Low or contaminated brake fluid is a major fault.</p><p>On the dashboard, watch for:</p><ul><li><p>Brake system warning light</p></li><li><p>ABS warning light</p></li></ul><p>If either stays illuminated with the engine running, expect the mot tester to record a major fault. The same applies to other safety-related warning lights, so address any lit symbols before test day.</p><img src="/images/blog/b54ebe1d-f628-4d21-ba33-5fae3b438c25.png" alt="A close-up view of a car's brake disc and caliper is visible through a stylish alloy wheel, showcasing the intricate components essential for the vehicle's braking system. This image highlights the importance of regular checks, such as those included in a pre MOT test, to ensure brakes are working correctly and meet legal requirements for safety on the road.">
+<p>Open the bonnet and check the brake fluid reservoir. The level should sit between the MIN and MAX marks. Low or contaminated brake fluid is a major fault.</p><p>On the dashboard, watch for:</p><ul><li><p>Brake system warning light</p></li><li><p>ABS warning light</p></li></ul><p>If either stays illuminated with the engine running, expect the mot tester to record a major fault. The same applies to other safety-related warning lights, so address any lit symbols before test day.</p><img src="/images/blog/pre-mot-check-complete-2.webp" alt="A close-up view of a car's brake disc and caliper is visible through a stylish alloy wheel, showcasing the intricate components essential for the vehicle's braking system. This image highlights the importance of regular checks, such as those included in a pre MOT test, to ensure brakes are working correctly and meet legal requirements for safety on the road.">
 
 ## Visibility: Windscreen, Wipers and Mirrors
 
@@ -100,7 +100,7 @@ image: "/images/blog/24d7510a-b0a8-41e7-a986-faf8f7ed73e2.png"
 
 ### Dashboard warning lights
 
-<p>With the engine running, scan the dashboard. Warning lights for airbags, engine management, ABS, or stability control that remain illuminated are typically recorded as minor faults or a major fault depending on the system. Address these before test day - some may need a diagnostic tool to clear or identify the underlying issue.</p><img src="/images/blog/eac1b67a-0bd8-4c14-90de-3c10dc535df8.png" alt="The image shows the interior view of a car dashboard, prominently featuring the steering wheel and instrument cluster, with all warning lights turned off, indicating that the vehicle is in good condition and ready for a pre MOT test. The dashboard reflects a clean and functional setup, suggesting that the car meets legal requirements for driving.">
+<p>With the engine running, scan the dashboard. Warning lights for airbags, engine management, ABS, or stability control that remain illuminated are typically recorded as minor faults or a major fault depending on the system. Address these before test day - some may need a diagnostic tool to clear or identify the underlying issue.</p><img src="/images/blog/pre-mot-check-complete-3.webp" alt="The image shows the interior view of a car dashboard, prominently featuring the steering wheel and instrument cluster, with all warning lights turned off, indicating that the vehicle is in good condition and ready for a pre MOT test. The dashboard reflects a clean and functional setup, suggesting that the car meets legal requirements for driving.">
 
 ## Common MOT Failures and How Pre MOT Checks Prevent Them
 

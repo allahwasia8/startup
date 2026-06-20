@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Passports"
 seo_title: "Essential Support Document for Passport Applications: What You Need"
 seo_description: "Discover the essential documents needed for your passport application. Ensure a smooth process with our comprehensive guide. Read more to get started!"
-image: "/images/blog/96507735-0878-41cd-9c12-8a8809275d6b.png"
+image: "/images/blog/support-documents-british-passport-main.webp"
 ---
 
 
@@ -64,7 +64,7 @@ image: "/images/blog/96507735-0878-41cd-9c12-8a8809275d6b.png"
 
 ### Children Born Through Surrogacy
 
-<p>Surrogacy cases require careful documentation showing who the legal parents are under UK law, which may differ from names on the original foreign birth certificate. Typical support documents include the original birth certificate, a parental order from a UK court transferring parentage, and evidence of the commissioning parent's british citizenship or settled status. If a parental order has not yet been made, applications can be delayed. Early legal advice is strongly recommended.</p><img src="/images/blog/8ae3e892-3829-4e29-beba-f24c5d7a07ef.png" alt="A person is standing in a well-lit office, holding official court documents alongside a UK passport, indicating they may be in the process of applying for a passport or gathering supporting documents for British citizenship. The scene suggests an organized and professional environment, likely related to the passport application process.">
+<p>Surrogacy cases require careful documentation showing who the legal parents are under UK law, which may differ from names on the original foreign birth certificate. Typical support documents include the original birth certificate, a parental order from a UK court transferring parentage, and evidence of the commissioning parent's british citizenship or settled status. If a parental order has not yet been made, applications can be delayed. Early legal advice is strongly recommended.</p><img src="/images/blog/support-documents-british-passport-2.webp" alt="A person is standing in a well-lit office, holding official court documents alongside a UK passport, indicating they may be in the process of applying for a passport or gathering supporting documents for British citizenship. The scene suggests an organized and professional environment, likely related to the passport application process.">
 
 ## Renewing a British Passport: Documents You Need
 
@@ -96,7 +96,7 @@ image: "/images/blog/96507735-0878-41cd-9c12-8a8809275d6b.png"
 
 ## Digital Photos, Identity Confirmation and Online Applications
 
-<p>Applying online has become the default route. It involves uploading a digital photo and confirming identity online instead of using a paper countersignature. A compliant digital photo must be high resolution, neutral expression, plain light background, no shadows, correct dimensions, and taken within the last month.</p><p>A countersignatory must confirm your identity for first applications. For online first-time applicants, an identity confirmer receives an email link from HMPO to verify the photo is a true likeness. Paper applications still use printed photos - usually two identical images - and for first passports or major changes, one photo must be signed and endorsed by a countersignatory meeting HMPO criteria.</p><img src="/images/blog/e7f77c8d-bc43-4e07-88c0-a93ca4e64478.png" alt="A person is standing against a plain white wall, using a smartphone to take a passport-style photo. This setting is ideal for capturing a digital photo needed for a passport application or other supporting documents.">
+<p>Applying online has become the default route. It involves uploading a digital photo and confirming identity online instead of using a paper countersignature. A compliant digital photo must be high resolution, neutral expression, plain light background, no shadows, correct dimensions, and taken within the last month.</p><p>A countersignatory must confirm your identity for first applications. For online first-time applicants, an identity confirmer receives an email link from HMPO to verify the photo is a true likeness. Paper applications still use printed photos - usually two identical images - and for first passports or major changes, one photo must be signed and endorsed by a countersignatory meeting HMPO criteria.</p><img src="/images/blog/support-documents-british-passport-3.webp" alt="A person is standing against a plain white wall, using a smartphone to take a passport-style photo. This setting is ideal for capturing a digital photo needed for a passport application or other supporting documents.">
 
 ## Why Originals Matter and How Documents Are Returned
 

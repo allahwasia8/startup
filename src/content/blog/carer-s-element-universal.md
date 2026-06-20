@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Motoring"
 seo_title: "Understanding the Carer Element: Eligibility and Benefits Explained"
 seo_description: "Explore the eligibility and benefits of the Carer Element. Understand how it can support you or your loved ones. Read more to learn how to apply."
-image: "/images/blog/bd51758c-0bc0-41d1-963e-0ae661926240.png"
+image: "/images/blog/carer-s-element-universal-main.webp"
 ---
 
 
@@ -40,7 +40,7 @@ image: "/images/blog/bd51758c-0bc0-41d1-963e-0ae661926240.png"
 
 ### Other basic conditions
 
-<p>You must be included in a universal credit claim (single or joint), be over 18 and under State Pension age, and usually be living in Great Britain with a right to reside and no restrictions on accessing public funds. Different rules apply in northern ireland. You need a national insurance number and must meet standard universal credit eligibility conditions.</p><p>You cannot receive more money by caring for several people. The carer's element is paid once per carer. Carers in full-time education may not be eligible to claim carer's allowance but can still get the carer's element if universal credit rules are met. You must tell DWP about changes in circumstances, such as stopping caring or the cared-for person losing their qualifying benefit.</p><img src="/images/blog/301b7895-ebae-41fc-89c5-f484aaaddbf6.png" alt="The image shows a calculator alongside benefit paperwork on a kitchen table, indicating a focus on financial calculations related to universal credit claims and other disability benefits. The paperwork may include information about the carer's element of universal credit, attendance allowance, and various support allowances.">
+<p>You must be included in a universal credit claim (single or joint), be over 18 and under State Pension age, and usually be living in Great Britain with a right to reside and no restrictions on accessing public funds. Different rules apply in northern ireland. You need a national insurance number and must meet standard universal credit eligibility conditions.</p><p>You cannot receive more money by caring for several people. The carer's element is paid once per carer. Carers in full-time education may not be eligible to claim carer's allowance but can still get the carer's element if universal credit rules are met. You must tell DWP about changes in circumstances, such as stopping caring or the cared-for person losing their qualifying benefit.</p><img src="/images/blog/carer-s-element-universal-2.webp" alt="The image shows a calculator alongside benefit paperwork on a kitchen table, indicating a focus on financial calculations related to universal credit claims and other disability benefits. The paperwork may include information about the carer's element of universal credit, attendance allowance, and various support allowances.">
 
 ## Carer's Element and Other Universal Credit Elements
 
@@ -72,7 +72,7 @@ image: "/images/blog/bd51758c-0bc0-41d1-963e-0ae661926240.png"
 
 ### What happens after you report being a carer
 
-<p>DWP will review your universal credit claim and may contact you for more information. Once approved, the carer's element will be included from the start of the assessment period in which you first met the conditions. You will see it listed separately on your statement as part of your maximum amount. Check your online account carefully and raise a journal message or call DWP if it does not appear when you believe it should.</p><img src="/images/blog/01ad3f0a-68ef-4310-b95c-5f078b27afcc.png" alt="The image shows a person sitting at a kitchen table, focused on using a laptop computer. They appear to be engaged in activities related to managing their universal credit claim or exploring disability benefits, highlighting the importance of online resources for financial support.">
+<p>DWP will review your universal credit claim and may contact you for more information. Once approved, the carer's element will be included from the start of the assessment period in which you first met the conditions. You will see it listed separately on your statement as part of your maximum amount. Check your online account carefully and raise a journal message or call DWP if it does not appear when you believe it should.</p><img src="/images/blog/carer-s-element-universal-3.webp" alt="The image shows a person sitting at a kitchen table, focused on using a laptop computer. They appear to be engaged in activities related to managing their universal credit claim or exploring disability benefits, highlighting the importance of online resources for financial support.">
 
 ## How Often Is the Carer's Element Paid and How Does It Affect Your Income?
 

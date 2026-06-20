@@ -3,7 +3,7 @@ title: "Apply for a British Passport for the First Time (Adult)"
 excerpt: "If you need to apply for a british passport first time, the process involves more paperwork and checks than a simple renewal. This guide walks you ..."
 date: "Oct 15, 2026"
 category: "Passports"
-image: "/images/blog/790713bf-db53-4175-80f6-e05ae5ef4698.png"
+image: "/images/blog/apply-british-passport-first-main.webp"
 seo_title: "Apply for a British Passport for the First Time (Adult)"
 seo_description: "If you need to apply for a british passport first time, the process involves more paperwork and checks than a simple renewal. This guide walks you ..."
 ---
@@ -36,7 +36,7 @@ seo_description: "If you need to apply for a british passport first time, the pr
 
 ## Section D: Choosing how to apply – online vs by post
 
-<p>UK-based first-time adult applicants can usually either apply online via GOV.UK or apply by post using the paper application form. You can apply online or by post for a passport, but applying online is generally cheaper and faster. If applying from abroad, you must mail documents to hm passport office in the UK, and fees and timescales may vary depending on your location.</p><img src="/images/blog/e2f85f6b-575b-42b6-994c-d4abbb95abfc.png" alt="An individual is seated at a desk, focused on their laptop computer while enjoying a cup of coffee beside them, possibly working on their British passport application or gathering supporting documents for the process. The scene captures a moment of concentration and productivity in a home office setting.">
+<p>UK-based first-time adult applicants can usually either apply online via GOV.UK or apply by post using the paper application form. You can apply online or by post for a passport, but applying online is generally cheaper and faster. If applying from abroad, you must mail documents to hm passport office in the UK, and fees and timescales may vary depending on your location.</p><img src="/images/blog/apply-british-passport-first-2.webp" alt="An individual is seated at a desk, focused on their laptop computer while enjoying a cup of coffee beside them, possibly working on their British passport application or gathering supporting documents for the process. The scene captures a moment of concentration and productivity in a home office setting.">
 
 ### Applying online – when and why to use it
 
@@ -60,7 +60,7 @@ seo_description: "If you need to apply for a british passport first time, the pr
 
 ## Section F: Photographs, identity confirmation and referees
 
-<p>First adult passport applications are subject to strict identity checks. These combine compliant passport photographs with identity confirmation by a suitable person - a personal countersignatory is required to confirm identity for the application.</p><img src="/images/blog/db4a2452-488a-4b47-93a0-a70385b26251.png" alt="A person is standing in a photo booth with a plain white background, preparing to have their passport photograph taken for their British passport application. The booth is designed to capture a true likeness, ensuring that the image meets the requirements for valid passport photographs.">
+<p>First adult passport applications are subject to strict identity checks. These combine compliant passport photographs with identity confirmation by a suitable person - a personal countersignatory is required to confirm identity for the application.</p><img src="/images/blog/apply-british-passport-first-3.webp" alt="A person is standing in a photo booth with a plain white background, preparing to have their passport photograph taken for their British passport application. The booth is designed to capture a true likeness, ensuring that the image meets the requirements for valid passport photographs.">
 
 ### Passport photo requirements
 
@@ -96,7 +96,7 @@ seo_description: "If you need to apply for a british passport first time, the pr
 
 ## Section I: Passport interviews, checks and common problems
 
-<p>First-time adult british passport applicants are more likely than renewals to be invited to an identity interview or face additional checks. This is normal and not necessarily a sign of wrongdoing. You may need to attend an interview for the passport application.</p><ul><li><p>Interviews are used to confirm identity and reduce fraud risk. They may be conducted remotely (video call) or in person at a regional office, depending on current passport office policy.</p></li><li><p>Typical triggers for extra checks include complex nationality routes, inconsistent documents, multiple name changes, limited previous official records in the UK, or gaps in documentation.</p></li><li><p>Respond promptly to any hm passport office requests for information or attendance to avoid further delays. You will be contacted with the date and format of the interview.</p></li></ul><img src="/images/blog/1cac8836-348b-47c0-b972-b34c12c94cb7.png" alt="A person is sitting at a desk, engaged in a video call on their laptop, likely discussing details related to their British passport application or the application process for a valid passport. The setting is informal, suggesting a home office environment.">
+<p>First-time adult british passport applicants are more likely than renewals to be invited to an identity interview or face additional checks. This is normal and not necessarily a sign of wrongdoing. You may need to attend an interview for the passport application.</p><ul><li><p>Interviews are used to confirm identity and reduce fraud risk. They may be conducted remotely (video call) or in person at a regional office, depending on current passport office policy.</p></li><li><p>Typical triggers for extra checks include complex nationality routes, inconsistent documents, multiple name changes, limited previous official records in the UK, or gaps in documentation.</p></li><li><p>Respond promptly to any hm passport office requests for information or attendance to avoid further delays. You will be contacted with the date and format of the interview.</p></li></ul><img src="/images/blog/apply-british-passport-first-4.webp" alt="A person is sitting at a desk, engaged in a video call on their laptop, likely discussing details related to their British passport application or the application process for a valid passport. The setting is informal, suggesting a home office environment.">
 
 ### What happens if your application is delayed, refused or your passport is cancelled?
 

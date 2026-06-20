@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Benefits"
 seo_title: "Essential Benefits for Self Employed: Maximizing Your Support Options"
 seo_description: "Discover essential benefits tailored for the self-employed and learn how to maximize your support options. Read on to enhance your financial security."
-image: "/images/blog/0d9cba6a-c33c-4cd8-be75-7a3dd26370b6.png"
+image: "/images/blog/benefits-self-employed-people-main.webp"
 ---
 
 <p>Self employment provides unparalleled freedom and control over your professional life. You can design a workday that fits your lifestyle, set your own hours, and choose where to work - many self employed people work from home to reduce their commute. But when your income is low or irregular, you still need support. Here is how the benefits system works for self employed people in 2026.</p>
@@ -44,7 +44,7 @@ image: "/images/blog/0d9cba6a-c33c-4cd8-be75-7a3dd26370b6.png"
 
 ## Managing fluctuating monthly earnings
 
-<p>Many self employed people have irregular monthly earnings. Self employment requires managing personal finances and ensuring a consistent workload. Universal Credit adjusts each month, but the timing of client payments affects which assessment period income falls into.</p><p>Practical strategies:</p><ul><li><p>Set aside a fixed percentage of business income for tax and national insurance, and for lean months</p></li><li><p>Track assessment period dates so you know when income and expenses will count</p></li><li><p>Use a simple spreadsheet to monitor profit after expenses each reporting period</p></li><li><p>Consider HMRC budget payment plans for income tax and national insurance</p></li></ul><p>Good budgeting avoids shocks when universal credit drops after a high-earning month.</p><img src="/images/blog/d3666d2a-d5fb-4913-9dca-7453136dec16.png" alt="A person is seated at a modern laptop in a bright home office, with a calculator placed nearby, suggesting they are engaged in self employed work, possibly managing their income and expenses for their business. The vibrant setting indicates a productive environment for someone navigating the complexities of universal credit and self employment.">
+<p>Many self employed people have irregular monthly earnings. Self employment requires managing personal finances and ensuring a consistent workload. Universal Credit adjusts each month, but the timing of client payments affects which assessment period income falls into.</p><p>Practical strategies:</p><ul><li><p>Set aside a fixed percentage of business income for tax and national insurance, and for lean months</p></li><li><p>Track assessment period dates so you know when income and expenses will count</p></li><li><p>Use a simple spreadsheet to monitor profit after expenses each reporting period</p></li><li><p>Consider HMRC budget payment plans for income tax and national insurance</p></li></ul><p>Good budgeting avoids shocks when universal credit drops after a high-earning month.</p><img src="/images/blog/benefits-self-employed-people-2.webp" alt="A person is seated at a modern laptop in a bright home office, with a calculator placed nearby, suggesting they are engaged in self employed work, possibly managing their income and expenses for their business. The vibrant setting indicates a productive environment for someone navigating the complexities of universal credit and self employment.">
 
 ## Other benefits and support for self employed people
 

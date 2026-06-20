@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Passports"
 seo_title: "Your Essential Guide to Apply for a Passport: Step-by-Step Process"
 seo_description: "Navigate the passport application process effortlessly with our step-by-step guide. Start your journey today and ensure you have all the essentials covered!"
-image: "/images/blog/bf6df670-ddea-42f5-b4c2-37ca685cf204.png"
+image: "/images/blog/apply-passport-uk-step-main.webp"
 ---
 
 <p>Whether you need a first adult british passport, a renewal, or a child passport, the process is straightforward once you know the steps. This guide covers everything from fees and photos to urgent services and common mistakes.</p>

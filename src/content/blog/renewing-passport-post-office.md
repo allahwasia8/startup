@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Business"
 seo_title: "Guide to Renewing a Passport at a Post Office: Step-by-Step Process"
 seo_description: "Learn how to renew your passport at a post office with this step-by-step guide. Simplify the process and get ready for your next adventure. Read more!"
-image: "/images/blog/c4fc1b43-0224-4d3a-acd1-b02b5129e4fb.png"
+image: "/images/blog/renewing-passport-post-office-main.webp"
 ---
 
 <p>If you need to renew your uk passport before your next trip, doing it through a Post Office branch can save you from costly mistakes. This guide covers everything you need to know about renewing a passport at a post office in 2026, including current fees, what to bring, and how the process works for adult and child passports.</p>
@@ -60,7 +60,7 @@ image: "/images/blog/c4fc1b43-0224-4d3a-acd1-b02b5129e4fb.png"
 
 ### Proving a Child's Identity and Parental Responsibility
 
-<p>hm passport office commonly expects a UK long-form birth certificate, adoption certificate if relevant, and any previous child passport to prove a child's identity. If only one parent's details are available, or court orders affect parental responsibility, bring those documents. For some renewals (a child aged 12 or over renewing with a valid old passport), hm passport office may not require extra identity references. You need an email address for someone to confirm the child's identity. The adult making the application must have legal authority. Final identity checks are made by hm passport office, not the post office.</p><img src="/images/blog/2eb721bb-4761-4ca9-978c-d4c23ffa91f3.png" alt="A parent and child are sitting together at a kitchen table, reviewing travel documents including passports and supporting documents for a passport application. They appear focused as they prepare for the passport renewal process, discussing the necessary details and forms needed for their trip.">
+<p>hm passport office commonly expects a UK long-form birth certificate, adoption certificate if relevant, and any previous child passport to prove a child's identity. If only one parent's details are available, or court orders affect parental responsibility, bring those documents. For some renewals (a child aged 12 or over renewing with a valid old passport), hm passport office may not require extra identity references. You need an email address for someone to confirm the child's identity. The adult making the application must have legal authority. Final identity checks are made by hm passport office, not the post office.</p><img src="/images/blog/renewing-passport-post-office-2.webp" alt="A parent and child are sitting together at a kitchen table, reviewing travel documents including passports and supporting documents for a passport application. They appear focused as they prepare for the passport renewal process, discussing the necessary details and forms needed for their trip.">
 
 ## Photos for Your Passport Application
 

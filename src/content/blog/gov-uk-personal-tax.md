@@ -5,7 +5,7 @@ date: "Oct 15, 2026"
 category: "Tax"
 seo_title: "Your Guide to the gov uk Personal Tax Account: Access and Benefits"
 seo_description: "Discover how to access your <a href=\"http://gov.uk\">gov.uk</a> Personal Tax Account and explore its benefits. Get all the essential information you need—read the article now!"
-image: "/images/blog/9e7c95f3-ee4a-445a-b757-c84959331c9e.png"
+image: "/images/blog/gov-uk-personal-tax-main.webp"
 ---
 
 <p>Your gov uk personal tax account is the fastest way to see what HMRC knows about your earnings, check whether your tax code is right and claim money you are owed-all without picking up the phone. This guide walks you through every step, from creating your account to using it day to day during the 2026–27 tax year.</p>
@@ -52,7 +52,7 @@ image: "/images/blog/9e7c95f3-ee4a-445a-b757-c84959331c9e.png"
 
 ## Using the HMRC app with your personal tax account
 
-<p>The hmrc app for Android and iOS gives quick mobile access to many of the same features as the personal tax account on GOV.UK. The HMRC app can be used to check income tax, view national insurance contributions, see tax codes, store your national insurance number and track some tax refunds.</p><p>Sign in using your existing government gateway or GOV.UK One Login details-the same security checks apply. The app is particularly useful for checking estimated income tax for the current tax year on the go during 2026–27. Only download the official app from trusted app stores, checking the publisher is "HM Revenue &amp; Customs".</p><img src="/images/blog/0f75aba6-bfd4-42ce-a04a-21edc94fce94.png" alt="A person is walking through a bustling city street while checking their smartphone, possibly looking for information related to tax rules or managing their personal tax account. The scene captures the blend of urban life with the use of technology for financial tasks, such as accessing the HMRC app or checking income tax rates.">
+<p>The hmrc app for Android and iOS gives quick mobile access to many of the same features as the personal tax account on GOV.UK. The HMRC app can be used to check income tax, view national insurance contributions, see tax codes, store your national insurance number and track some tax refunds.</p><p>Sign in using your existing government gateway or GOV.UK One Login details-the same security checks apply. The app is particularly useful for checking estimated income tax for the current tax year on the go during 2026–27. Only download the official app from trusted app stores, checking the publisher is "HM Revenue &amp; Customs".</p><img src="/images/blog/gov-uk-personal-tax-2.webp" alt="A person is walking through a bustling city street while checking their smartphone, possibly looking for information related to tax rules or managing their personal tax account. The scene captures the blend of urban life with the use of technology for financial tasks, such as accessing the HMRC app or checking income tax rates.">
 
 ## If you cannot create or access a personal tax account
 
