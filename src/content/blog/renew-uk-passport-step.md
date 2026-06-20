@@ -1,0 +1,83 @@
+---
+title: "Renew UK passport: step-by-step guide to getting your new passport on time"
+excerpt: "Renewing a UK passport is straightforward when you start early and use the official gov uk service. This step by step guide covers everything you n..."
+date: "Oct 15, 2026"
+category: "Passports"
+seo_description: "Renewing a UK passport is straightforward when you start early and use the official gov uk service. This step by step guide covers everything you n..."
+image: "/images/blog/0da9ed97-39fb-40a0-ae0f-31d8c5ad3f8d.png"
+seo_title: "Renew UK passport: step-by-step guide to getting your new pa..."
+---
+
+<p>Renewing a UK passport is straightforward when you start early and use the official gov uk service. This step by step guide covers everything you need - from the cheapest way to renew your passport online to urgent services, child passport applications, and common passport renewal mistakes that cause unnecessary delays.</p>
+
+## Renew UK passport: what you need to know first
+
+<p>UK adult passports are valid for 10 years and child passports for 5 years. Many travellers choose to renew your passport once they have 6–9 months of validity left, because many countries require passports valid for at least 6 months after arrival. Waiting too long risks being denied boarding or entry at your destination.</p><p>Online passport renewal is faster and cheaper than paper applications. The quickest method to renew a passport is through the GOV.UK online service, which costs less than postal or in-person options. Paper forms and fast track services carry higher fees.</p><p>This guide covers adult passport and child passport renewals, renewing online and by post, urgent fast track options, and how to avoid mistakes. If you still hold an old burgundy european union passport, it remains a valid passport until its printed expiry date - though you should verify destination entry rules, especially the Schengen 10-year issue-date requirement.</p>
+
+## When to renew your UK adult or child passport
+
+<p>An adult or child passport follows different validity rules: 10 years for adults, 5 years for children under 16. Because many countries demand at least six months of remaining validity beyond your return date, you should check your current passport well before booking.</p><p>Some destinations, particularly in the Schengen Area, also require passports to have been issued within the previous 10 years on the date of entry - regardless of the expiry date printed inside. This catches travellers off guard, especially those holding passports issued before late 2018 that carried over extra validity.</p><p>Renew your passport at least 3 months before travel, and longer before peak periods like summer and Christmas. You can renew even if your expired passport lapsed years ago, but any leftover validity from the old document will not transfer to the new one.</p>
+
+## How to renew a UK passport online (cheapest and usually fastest)
+
+<p>Applying online via GOV.UK is generally the cheapest route to a new passport. Renewing a UK passport online costs £102 for a standard adult passport and £66.50 for a child. Fees are periodically updated by hm passport office.</p><p>Before you start, gather your old passport, a compliant digital photo, an email address, and a debit or credit card to pay the application fee. The online renewal process takes about 3 weeks once hm passport office receives your documents.</p><p>After submitting, you need to send your old passport to the address provided. For online applications, the old passport must be mailed back to hm passport office - use tracked delivery and keep proof of posting. You can opt in to receive updates by email or SMS and track your application online using your reference number.</p>
+
+### Step-by-step: online passport renewal process
+
+<p>You can complete the online application in under 15 minutes. Start by visiting the official gov uk passport service and check the URL carefully to avoid copycat sites that charge unnecessary extra fees.</p><p>Enter your personal details exactly as shown on your current passport - full legal name, date of birth, place of birth, and passport number. Any mismatch with your old passport can trigger delays. Then upload a digital photo or enter a photo booth code. The system gives an initial indication if the photo might be rejected.</p><p>Pay using the secure government payment page with a credit or debit card. You will receive a confirmation email with your application reference number. Post your old passport promptly using special delivery, as processing usually starts only when documents arrive at the passport office.</p>
+
+## Digital photo requirements for your new passport
+
+<p>Every renewal needs a recent digital photo that meets uk passport standards, even if your appearance has not changed significantly. A digital photo means a high-resolution image file uploaded from a smartphone, camera, or photo booth, or a code generated in a booth or shop.</p><p>You must upload a digital passport photo that meets UK standards. Key rules: plain light background, no shadows, face centred, eyes open, neutral expression, mouth closed. No hats or face coverings unless for religious or medical reasons. Photos must be in colour, unedited, taken within the last month, and show you as you currently look.</p><p>For child passport photos, babies can lie on a plain white sheet with head support hidden from view. No other people, toys, dummies, or blankets should appear. Use a reputable photo booth, supermarket, or chemist offering UK passport digital photo services to reduce rejection risk.</p>
+
+### Common digital photo mistakes that cause delays
+
+<p>Shadows on the face or background are among the most frequent reasons for rejection. Busy or coloured backgrounds, glasses with heavy frames or glare, and smiling or tilting the head also fail the passport check.</p><p>Photos that are too dark, too bright, low resolution, or cropped with parts of the head cut off will be returned. Selfie-style images taken too close or at an angle often fail, and filters from social media apps must never be used. Getting the photo right first time is one of the easiest ways to avoid delays in the renewal process.</p>
+
+## Renewing your passport using a paper application form
+
+<p>Paper applications are available for anyone who prefers not to apply online, but they cost more and take longer. To apply by post, a paper application form can be obtained from a post office branch or by calling the passport advice helpline to request an application pack.</p><p>Complete the form correctly in black ink and block capitals. You need two identical printed passport photos that meet uk passport standards - one may need signing on the back if a countersignature is required. Renewing by post costs £115.50 for a standard adult passport. Payment can be made with a debit or credit card or cheque payable to "HM Passport Office." Processing time for postal applications is about three weeks.</p><p>Applicants can use the post office check and send service for an additional fee to verify compliance with photo and form rules before posting. This helps avoid mistakes that would otherwise cause weeks of delay.</p>
+
+### Paper application: avoiding common form errors
+
+<p>Incomplete sections, illegible handwriting, missing signatures, and using the wrong colour pen are the most frequent paper form mistakes. Double check names against other documents - misspelt names or reversed day-and-month dates will bounce your application back.</p><p>Ensure the correct renewal fee is enclosed and that all requested supporting documents are included. Keep a copy or photo of the completed paper application form and proof of posting for your records.</p>
+
+## Urgent renewals: Fast Track and Premium same-day services
+
+<p>If you need your passport urgently, two urgent services are available at higher cost. Urgent services require an in person appointment at a passport office, and slots book up quickly around school holidays. Not all applications qualify - some services are only for renewing a standard passport, not for first-time or complex cases. Even fast track appointments have limited availability, so check current rules and fees on GOV.UK before making travel plans.</p>
+
+### 1-week Fast Track passport renewal
+
+<p>Fast track service can renew passports within one week. Applicants complete a paper application form, book and attend an in person appointment, and receive the new passport by secure delivery. The one-week fast track costs £178 for adults. Fast track appointments can be booked up to three weeks in advance. Proof of travel may be requested, so keep booking confirmations handy.</p>
+
+### Same-day Premium service
+
+<p>The Premium service is the fastest option for renewing certain adult passports. Applicants book a slot online, attend with their old passport and completed form, and collect the new passport the same day. The same-day premium service typically takes about four hours and costs £222 for adults. It is not available for first-time adult passports. Check which offices offer Premium appointments and be flexible with location - booking travel before securing a slot is risky.</p>
+
+## Renewing a child's passport
+
+<p>Child passports must be renewed every 5 years, and a person with parental responsibility must complete the application. The same process applies whether renewing online or using paper forms - provide details of those with parental responsibility, the child's current passport, a suitable photo, and any relevant court orders.</p><p>A countersignature is more commonly required for children, especially those under 12. Ensure the child's photo looks like them now, as children's appearance changes quickly and outdated photos are a common cause of rejection.</p>
+
+### Countersignatures for child and adult passport applications
+
+<p>A countersignature is required when appearance has changed significantly, for certain first applications, or for a lost or stolen passport replacement. The countersignatory must be a professional who has known the applicant or parent for at least two years, lives in the UK, and is not a relative or someone at the same address. They must sign the back of one printed photo and complete the relevant section of the application form. Hm passport office may contact them to confirm, so accuracy matters.</p>
+
+## Fees, processing times and tracking your application
+
+<p>Costs depend on method and urgency. Standard online application: £102 adult, £66.50 child. Paper forms: £115.50 adult, £80 child. Fast track: £178 adult. Premium: £222 adult.</p><p>Standard passport renewal processing time is about 3 weeks but can stretch to 10 weeks during peak periods. Track your online application using the reference number on GOV.UK. Do not book travel without a valid passport in hand. Application fees are non-refundable if plans change, so timing your uk passport renewal well ahead of trips is financially sensible.</p>
+
+### What affects passport processing times?
+
+<p>Peak seasonal demand, incomplete application forms, and photos that don't meet guidelines are the main causes of slowdowns. Delays can occur if additional documents are required - name changes, missing supporting documents, or security checks all extend processing times. Responding quickly to any passport office requests keeps things moving. Renewals are generally quicker than first-time applications, but no application is guaranteed by a specific date.</p>
+
+## Supporting documents: what to send with your passport renewal
+
+<p>Most straightforward renewals require only the old passport and photos. Name changes need a marriage certificate or deed poll. Child applications may require court orders showing parental responsibility.</p><p>If your old passport contains unexpired visas, send it anyway - you must send your old passport with your application. Your old passport will be returned with a corner cut off to show it is invalid for travel, but valid visas remain intact. You can then travel with both new and old passports.</p><p>Use tracked delivery or special delivery for any valuable documents. Never send originals that were not requested. Keep copies or scans of everything in case of postal problems.</p>
+
+## Common passport renewal mistakes and how to avoid them
+
+<p>Many delays stem from avoidable errors. The most common mistakes fall into predictable categories: using an unofficial website and paying unnecessary fees, submitting non-compliant photos, entering names that don't match other documents, or forgetting to sign the form correctly.</p><p>After renewing, update your travel provider - airlines, ferry companies, and tour operators - with your new passport details to avoid check-in problems. Failure to check destination passport validity rules, such as minimum 6-month validity or the 10-year issue-date rule, remains a frequent problem.</p><p>If you have a lost or stolen passport, cancel it immediately online. Apply for a replacement passport using the same process as a standard renewal. If you are abroad, contact the nearest british embassy for emergency help.</p><p>Before submitting any application, double check names, photo quality, signatures, payment, and postage. This simple pre-submission review is the single most effective way to avoid delays.</p>
+
+### After you get your new passport: next steps
+
+<p>When your new passport arrives, immediately check all details - name, date of birth, place of birth, and expiry date. Contact hm passport office promptly if anything is incorrect.</p><p>Update your passport details with airlines, cruise lines, travel insurers, and frequent-flier accounts. Store the old passport safely if it contains valid visas. Keep a separate photo or scan of your new passport's biographic page for emergencies.</p><p>Renewing a uk passport in good time is an essential part of planning any international trip. Start early, apply online where possible, and double check everything before you submit.</p>

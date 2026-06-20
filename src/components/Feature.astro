@@ -1,0 +1,172 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  imagePosition?: 'left' | 'right';
+  badgeColor?: 'blue' | 'green' | 'red' | 'yellow';
+  badgeText: string;
+  imageSrc?: string;
+}
+
+const { title, description, imagePosition = 'right', badgeColor = 'blue', badgeText, imageSrc } = Astro.props;
+---
+<section class="section feature-card">
+  <div class={`container feature-container ${imagePosition === 'left' ? 'reverse' : ''}`}>
+    <div class="feature-content">
+      <div class="feature-content-inner">
+        <span class={`badge-pill bg-${badgeColor}`}>{badgeText}</span>
+        <h2 class="feature-title">{title}</h2>
+        <p class="feature-desc">{description}</p>
+        <a href="/about" class="feature-link">Learn more &rarr;</a>
+      </div>
+    </div>
+    
+    <div class="feature-visual">
+      {imageSrc ? (
+        <img src={imageSrc} alt={title} class="feature-image" />
+      ) : (
+        <div class="visual-placeholder"></div>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .feature-card {
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+
+  .feature-container {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #e6e9ef;
+    border-radius: 12px;
+    background: #ffffff;
+    min-height: 400px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.02);
+  }
+
+  .feature-container.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .feature-content {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .feature-visual {
+    flex: 1;
+    background: #f5f6f8;
+    position: relative;
+    border-left: 1px solid #e6e9ef;
+  }
+
+  .feature-container.reverse .feature-visual {
+    border-left: none;
+    border-right: 1px solid #e6e9ef;
+  }
+
+  .visual-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,98,120,0.1) 0%, rgba(0,204,111,0.1) 100%);
+  }
+
+  .feature-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .badge-pill {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  .bg-blue { background: #e1eff2; color: #006278; }
+  .bg-green { background: #cce5ff; color: #007bff; }
+  .bg-red { background: #ffdce5; color: #e2445c; }
+  .bg-yellow { background: #ffefcc; color: #fdab3d; }
+
+  .feature-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #323338;
+    margin-bottom: 16px;
+  }
+
+  .feature-desc {
+    font-size: 18px;
+    color: #323338;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 32px;
+  }
+
+  .feature-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #006278;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .feature-link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 992px) {
+    .feature-content {
+      padding: 40px 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .feature-card {
+      padding: 0 20px;
+    }
+
+    .feature-container,
+    .feature-container.reverse {
+      flex-direction: column;
+      min-height: auto;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    }
+
+    .feature-content {
+      padding: 40px 24px;
+    }
+
+    .feature-visual {
+      border: none;
+      border-top: 1px solid #e6e9ef;
+      height: 250px;
+    }
+    
+    .feature-container.reverse .feature-visual {
+      border: none;
+      border-top: 1px solid #e6e9ef;
+    }
+    
+    .feature-title {
+      font-size: 28px;
+    }
+    
+    .feature-desc {
+      font-size: 16px;
+    }
+  }
+</style>

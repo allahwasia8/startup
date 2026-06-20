@@ -1,0 +1,119 @@
+---
+title: "Companies House reforms: what UK businesses need to do now"
+excerpt: "Major Companies House reforms under the Economic Crime and Corporate Transparency Act are already in force from 4 March 2024, with further staged c..."
+date: "Oct 15, 2026"
+category: "Business"
+image: "/images/blog/0bcb55f7-7cfc-471a-9caf-a8852b79a837.png"
+seo_title: "Companies House reforms: what UK businesses need to do now"
+seo_description: "Major Companies House reforms under the Economic Crime and Corporate Transparency Act are already in force from 4 March 2024, with further staged c..."
+---
+
+
+
+## Key Takeaways
+
+<ul><li><p>Major Companies House reforms under the Economic Crime and Corporate Transparency Act are already in force from 4 March 2024, with further staged changes rolling out through 2025–2028. The first set of reforms introduced stronger checks, new registered office address rules and a requirement for a registered email address.</p></li><li><p>Identity verification via GOV.UK One Login or an authorised corporate service provider will become mandatory for all directors, people with significant control and those filing on behalf of companies from 18 November 2025.</p></li><li><p>The changes aim to tackle economic crime in the UK, improve transparency of ownership and make the UK corporate register a cleaner and more reliable source of data.</p></li><li><p>Companies House fees will increase to fund new powers, with revised fees set on a cost-recovery basis. Businesses must factor higher costs and tighter compliance deadlines into their planning.</p></li><li><p>All UK-registered entities - including dormant and small companies - need to monitor ongoing changes to UK company law around accounts filing, limited partnerships and enforcement powers over the next few years.</p></li></ul>
+
+## Introduction: why Companies House reforms matter
+
+<p>The Companies House reforms are driven by the Economic Crime and Corporate Transparency Act, which received Royal Assent on 26 October 2023. This legislation is reshaping how companies incorporate, file and maintain their company information on the public register.</p><p>The reforms affect virtually every UK-registered entity: every limited company, LLP, limited partnership and overseas entity owning UK property. The goal is straightforward - improve data accuracy, increase transparency around people with significant control, and give Companies House the power to act as a genuine gatekeeper rather than a passive filing cabinet.</p><p>This guide walks company directors, company secretaries and advisers through what has changed, when, and what action you need to take at the right time.</p>
+
+## Timeline of key Companies House reforms (2024–2028)
+
+<p>The reforms are being introduced in stages. Some are already in force, others are months away, and a few won't land until 2027 or 2028. Here is a chronological overview of the main milestones.</p><table style="min-width: 50px"><colgroup><col style="min-width: 25px"><col style="min-width: 25px"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Date</p></th><th colspan="1" rowspan="1"><p>What changes</p></th></tr><tr><td colspan="1" rowspan="1"><p><strong>4 March 2024</strong></p></td><td colspan="1" rowspan="1"><p>Stronger checks on filings, new rules on company name and registered office addresses, requirement for a registered email address, enhanced query and enforcement powers</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>5 March 2024</strong></p></td><td colspan="1" rowspan="1"><p>Confirmation statement must include a lawful purposes declaration about intended future activities</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>1 May 2024</strong></p></td><td colspan="1" rowspan="1"><p>New Companies House fees implemented on 1 May 2024 - confirmation statement fees rise, incorporation fees increase. New UK company law changes are effective from May 1, 2024</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>18 March 2025</strong></p></td><td colspan="1" rowspan="1"><p>ACSP registration opens - regulated firms can register as authorised corporate service providers</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>18 November 2025</strong></p></td><td colspan="1" rowspan="1"><p>Mandatory identity verification goes live for directors, PSCs and presenters. Some internal statutory registers abolished</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>1 February 2026</strong></p></td><td colspan="1" rowspan="1"><p>Further fee changes take effect (digital incorporation £100, confirmation statement online £50)</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>During 2026</strong></p></td><td colspan="1" rowspan="1"><p>Limited partnership reforms commence, including ACSP-only filing and enhanced partner disclosures</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>1 April 2027 (subject to review)</strong></p></td><td colspan="1" rowspan="1"><p>Software only filing for all company accounts - web-filing and paper routes close</p></td></tr></tbody></table><p>New measures continue to appear. The timetable can evolve depending on secondary legislation and system readiness, so check the latest guidance on GOV.UK regularly. Some provisions previously expected in spring 2026 have already been pushed to no earlier than November 2026.</p>
+
+## Improving the quality and transparency of Companies House data
+
+<p>From 4 March 2024, Companies House began applying stronger checks and queries to information placed on the register. This is a fundamental shift. Companies House can reject suspicious filings and remove false information - something that was simply not possible under the old regime.</p>
+
+### Registered office addresses and company name rules
+
+<p>All UK companies must now maintain an "appropriate" registered office address. This means:</p><ul><li><p>The address must be capable of receiving physical documents and acknowledging delivery</p></li><li><p>PO boxes and pure mail-forwarding services no longer qualify</p></li><li><p>Companies using non-compliant addresses risk enforcement action or strike-off</p></li></ul><p>Rules on company name registration have also tightened. Names containing computer code characters, or names that give a false impression of links to foreign governments, can now be rejected. The registrar has the power to direct a company name change where a name is misleading.</p>
+
+### Enhanced data quality powers
+
+<p>Companies House can now challenge information on the register, request supporting evidence and share data with law enforcement and regulators. In the 2024–2025 annual report, Companies House confirmed that over 10,200 suspicious applications were rejected using new analytical methods.</p><p>The UK corporate register is becoming a cleaner and more reliable source of data as a result. Companies should review their existing filings - directors, PSCs, shareholders and registered office details - to confirm everything is accurate and consistent under the new regime.</p><img src="/images/blog/271d6b64-95bd-4901-bb04-9feeb56ef5fd.png" alt="A magnifying glass is positioned over a stack of official business documents on a wooden table, symbolizing the importance of corporate transparency and identity verification in UK company law. These documents may include information relevant to the Companies House reforms aimed at tackling economic crime and ensuring stronger checks on corporate activities.">
+
+## Confirmation statement changes and day-to-day compliance
+
+<p>The confirmation statement is the annual filing that summarises a company's key data: directors, PSCs, registered office, SIC codes and more. Under the reforms, this process now carries significantly more weight.</p>
+
+### What changed from 4 March and 5 March 2024
+
+<p>Four new elements have been layered onto the confirmation statement:</p><ol><li><p><strong>Registered email address</strong> - all companies are required to provide a registered email address for official communications. New companies must provide one at incorporation; existing companies must add one at their next confirmation statement. This email is not publicly disclosed but is used by Companies House for correspondence.</p></li><li><p><strong>Lawful purposes declaration</strong> - directors must confirm that the company's intended future activities will be lawful. This is a binary statement but directors should be able to justify it if questioned.</p></li><li><p><strong>Appropriate registered office</strong> - as above, must meet the "appropriate" standard.</p></li><li><p><strong>Identity verification codes</strong> - from 18 November 2025, directors and PSCs must supply personal verification codes when filing the confirmation statement.</p></li></ol>
+
+### Practical compliance tips
+
+<ul><li><p>Set calendar reminders for your confirmation statement review period and the 14-day filing deadline</p></li><li><p>Ensure SIC codes accurately reflect your current business activities - mismatches will trigger queries</p></li><li><p>Designate a monitored email address (not a personal inbox that may go unchecked)</p></li><li><p>Coordinate with your accountant or company secretary to update any data before the filing window opens</p></li></ul>
+
+## Identity verification, GOV.UK One Login and Authorised Corporate Service Providers
+
+<p>From 18 November 2025, identity verification becomes a legal requirement. All UK company directors must verify their identity, as must PSCs and anyone filing documents with Companies House on behalf of a company.</p><p>The requirement to verify identity helps prevent the establishment of anonymous shell companies, which have historically been used to facilitate economic crime and corporate fraud.</p>
+
+### Two routes to verify
+
+<p><strong>Route 1: GOV.UK One Login.</strong> This is a single government account. You sign in, complete an online identity check (uploading a photo ID such as a passport or driving licence, plus a selfie for likeness matching), and receive a personal code. That code must be quoted on future filings.</p><p><strong>Route 2: Through an authorised corporate service provider.</strong> Regulated professionals - accountants, solicitors, formation agents - can register as ACSPs and perform identity checks on your behalf. This is particularly useful for overseas directors or PSCs who may find the One Login process harder to complete remotely.</p><p>Individuals have enhanced rights to suppress sensitive personal details from public view in certain cases, such as home addresses or dates of birth where there is a risk to safety.</p>
+
+### Practical recommendations
+
+<ul><li><p>Identify which directors and PSCs need to verify and start the process early - an estimated 6 to 7 million individuals across the UK will need to complete verification by late 2026</p></li><li><p>Overseas directors should check whether their identity documents are compatible with One Login or whether the ACSP route is more practical</p></li><li><p>New directors and PSCs must verify before their appointment can be registered. Existing individuals have a transition period through to approximately November 2026</p></li></ul><img src="/images/blog/9d12ab51-607b-4f41-8ac3-2b5024f5e53a.png" alt="A person is holding a passport in front of a smartphone camera, which is being used for identity verification. This process is essential for compliance with new measures in UK company law aimed at enhancing corporate transparency and tackling economic crime.">
+
+## Changes for overseas entities, limited partnerships and accounts filing
+
+<p>The reforms reach well beyond standard limited companies.</p>
+
+### Overseas entities
+
+<p>Changes to the Register of Overseas Entities from 28 February 2025 and 31 August 2025 refine how trust information is protected, and give the public enhanced options to request access to certain data. Overseas entities owning UK property must continue to update their registrations in line with these evolving requirements.</p>
+
+### Limited partnerships
+
+<p>During 2026, limited partnerships in England and Wales face significant reforms: stricter partner disclosure requirements, appropriate address and email obligations, annual confirmation statements, and the ability for Companies House to dissolve limited companies and partnerships that fail to comply. Filing for limited partnerships is expected to become ACSP-only.</p>
+
+### Software only filing for accounts
+
+<p>Companies House is transitioning to a fully digital filing system. From 1 April 2027 (subject to possible delay), all companies and LLPs must file accounts using commercial software with iXBRL tagging. Web-filing and paper routes - including the dormant accounts service - will close. Small and micro-entities should begin evaluating compliant software now.</p>
+
+## Enforcement, economic crime and increased Companies House fees
+
+<p>Companies House has become an active gatekeeper in the UK corporate transparency landscape. This is a deliberate shift from its former role as a mainly clerical registrar.</p>
+
+### Enforcement powers
+
+<p>From 4 March 2024, Companies House can:</p><ul><li><p>Query and reject filings that appear false, misleading or fraudulent</p></li><li><p>Annotate register entries and share intelligence with other agencies</p></li><li><p>Work directly with law enforcement and the Insolvency Service</p></li></ul><p>Law enforcement receives improved data and intelligence for tracking illicit financial activities. This is part of a broader UK strategy for tackling economic crime across the corporate sector.</p>
+
+### Fee changes
+
+<p>Companies House fees are set on a cost-recovery basis to fund the expanded regulatory role. The new fees will fund enhanced powers for Companies House. Key changes include:</p><table style="min-width: 75px"><colgroup><col style="min-width: 25px"><col style="min-width: 25px"><col style="min-width: 25px"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Filing</p></th><th colspan="1" rowspan="1"><p>Previous fee</p></th><th colspan="1" rowspan="1"><p>Fee from 1 February 2026</p></th></tr><tr><td colspan="1" rowspan="1"><p>Digital incorporation</p></td><td colspan="1" rowspan="1"><p>~£12</p></td><td colspan="1" rowspan="1"><p>£100</p></td></tr><tr><td colspan="1" rowspan="1"><p>Confirmation statement (online)</p></td><td colspan="1" rowspan="1"><p>£34</p></td><td colspan="1" rowspan="1"><p>£50</p></td></tr><tr><td colspan="1" rowspan="1"><p>Paper filings</p></td><td colspan="1" rowspan="1"><p>Various</p></td><td colspan="1" rowspan="1"><p>Significantly higher</p></td></tr></tbody></table><p>Companies House fees will increase to fund new powers, so businesses should factor these into annual compliance budgets. Late filing or non-compliance also carries reputational risk - public annotations on the register can affect investor confidence and due diligence outcomes.</p>
+
+## Practical steps for directors and people with significant control
+
+<p>Directors and people with significant control face higher administrative responsibilities under new reforms. Personal liability applies - these are not obligations you can delegate and forget about.</p>
+
+### Compliance checklist
+
+<p>Here is a simple action plan to follow:</p><ul><li><p>[ ] Review all PSC information on the register for accuracy</p></li><li><p>[ ] Confirm that every director and person with significant control can complete identity verification before November 2025</p></li><li><p>[ ] Check that your registered office address meets the "appropriate" standard</p></li><li><p>[ ] Provide and monitor a registered email address</p></li><li><p>[ ] Ensure your confirmation statement process includes board oversight and a clear filing timeline</p></li><li><p>[ ] Review internal governance documents - board minutes, shareholder registers, PSC registers - to align with the central register</p></li><li><p>[ ] Document your compliance approach, including staff training, updated policies and escalation routes for suspected errors or fraud</p></li></ul><blockquote><p>Treat Companies House deadlines as board-level priorities. Waiting until a Friday before a Monday deadline is a recipe for rejected filings and penalties.</p></blockquote><p>Subscribe to Companies House email alerts on GOV.UK and visit the dedicated changes to UK company law page regularly. Ask your accountants or company secretarial services provider for periodic update summaries so you can respond quickly to any shifts in implementation dates.</p><img src="/images/blog/3e70f0e0-3cd1-4631-8a51-d80e6abbd399.png" alt="A diverse business team is collaborating around a conference table, engaged in discussions with laptops and documents spread out before them. They are likely strategizing on compliance with UK company law and the new measures introduced under the Corporate Transparency Act to enhance corporate transparency and tackle economic crime.">
+
+## FAQ
+
+
+
+### Do the Companies House reforms apply to dormant and small companies?
+
+<p>Yes. The reforms apply to almost all UK-registered companies, including dormant and small entities with minimal activity. Dormant companies must still file confirmation statements, maintain an accurate registered office and email address, and ensure directors and PSCs complete identity verification. Future changes to small company accounts filing - including the move to software only filing - will also affect these entities. There is no blanket exemption based on size or trading status.</p>
+
+### How will identity verification work for overseas directors and PSCs?
+
+<p>Overseas individuals holding directorships or significant control in UK companies are fully in scope. They can usually use GOV.UK One Login remotely, but may find it easier to verify through an authorised corporate service provider familiar with cross-border documentation. Foreign identity documents may need to meet specific standards. Companies with international ownership structures should start planning well ahead of the November 2025 deadline, as obtaining suitable documents from overseas can take longer than expected.</p>
+
+### What happens if my company does not comply with the new rules?
+
+<p>Non-compliance can result in rejected filings, late-filing penalties, public annotations on the register (such as "unverified" status for directors or PSCs), criminal prosecution of officers, and ultimately the striking-off of the company. Failure to respond to an information query from Companies House or to verify identity within the required window may trigger enforcement action. Directors should read the relevant GOV.UK guidance and seek professional advice if any requirement is unclear.</p>
+
+### Will I still need to keep statutory registers at my registered office?
+
+<p>From 18 November 2025, some internal company registers will no longer be required for private companies, as more information will be held centrally by Companies House. However, companies should not assume all record-keeping duties disappear. Broader UK company law still requires adequate internal records, including minute books and share ledgers. Review your current register-keeping practices with your advisers to find out exactly what can be simplified and what must be retained.</p>
+
+### How can I stay up to date with future Companies House reforms?
+
+<p>Subscribe to official Companies House email alerts and follow the dedicated changes to UK company law hub on GOV.UK. Ask your accountants, solicitors or company secretarial providers for periodic updates on legislative changes. Create an internal compliance calendar that is reviewed at least annually to capture any new requirements. The number of reforms still to come over the next few years means that a reactive approach is risky - build monitoring into your ongoing business processes.</p><p></p>

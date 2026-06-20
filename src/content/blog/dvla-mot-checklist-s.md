@@ -1,0 +1,167 @@
+---
+title: "DVLA MOT Checklist: What's Checked, What Fails &amp; How To Prepare"
+excerpt: "Most cars in Great Britain need an annual MOT once they hit three years old, yet thousands of drivers head to the test centre each year without kno..."
+date: "Oct 15, 2026"
+category: "Motoring"
+seo_title: "Essential MOT Checklist DVLA: Ensure Your Car Passes with Confidence"
+seo_description: "Get your car ready for its MOT with our essential DVLA checklist. Ensure a smooth pass and drive with confidence. Read the article for tips!"
+image: "/images/blog/df133853-40e3-48c1-a1ca-2674c94614f1.png"
+---
+
+<p>Most cars in Great Britain need an annual MOT once they hit three years old, yet thousands of drivers head to the test centre each year without knowing what's actually on the checklist. The result? Preventable failures, unexpected bills, and sometimes a car that can't legally be driven home. This guide walks through every section of the mot checklist dvla inspectors follow, explains the most common reasons for an mot fail, and gives you a practical pre mot checklist you can run through at home before test day.</p>
+
+## Key Takeaways
+
+<ul><li><p>MOT tests are required annually for vehicles over three years old. The due date is printed on your latest mot certificate and is visible on the DVLA online MOT history checker.</p></li><li><p>There is no "grace period" after your mot expiry date. Driving after that date (except directly to a pre-booked test) is illegal and can invalidate your insurance.</p></li><li><p>The official mot test checklist covers safety, emissions, and the driver's view. This includes tyres, brakes, lights, steering and suspension components, the fuel system, and the exhaust system.</p></li><li><p>Many mot failure causes are simple: faulty bulbs, worn wiper blades, low tyre tread, and dashboard warning lights that stay illuminated. Most of these can be fixed at home before your appointment.</p></li><li><p>This article provides a section-by-section mot checklist plus guidance on what to do if your car fails with a major fault.</p></li></ul>
+
+## What Is an MOT and the DVLA's Role?
+
+<p>An mot test is a yearly legal inspection for most cars over three years old in England, Scotland, and Wales (four years in Northern Ireland). A car must meet specific safety and environmental standards during the MOT inspection, covering roadworthiness, occupant protection, and exhaust emissions. MOT tests check for road safety and environmental standards, ensuring every vehicle on public roads meets a baseline level of safety.</p><p>DVSA (Driver &amp; Vehicle Standards Agency) is the body that actually runs MOT testing: it sets the standards, approves test centres, trains every mot tester, and classifies defects. DVLA's role is different. DVLA holds the official MOT record and mot certificate status, powers the GOV.UK MOT history checker, and manages vehicle registration and taxation. When people search for a "DVLA MOT checklist," they're really looking at DVSA's testing manual as recorded on DVLA's systems.</p><p>A valid mot certificate is required to tax a vehicle, change its tax class, or keep driving it on public roads. You cannot tax a vehicle without a current MOT certificate. Driving without a valid MOT certificate can lead to fines of up to £1,000, and driving without a valid MOT can lead to prosecution under Section 47 of the Road Traffic Act 1988.</p><p>One common confusion: an MOT is not the same as car servicing. The MOT checks minimum legal standards on the day the vehicle tested is inspected. Car servicing is broader car maintenance - engine oil changes, filter replacements, coolant top-ups, and deeper inspections that keep your car healthy between tests. Both matter, but they serve different purposes.</p><p>All guidance in this article is current as of June 2026.</p>
+
+## DVLA MOT Checklist: Main Areas Tested
+
+<p>Think of this as a high-level mot test checklist mirroring the official DVSA manual, but written for you as a driver rather than a trained technician. The detail for each area follows in the sections below.</p><p>The main MOT categories are:</p><table style="min-width: 50px"><colgroup><col style="min-width: 25px"><col style="min-width: 25px"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Category</p></th><th colspan="1" rowspan="1"><p>What's Covered</p></th></tr><tr><td colspan="1" rowspan="1"><p>Lamps &amp; electrical equipment</p></td><td colspan="1" rowspan="1"><p>Headlights, indicators, brake lights, fog lights, number plate lights, horn, car battery</p></td></tr><tr><td colspan="1" rowspan="1"><p>Brakes</p></td><td colspan="1" rowspan="1"><p>Pad wear, disc condition, brake pedal feel, handbrake, fluid level</p></td></tr><tr><td colspan="1" rowspan="1"><p>Steering and suspension</p></td><td colspan="1" rowspan="1"><p>Steering wheel play, power steering, shock absorbers, springs, bushings</p></td></tr><tr><td colspan="1" rowspan="1"><p>Tyres &amp; wheels</p></td><td colspan="1" rowspan="1"><p>Tread depth, sidewall condition, wheel nuts, correct load rating</p></td></tr><tr><td colspan="1" rowspan="1"><p>Fuel system</p></td><td colspan="1" rowspan="1"><p>Fuel lines, fuel cap seal, leaks</p></td></tr><tr><td colspan="1" rowspan="1"><p>Exhaust system &amp; emissions</p></td><td colspan="1" rowspan="1"><p>Mountings, leaks, smoke opacity, catalytic converter, DPF</p></td></tr><tr><td colspan="1" rowspan="1"><p>Body &amp; structure</p></td><td colspan="1" rowspan="1"><p>Corrosion, sharp edges, bumpers, chassis rails</p></td></tr><tr><td colspan="1" rowspan="1"><p>Doors, seats and seatbelts</p></td><td colspan="1" rowspan="1"><p>Latching, seat adjustment, belt condition and retraction</p></td></tr><tr><td colspan="1" rowspan="1"><p>Driver's view</p></td><td colspan="1" rowspan="1"><p>Windscreen, mirrors, wipers, obstructions</p></td></tr><tr><td colspan="1" rowspan="1"><p>Registration plates &amp; VIN</p></td><td colspan="1" rowspan="1"><p>Legibility, font, reflective background, vehicle identification number</p></td></tr></tbody></table><p>Each category can generate minor, major, or dangerous defects. Major and dangerous defects result in a fail. Any dangerous fault means the vehicle should not be driven away from the test centre except on a recovery truck.</p><p>Use this DVLA-style mot checklist as a pre mot guide a week or two before your test date and you'll eliminate most surprises.</p>
+
+## Lights, Electrical Equipment &amp; Dashboard Warning Lights
+
+<p>Lighting and electrical equipment account for a significant share of failures. In fact, 29.6% of MOT failures are due to lights and signals, making this the single biggest category to get right. The good news: most fixes involve replacing faulty bulbs or a blown fuse, often for under £10.</p><p>Here's what the mot tester checks:</p><ul><li><p>All the lights on the exterior: dipped and main beam headlights, sidelights, indicators check (front and rear), brake lights, reversing lights, fog lights, and number plate lights.</p></li><li><p>At least one rear registration plate light must operate during the inspection.</p></li><li><p>Headlamp aim - misaligned beams that dazzle oncoming drivers or fail to illuminate the road ahead can be recorded as a major fault.</p></li><li><p>Lenses must be clean, not cracked, and not heavily misted with condensation.</p></li><li><p>All lights, including indicators, must function correctly to pass. All lights must be operational to pass the MOT test.</p></li></ul><p>Beyond the lights themselves, the MOT also covers electrical equipment: the horn must work, the car battery must be securely mounted with no exposed or corroded wiring, and hazard lights must operate with correct operation.</p><p>Dashboard warning lights are increasingly important. The mot tester checks whether ABS, ESC, airbag, engine management, brake system, and tyre pressure monitoring system lights stay illuminated after engine start-up. If they do, they indicate a malfunction and can be recorded as major faults, causing an mot failure. Persistent warning lights are one of the easier things to overlook, so if your dashboard is lit up like a Christmas tree, get an electrical check or error-code scan before your appointment.</p><blockquote><p>Ask a friend or family member to stand behind the car while you press the brake pedal and activate each indicator. It takes two minutes and catches most bulb issues before you leave home.</p></blockquote><img src="/images/blog/d55f5af5-5c19-4794-8b6c-e70d48fb17cd.png" alt="The image shows the rear view of a car at night, with all tail lights, brake lights, and indicators illuminated, ensuring visibility and safety on the road. This scene highlights the importance of proper vehicle maintenance and functioning lights, which are essential for passing an MOT test and meeting road safety standards.">
+
+## Brakes, Steering &amp; Suspension
+
+<p>These are critical safety systems, and faults here are among the most frequent reasons for mot failure. Brakes account for 17.2% of MOT failures, and steering and suspension issues add significantly to that total.</p>
+
+### Brakes
+
+<p>Brakes must be tested for efficiency and balance during the MOT. The mot tester uses a rolling road (brake rollers) or a controlled road test to measure whether each wheel stops with enough force and whether the balance between left and right is acceptable.</p><p>What to watch for before test day:</p><ul><li><p>A spongy or sinking brake pedal, which can indicate air in the lines or low fluid.</p></li><li><p>Pulling to one side under braking - a sign of uneven pad wear or a sticking caliper.</p></li><li><p>Grinding or squealing noises when braking.</p></li><li><p>Visible wear on pads (less than 3 mm is a warning sign) and scoring or cracking on discs.</p></li><li><p>Handbrake/parking brake not holding on a slope.</p></li></ul><p>Low brake fluid level or serious leaks from brake lines, hoses, or callipers can be recorded as a major fault.</p>
+
+### Steering
+
+<p>The steering check looks for excessive play in the steering wheel (movement before the front wheels begin to turn), unusual noises or stiffness when turning, and fluid leaks on hydraulic power steering systems. All steering and suspension components and mountings must be secure.</p>
+
+### Suspension
+
+<p>Suspension checks cover broken or weakened springs, leaking shock absorbers, worn bushings and ball joints, and uneven ride height. The simple "bounce test" - press down firmly on each corner of the car and release - can reveal tired dampers. If the car bounces more than once or twice before settling, the dampers are likely worn.</p><p>Compare how the car handles on smooth roads versus bumpy ones. If it feels unstable, wallowy, or you hear clunking over bumps, get a garage check before your MOT to avoid a fail.</p>
+
+## Tyres, Wheels &amp; the Fuel System
+
+<p>Tyres alone account for a noticeable share of failures: 10.4% of MOT failures are caused by tyre issues, and these are among the easiest defects to check at home.</p>
+
+### Tyre Tread &amp; Condition
+
+<p>The minimum legal tyre tread depth is 1.6mm across the central three-quarters of the tread, around the entire circumference. The practical "20p coin test" is a quick check: insert a 20p coin into the main grooves. If you can see the outer band of the coin, the tread depth is likely below 1.6 mm and would result in a fail.</p><p>Tyres must be checked for cuts, bulges, and correct pressure ratings. Look for:</p><ul><li><p>Sidewall damage: cuts, bulges, or exposed cords.</p></li><li><p>Correct tyre size and correct load rating for your vehicle, as listed on the door-pillar sticker or in the handbook.</p></li><li><p>Sufficient tyre pressure per the manufacturer's specification.</p></li><li><p>Matching tyres on the same axle - mismatched tyres can be marked as a major fault.</p></li></ul><p>Tyres must have a minimum tread depth of 1.6mm. Heavily worn tyres with cords showing are classified as dangerous defects, meaning the vehicle cannot be driven away.</p>
+
+### Wheels and Tyres Hardware
+
+<p>Check wheels and tyres for cracks, distortions, missing or loose wheel nuts/bolts, and the condition of any locking wheel nut key (bring it to the test centre).</p>
+
+### Fuel System
+
+<p>The fuel system is part of the mot checklist. The mot tester looks for leaks from fuel lines, connections, and the tank itself, plus a secure, sealing fuel cap. Any fuel leak is an automatic major fault and will result in a fail. A quick visual inspection under the car for wet patches or fuel smell covers this at home.</p><img src="/images/blog/038033ee-55a8-43ea-b79f-0991759b3cc7.png" alt="A close-up image shows a person inspecting the tread depth of a car tyre using a coin, an important step in the pre-MOT checklist to ensure the vehicle meets road safety standards. The focus on the coin highlights the method for checking tyre tread, which is crucial for passing the MOT test.">
+
+## Exhaust System, Emissions &amp; Engine Oil
+
+<p>The exhaust system and exhaust emissions are tested against strict limits, and insufficient fuel or engine oil can mean the mot test can't even be completed.</p>
+
+### Exhaust System Checks
+
+<p>The exhaust system must be secure and free from leaks. The tester checks for:</p><ul><li><p>Secure mounting - no excessive movement or sagging.</p></li><li><p>No serious leaks from joints, gaskets, or corroded sections.</p></li><li><p>Absence of excessive noise or rattling.</p></li><li><p>No visible exhaust blowing from holes or cracked manifolds.</p></li></ul>
+
+### Emissions
+
+<p>Visible smoke or unusual colours - blue (burning oil), black (rich fuel mixture), or thick white smoke (coolant leak) - are likely emission issues that can cause an mot fail. Emissions tests differ for petrol and diesel vehicles driven to the test centre. Diesel checks include smoke opacity measurement and, where relevant, diesel particulate filter (DPF) condition. A blocked or removed DPF is a guaranteed failure.</p><p>Your car must have enough fuel for the emissions test, and a car must have enough fuel and engine oil for an MOT. Check your engine oil level with the dipstick and top up before your appointment.</p><p>Regular car servicing and timely oil changes reduce the chance of emission-related problems. If your car has been sitting idle for weeks, run it up to full operating temperature before the test to help the catalytic converter work properly and meet environmental standards.</p>
+
+## Body, Structure, Doors, Seats &amp; Seatbelts
+
+<p>This section focuses on the physical condition and safety restraints that protect occupants in a crash.</p>
+
+### Body &amp; Structure
+
+<p>The tester inspects for excessive corrosion in key structural areas: sills, chassis rails, and suspension mounting points. Corrosion within 30 cm of seatbelt anchorages or suspension mounts is treated particularly seriously and can be a major fault. Sharp edges from rust holes or poorly repaired bodywork, and insecure bumpers or panels, are also potential reasons for failure.</p>
+
+### Doors
+
+<p>Front doors and rear doors must open and close properly, latching securely from both the inside and outside in closed position. The bonnet and boot must latch securely. Testers need to access the vehicle to check seats and seatbelts, so doors that stick or won't open fully can delay or complicate the test.</p>
+
+### Seats and Seatbelts
+
+<p>The driver's seat must adjust and lock firmly. Driver's seat must lock in all positions during the MOT inspection - any loose seat mountings can be a major fault.</p><p>Seatbelts must be secure and in good condition to pass. Check for:</p><ul><li><p>Fraying or cuts in the webbing.</p></li><li><p>Proper retraction - belts must retract properly when released.</p></li><li><p>Secure anchor points with no movement or corrosion.</p></li><li><p>Locking mechanism works when tugged sharply.</p></li></ul><p>Seats and seatbelts are non-negotiable safety items. If a belt doesn't latch or retract, replace it before the test.</p>
+
+## Driver's View, Windscreen, Mirrors &amp; Wipers
+
+<p>The driver's view is a dedicated MOT category, and issues here account for a noticeable share of failures - often 5–10% depending on region.</p>
+
+### Windscreen
+
+<p>Windscreen damage over 10mm in the driver's view fails the MOT. Windscreen damage cannot exceed 10mm in the driver's view during the MOT. Outside the driver's direct line of sight but within the swept area, chips up to 40 mm may be acceptable. A stone chip that seemed minor six months ago can spread into a crack that fails the test, so deal with it early.</p><p>Stickers, toll tags, sat-navs, dashcam mounts, or hanging air fresheners should not significantly obstruct the driver's view of the road. Clean both the inside and outside of the windscreen before your test.</p>
+
+### Mirrors
+
+<p>All required wing mirrors - driver's side, passenger side, and interior rear-view - must be securely attached, uncracked, and provide a clear view. Loose or cracked wing mirrors are a straightforward fix and should be sorted before test day.</p>
+
+### Wipers &amp; Washers
+
+<p>Wipers must clear the screen and washer fluid must be topped up. Check wiper blades for splitting, perishing, or smearing. Windscreen wipers that leave streaks or skip sections will be noted. Washer jets must be aimed correctly and deliver enough fluid from the washer bottle. This is one of the simplest pre mot check items: top up the washer fluid and test the spray pattern.</p>
+
+## Registration Plates, VIN &amp; Other Identification Checks
+
+<p>The mot checklist includes basic identity checks to match the car to DVLA records.</p>
+
+### Registration Plates
+
+<p>Registration plates must be secure, clean, and legible during the MOT inspection. They must use the correct British Standard font and spacing, with the right colour and reflective background. Number plates with non-standard fonts, illegal spacing, or obscured characters (by screws, dealer logos, or dirt) can trigger an mot fail even if the rest of the vehicle is sound.</p>
+
+### Vehicle Identification Number
+
+<p>The vehicle identification number must be permanently and legibly displayed - usually on the dashboard visible through the windscreen, on the door frame, or in the engine bay - and must match the registration documents.</p>
+
+### Other Items
+
+<p>The speedometer must be readable and illuminated, and any fitted towbar and its electrics must be secure and functional. If your car has a trailer socket, make sure it's working correctly.</p>
+
+## Common MOT Fails &amp; Defect Categories
+
+<p>MOT defects fall into three categories:</p><table style="min-width: 75px"><colgroup><col style="min-width: 25px"><col style="min-width: 25px"><col style="min-width: 25px"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Category</p></th><th colspan="1" rowspan="1"><p>What It Means</p></th><th colspan="1" rowspan="1"><p>Impact on MOT</p></th></tr><tr><td colspan="1" rowspan="1"><p>Minor</p></td><td colspan="1" rowspan="1"><p>Non-urgent issue, recorded as advisory</p></td><td colspan="1" rowspan="1"><p>Pass (with advisory noted)</p></td></tr><tr><td colspan="1" rowspan="1"><p>Major</p></td><td colspan="1" rowspan="1"><p>Significantly affects safety, emissions, or roadworthiness</p></td><td colspan="1" rowspan="1"><p>Fail</p></td></tr><tr><td colspan="1" rowspan="1"><p>Dangerous</p></td><td colspan="1" rowspan="1"><p>Immediate risk to safety</p></td><td colspan="1" rowspan="1"><p>Fail - vehicle must not be driven</p></td></tr></tbody></table><p>Minor defects do not fail the MOT but appear on the mot certificate and should be fixed promptly as part of good car maintenance. Ignoring advisories is a common mistake - last year's "slight corrosion" advisory can become this year's major fault.</p><p>Typical major fault areas include:</p><ul><li><p>Severely worn tyres below the legal tread depth</p></li><li><p>Brake issues (imbalance, leaks, worn pads)</p></li><li><p>Fuel or exhaust leaks</p></li><li><p>Structural excessive corrosion near mounting points</p></li><li><p>Broken springs or leaking suspension components</p></li><li><p>Key dashboard warning lights that stay illuminated</p></li></ul><p>Dangerous faults - such as total brake failure, tyres with exposed cords, or structural collapse - mean the vehicle should not be driven away from the test centre.</p><p>A DVLA MOT checklist encompasses many safety and roadworthiness criteria. The top statistical fail categories (lighting at 29.6%, brakes at 17.2%, and tyres at 10.4%) tell you exactly where to focus your pre mot checklist effort.</p>
+
+## Using the DVLA MOT History &amp; Reminder Tools
+
+<p>You can use the free GOV.UK MOT history service by entering your registration number to see your mot test result history, the expiry date of your current certificate, and any recorded advisories from previous tests.</p><p>This history is your personalised mot checklist. If last year's result noted "slight wear on front brake pads" or "minor corrosion on nearside sill," those are the items to inspect first. Previous advisories often become this year's failures if left unaddressed.</p><p>You can retest your vehicle up to one month early. Book your mot up to one month (minus a day) before the expiry and the renewal date on the new certificate rolls forward to the original expiry date. This avoids any gap in cover and gives you time to fix issues without risking driving illegally. The earliest date you can book is roughly 30 days before your current certificate expires.</p><p>Set a calendar alert 30 days before your next mot due date. Many garages and apps also offer free reminders.</p><p>Displaying or relying on an old mot certificate after the expiry date is not a defence if stopped by police. The DVLA database date is what counts - ANPR cameras check it automatically.</p>
+
+## Pre-MOT Checklist You Can Do at Home
+
+<p>This is a practical, quick pre mot checklist you can complete in 15–30 minutes at home before visiting a test centre. It is recommended to perform pre-checks before the MOT test, such as topping up screenwash.</p><p><strong>Exterior</strong></p><ul><li><p>Walk around the car and test all the lights: headlights (dipped and main beam), indicators, brake lights, fog lights, reversing lights, and number plate lights. Replace any faulty bulbs.</p></li><li><p>Check the horn - one press.</p></li><li><p>Inspect tyres: tread depth (20p coin test), sidewall damage, correct pressure. Ensure matching tyres on each axle.</p></li><li><p>Look underneath for obvious fluid leaks (oil, coolant, fuel).</p></li><li><p>Check registration plates are clean, securely attached, and legible.</p></li></ul><p><strong>Interior</strong></p><ul><li><p>Test windscreen wipers and washer jets. Top up the washer bottle with washer fluid if low.</p></li><li><p>Check the driver's seat adjusts and locks in every position.</p></li><li><p>Test all seatbelts: latch, tug, and confirm they retract properly.</p></li><li><p>Remove obstructions from the windscreen and dashboard that could block the driver's view.</p></li><li><p>Check dashboard warning lights: start the engine and confirm ABS, airbag, engine management, and brake lights go out after a few seconds.</p></li></ul><p><strong>Under the bonnet</strong></p><ul><li><p>Check engine oil level and top up if needed.</p></li><li><p>Confirm enough fuel in the tank for an emissions test (at least a quarter-tank).</p></li><li><p>Check the car battery is secure with no corroded terminals.</p></li><li><p>Inspect the fuel cap for a proper seal.</p></li></ul><p>Bring your locking wheel nut key to the test centre. If you have a garage door opener remote clipped to your visor, it won't affect your test, but make sure nothing on the dashboard or windscreen blocks the tester's view.</p><img src="/images/blog/c8e1d152-2e8a-438b-bb9e-5631493fd4fb.png" alt="A person is standing next to a car with its bonnet open, checking the engine oil dipstick to ensure proper car maintenance. This action is part of a pre MOT check to verify that the vehicle meets road safety standards.">
+
+## What Happens After the MOT: Passes, Fails &amp; Next Steps
+
+
+
+### Pass
+
+<p>If your vehicle meets road safety and emissions standards, you receive a full mot certificate (VT20). This records the pass along with any minor advisories. Your next mot is due one year from the test date (or from the previous expiry date if you booked early). The vehicle meets all minimum legal requirements, but remember: advisories are a to-do list, not items to ignore.</p>
+
+### Fail
+
+<p>A refusal of mot certificate (VT30) is issued when the vehicle fails. It lists every recorded major and dangerous fault. Your options:</p><ol><li><p>Leave the car at the garage for repair. Many garages offer a free or reduced-fee partial retest if the vehicle retested is brought back within 10 working days.</p></li><li><p>Take the car to another garage - but only if legally permitted.</p></li></ol><p><strong>When you can still drive after a fail:</strong> If your old mot certificate is still valid (i.e., you tested early and the previous cert hasn't expired) and there are no dangerous defects, you may drive the car to a repair garage. The only exception where you can drive without a valid mot certificate is directly to a pre-booked mot test appointment. You can only drive to a pre-booked MOT test without a valid certificate.</p><p><strong>When you cannot drive:</strong> If the failure includes a dangerous defect, or your previous certificate has already passed its expiry date, the car must be recovered on a trailer or flatbed. Vehicles driven in this state risk prosecution, points, and fines up to £2,500 for a dangerous vehicle.</p><p>Treat advisories as a maintenance checklist. Fixing them now is almost always cheaper than waiting until they escalate into major faults at your next mot.</p>
+
+## FAQ: DVLA MOT Checklist &amp; Rules
+
+
+
+### How do I check my MOT due date with DVLA?
+
+<p>Go to the GOV.UK "Check MOT history" or "Check MOT status" page and enter your vehicle registration number. The service shows your current mot expiry date, past mot test result records, and any advisories. This DVLA-linked date is the legally recognised one - even if you've lost your paper mot certificate, the database is what matters.</p>
+
+### Is there a 14-day grace period after my MOT expires?
+
+<p>There is no 14-day or 30-day grace period once the mot expiry date has passed. From midnight on that date, driving without a valid mot (except directly to a pre-booked test) can result in a fixed penalty of up to £1,000 and may invalidate your insurance cover. Police ANPR systems check MOT status automatically, so enforcement is increasingly routine.</p>
+
+### Can I drive my car to a garage if it has no MOT?
+
+<p>You may only drive without a valid MOT directly to or from a pre-booked mot test or a repair appointment following a fail, and the car must still be roadworthy with no dangerous defects. Carry proof of the booking - a text, email, or printout - in case you are stopped by police on the way.</p>
+
+### Does an MOT mean my car is fully serviced?
+
+<p>No. An MOT only confirms the car met minimum legal safety and emissions standards on the test day. It is not a substitute for regular car servicing, which includes items like engine oil and filter changes, brake fluid replacement, coolant checks, and more detailed inspections that keep the vehicle reliable between tests.</p>
+
+### What if I disagree with the MOT test result?
+
+<p>Contact the test centre first and explain your concern. If you're still unhappy, you can submit an appeal to DVSA, which may arrange an independent re-examination. Do not carry out repairs before the DVSA re-test if you intend to challenge the original result, as any changes to the vehicle can affect the appeal outcome.</p>

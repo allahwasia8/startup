@@ -1,0 +1,333 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BlogCard from '../../../components/BlogCard.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog');
+  const uniqueCategories = [...new Set(allPosts.map((post) => post.data.category || 'Insights'))];
+
+  return uniqueCategories.map((category) => {
+    return {
+      params: { category: category.toLowerCase().replace(/ /g, '-') },
+      props: { category, allPosts },
+    };
+  });
+}
+
+const { category, allPosts } = Astro.props;
+
+// Filter posts for this category
+const filteredPosts = allPosts.filter((post) => (post.data.category || 'Insights') === category);
+
+// We will feature the first post in the Hero Carousel, and list the rest in the grid
+const featuredPost = filteredPosts.length > 0 ? filteredPosts[0] : null;
+const gridPosts = filteredPosts.length > 0 ? filteredPosts.slice(1) : [];
+
+// Extract ALL unique categories to show the filter bar on the category page too
+const allCategories = [...new Set(allPosts.map((post) => post.data.category || 'Insights'))].sort();
+---
+
+<BaseLayout title={`${category} Articles`}>
+  {featuredPost && (
+    <div class="carousel-primary">
+      <div class="blog-container carousel-grid">
+        <div class="carousel-content">
+          <span class="carousel-cat">{featuredPost.data.category || 'Insights'}</span>
+          <h2 class="carousel-title">
+            <a href={`/blog/${featuredPost.id}`}>{featuredPost.data.title}</a>
+          </h2>
+          <p class="carousel-excerpt">{featuredPost.data.excerpt || 'Read the full story to discover more about our latest insights and strategies for the modern workplace.'}</p>
+          <a href={`/blog/${featuredPost.id}`} class="carousel-read-more">Read more &rarr;</a>
+        </div>
+        <div class="carousel-image">
+          {featuredPost.data.image ? (
+            <img src={featuredPost.data.image} alt={featuredPost.data.title} class="carousel-featured-img" fetchpriority="high" loading="eager" />
+          ) : (
+            <img src="/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png" alt="Default Featured Image" class="carousel-featured-img" fetchpriority="high" loading="eager" />
+          )}
+        </div>
+      </div>
+    </div>
+  )}
+
+  <section class="section">
+    <div class="blog-container">
+      <h1 class="section-heading">{category} Articles</h1>
+      
+      <div class="category-filters">
+        <a href="/" class="cat-pill">All</a>
+        {allCategories.map(cat => {
+          const isActive = cat === category;
+          return (
+            <a href={`/blog/category/${cat.toLowerCase().replace(/ /g, '-')}`} class={`cat-pill ${isActive ? 'active' : ''}`}>{cat}</a>
+          );
+        })}
+      </div>
+
+      <div class="blog-grid">
+        {gridPosts.map((post) => (
+          <div class="box-item-wrapper">
+            <BlogCard 
+              title={post.data.title}
+              excerpt={post.data.excerpt || 'Read more about this topic.'}
+              category={post.data.category || 'Insights'}
+              date={post.data.date || 'Recent'}
+              slug={post.id}
+              image={post.data.image}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-cta">
+    <div class="blog-container newsletter-container">
+      <h2 class="newsletter-title">Get our best tips directly in your inbox</h2>
+      <p class="newsletter-subtitle">Join over 200,000 professionals who read our newsletter.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your work email" class="newsletter-input" required />
+        <button type="submit" class="btn btn-primary" style="padding: 14px 24px;">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .blog-container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* Hero Carousel */
+  .carousel-primary {
+    background-color: #f5f6f8;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .carousel-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .carousel-content {
+    padding: 60px 0;
+    max-width: 540px;
+  }
+
+  .carousel-cat {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #181b34;
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .carousel-title {
+    margin-bottom: 16px;
+  }
+
+  .carousel-title a {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #181b34;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .carousel-excerpt {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #323338;
+    margin-bottom: 24px;
+  }
+
+  .carousel-read-more {
+    font-size: 16px;
+    font-weight: 600;
+    color: #181b34;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease;
+  }
+
+  .carousel-read-more:hover {
+    color: #000000;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: 410px;
+  }
+
+  .hero-img-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #6c6cff 0%, #00cc6f 100%);
+    opacity: 0.15;
+  }
+
+  .carousel-featured-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Grid Layout */
+  .section {
+    padding: 60px 0;
+    background: #ffffff;
+  }
+
+  .section-heading {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e9ef;
+  }
+
+  .cat-pill {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: #f5f6f8;
+    color: #323338;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cat-pill:hover {
+    background: #e6e9ef;
+  }
+
+  .cat-pill.active {
+    background: #181b34;
+    color: #ffffff;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 60px 30px;
+  }
+
+  .box-item-wrapper {
+    width: 100%;
+    max-width: 432px;
+    justify-self: center;
+  }
+
+  /* Newsletter CTA */
+  .newsletter-cta {
+    background-color: #0f1048; /* Vibrant Deep Blue */
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+  }
+
+  .newsletter-container {
+    max-width: 600px;
+  }
+
+  .newsletter-title {
+    font-size: 2rem;
+    line-height: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+    letter-spacing: -0.4px;
+  }
+
+  .newsletter-subtitle {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    margin-bottom: 32px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .newsletter-input {
+    flex-grow: 1;
+    background: #ffffff;
+    border: 1px solid #c3c6d4;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #676879;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.25s ease-in-out;
+  }
+
+  .newsletter-input:focus {
+    border-color: #6c6cff;
+  }
+
+  @media (max-width: 992px) {
+    .carousel-grid {
+      grid-template-columns: 1fr;
+    }
+    .carousel-image {
+      grid-row: 1;
+    }
+    .carousel-content {
+      grid-row: 2;
+      padding: 8px 0 32px;
+      max-width: 100%;
+    }
+    .carousel-title a {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    .blog-grid {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 40px 20px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .section-heading {
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 24px;
+    }
+    .blog-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .newsletter-form {
+      flex-direction: column;
+    }
+    .newsletter-title {
+      font-size: 1.5rem;
+      line-height: 36px;
+    }
+  }
+</style>

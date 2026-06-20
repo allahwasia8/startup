@@ -1,0 +1,701 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogCard from '../../components/BlogCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.id }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+// Fetch recent posts for "Related Articles"
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts.filter(p => p.id !== entry.id).slice(0, 3);
+
+// JSON-LD Schema
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": entry.data.seo_title || entry.data.title,
+  "description": entry.data.seo_description || entry.data.excerpt || '',
+  "image": entry.data.image || "/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png",
+  "author": {
+    "@type": "Organization",
+    "name": "UK Startup Flow Team"
+  }
+};
+---
+
+<BaseLayout title={entry.data.seo_title || entry.data.title} description={entry.data.seo_description || entry.data.excerpt || 'Read more about this topic.'}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} slot="head" />
+  <!-- Hero Section -->
+  <div class="hero aqua">
+    <div class="hero__container container--wide main__container">
+      <div class="hero__content">
+        <Breadcrumbs category={entry.data.category || 'Insights'} title={entry.data.title} />
+        <span class="hero__category">{entry.data.category || 'Insights'}</span>
+        <h1 class="hero__title">{entry.data.title}</h1>
+        <div class="hero__author-meta">
+          <div class="hero__author-avatar"></div>
+          <div class="hero__author-details">
+            <span class="hero__author-name">By UK Startup Flow Team</span>
+            <span class="hero__author-date">{entry.data.date || 'Oct 15, 2026'} &bull; 24 min read</span>
+          </div>
+        </div>
+        <div class="hero__ctas">
+          <a href="/start-journey" class="cta-button blue-button">Try UK Startup Flow CRM</a>
+          <a href="/contact" class="cta-button cta-button-arrow blue-button button-brand">Contact sales</a>
+        </div>
+        <!-- Mobile Socials -->
+        <div class="hero__socials mobile-only">
+          <span>Share</span>
+          <a href="#">FB</a>
+          <a href="#">TW</a>
+          <a href="#">IN</a>
+        </div>
+      </div>
+      <div class="hero__image">
+        {entry.data.image ? (
+          <img src={entry.data.image} alt={entry.data.title} class="hero__featured-img" fetchpriority="high" loading="eager" />
+        ) : (
+          <img src="/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png" alt="Default Featured Image" class="hero__featured-img" fetchpriority="high" loading="eager" />
+        )}
+      </div>
+    </div>
+  </div>
+
+  <article class="article">
+    <div class="container--wide main__container article__container">
+      
+      <!-- Mobile TOC Toggle -->
+      <button class="scrollspy-current mobile-only">
+        Explore article topics <span class="arrow">&#9662;</span>
+      </button>
+
+      <!-- Sidebar -->
+      <aside class="article__scrollspy-block desktop-only">
+        <div class="scrollspy-menu--wrap">
+          <ul class="scrollspy-menu">
+            {headings.filter(h => h.depth <= 3).map(heading => (
+              <li>
+                <a href={`#${heading.slug}`} class={`scrollspy-link ${heading.depth === 3 ? 'inner' : ''}`}>
+                  {heading.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+          
+          <!-- Desktop Socials -->
+          <div class="sidebar__socials">
+            <span>Share</span>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+              <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+              <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            </div>
+          </div>
+
+          <!-- Sidebar Banner -->
+          <div class="scrollspy-banner-img">
+            <div class="banner-placeholder">
+              <p>Ready to streamline your workflow?</p>
+              <a href="/start-journey" class="cta-button blue-button">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="article__text-content">
+        <Content />
+
+        <!-- Author Bio Block -->
+        <div class="article__author">
+          <div class="author-bio-avatar"></div>
+          <div class="author-bio-info">
+            <h4>UK Startup Flow Editorial Team</h4>
+            <p>Our team of product experts, researchers, and writers are dedicated to bringing you the latest insights on how to work better, together.</p>
+          </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="article-disclaimer">
+          The content in this article is provided for informational purposes only and, to the best of ukstartupflow.com's knowledge, the information provided in this article is accurate and up-to-date at the time of publication. That said, ukstartupflow.com encourages readers to verify all information directly.
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Related Articles -->
+  <section class="related-articles section">
+    <div class="container--wide main__container">
+      <h2 class="section-heading">Explore more content</h2>
+      <div class="blog-grid">
+        {relatedPosts.map(post => (
+          <div class="box-item-wrapper">
+            <BlogCard 
+              title={post.data.title}
+              excerpt={post.data.excerpt || 'Read more about this topic.'}
+              category={post.data.category || 'Insights'}
+              date={post.data.date || 'Recent'}
+              slug={post.id}
+              image={post.data.image}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style is:global>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<style>
+  /* Base Containers */
+  .container--wide.main__container {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* Hero Block */
+  .hero {
+    position: relative;
+    background-color: #e1eff2; /* Aqua */
+    min-height: 410px;
+    padding: 60px 0;
+    overflow: hidden;
+  }
+
+  .hero__container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: relative;
+  }
+
+  .hero__content {
+    width: 567px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero__category {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 12px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .hero__title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+
+  .hero__author-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  .hero__author-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #006278;
+  }
+
+  .hero__author-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__author-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .hero__author-date {
+    font-size: 14px;
+    font-weight: 300;
+    color: #676879;
+  }
+
+  .hero__ctas {
+    display: flex;
+    gap: 16px;
+  }
+
+  .cta-button {
+    border-radius: 68px;
+    padding: 12px 21px;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+  }
+
+  .blue-button {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .button-brand {
+    background-color: #006278;
+    color: #ffffff;
+  }
+
+  .hero__socials {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: #676879;
+    font-size: 14px;
+  }
+  
+  .hero__socials a {
+    color: #006278;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .hero__image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 660px; /* Offset to leave space for content */
+  }
+
+  .hero__image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #006278 0%, #00cc6f 100%);
+    opacity: 0.3;
+  }
+
+  .hero__featured-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  /* Main Article Layout */
+  .article__container {
+    display: flex;
+    gap: 48px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  /* Sidebar TOC & Widgets */
+  .article__scrollspy-block {
+    width: 354px;
+    flex-shrink: 0;
+  }
+
+  .scrollspy-menu--wrap {
+    position: sticky;
+    top: 100px;
+  }
+
+  .scrollspy-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid #e6e9ef;
+    margin-bottom: 32px;
+  }
+
+  .scrollspy-link {
+    display: block;
+    padding: 8px 0 8px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #676879;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    line-height: 24px;
+  }
+
+  .scrollspy-link:hover {
+    color: #006278;
+  }
+
+  .scrollspy-link.active {
+    color: #006278;
+    font-weight: 600;
+  }
+
+  .scrollspy-link.inner {
+    padding-left: 40px;
+    font-size: 15px;
+  }
+
+  .sidebar__socials {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .sidebar__socials span {
+    font-size: 14px;
+    color: #676879;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 12px;
+  }
+
+  .social-icons a {
+    color: #323338;
+    transition: color 0.2s ease;
+  }
+
+  .social-icons a:hover {
+    color: #006278;
+  }
+
+  .scrollspy-banner-img {
+    margin-top: 24px;
+  }
+
+  .banner-placeholder {
+    background: #f5f6f8;
+    border-radius: 8px;
+    padding: 32px 24px;
+    text-align: center;
+    border: 1px solid #e6e9ef;
+  }
+
+  .banner-placeholder p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 24px;
+    line-height: 28px;
+  }
+
+  /* Content Typography */
+  .article__text-content {
+    width: 790px;
+    max-width: 100%;
+  }
+
+  .article__text-content :global(h2) {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.5px;
+    color: #000000;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+
+  .article__text-content :global(h3) {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32.5px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+
+  .article__text-content :global(p) {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+
+  .article__text-content :global(ul) {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 24px;
+  }
+
+  .article__text-content :global(li) {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+  .article__text-content :global(a) {
+    color: #006278;
+    text-decoration: none;
+  }
+
+  .article__text-content :global(blockquote) {
+    border-left: 4px solid #006278;
+    padding-left: 24px;
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+    font-style: italic;
+  }
+
+  .article__text-content :global(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 32px 0;
+  }
+
+  /* Author Bio Block */
+  .article__author {
+    display: flex;
+    gap: 24px;
+    padding: 40px 0;
+    margin-top: 60px;
+    border-top: 1px solid #e6e9ef;
+  }
+
+  .author-bio-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #006278;
+    flex-shrink: 0;
+  }
+
+  .author-bio-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 12px;
+  }
+
+  .author-bio-info p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #676879;
+    margin: 0;
+  }
+
+  /* Disclaimer Block */
+  .article-disclaimer {
+    margin-top: 24px;
+    padding: 24px;
+    background-color: #f5f6f8;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #676879;
+    border-left: 4px solid #c3c6d4;
+  }
+
+  /* Related Articles Section */
+  .section {
+    padding: 60px 0;
+    background: #ffffff;
+    border-top: 1px solid #e6e9ef;
+  }
+
+  .section-heading {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 60px 30px;
+  }
+
+  .box-item-wrapper {
+    width: 100%;
+    max-width: 432px;
+    justify-self: center;
+  }
+
+  /* Mobile Breakpoints */
+  @media (max-width: 992px) {
+    .article__container {
+      flex-direction: column;
+    }
+    
+    .desktop-only {
+      display: none;
+    }
+
+    .mobile-only {
+      display: block;
+    }
+
+    .hero__socials.mobile-only {
+      display: flex;
+      justify-content: center;
+    }
+
+    .scrollspy-current {
+      width: 100%;
+      background: white;
+      border: 1px solid #e6e9ef;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #323338;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 56px; 
+      z-index: 10;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+
+    .scrollspy-current.open .arrow {
+      transform: rotate(180deg);
+      display: inline-block;
+    }
+
+    .article__scrollspy-block.show-mobile {
+      display: block !important;
+      position: fixed;
+      top: 130px;
+      left: 2rem;
+      right: 2rem;
+      width: auto;
+      background: #ffffff;
+      z-index: 100;
+      padding: 24px;
+      border-radius: 8px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.2);
+      border: 1px solid #e6e9ef;
+    }
+
+    .hero__image {
+      display: none;
+    }
+
+    .hero {
+      height: auto;
+      padding: 40px 0;
+    }
+
+    .hero__content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero__author-meta {
+      justify-content: center;
+    }
+
+    .hero__ctas {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .cta-button {
+      text-align: center;
+      width: 100%;
+    }
+
+    .article__text-content {
+      width: 100%;
+    }
+
+    .blog-grid {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 40px 20px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hero__title {
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    .blog-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // 1. Scrollspy Logic
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          // Remove active from all
+          document.querySelectorAll('.scrollspy-menu li a').forEach(link => {
+            link.classList.remove('active');
+          });
+          // Add active to current
+          const activeLink = document.querySelector(`.scrollspy-menu li a[href="#${id}"]`);
+          if (activeLink) activeLink.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-100px 0px -66% 0px' });
+
+    // Observe all headings in the content
+    document.querySelectorAll('.article__text-content h2, .article__text-content h3').forEach((section) => {
+      observer.observe(section);
+    });
+
+    // 2. Mobile Dropdown Toggle
+    const mobileToggle = document.querySelector('.scrollspy-current');
+    const scrollspyMenu = document.querySelector('.article__scrollspy-block');
+
+    if (mobileToggle && scrollspyMenu) {
+      mobileToggle.addEventListener('click', () => {
+        scrollspyMenu.classList.toggle('show-mobile');
+        mobileToggle.classList.toggle('open');
+      });
+      
+      // Auto-close when a link is clicked on mobile
+      scrollspyMenu.querySelectorAll('.scrollspy-link').forEach(link => {
+        link.addEventListener('click', () => {
+          scrollspyMenu.classList.remove('show-mobile');
+          mobileToggle.classList.remove('open');
+        });
+      });
+    }
+  });
+</script>

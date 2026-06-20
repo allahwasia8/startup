@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const categories = [...new Set(allPosts.map((post) => post.data.category || 'Insights'))].sort();
+---
+<nav class="navbar">
+  <div class="container navbar-container">
+    <a href="/" class="logo">
+      <img src="/images/logo_final_transparent.png" alt="UK Startup Flow" class="logo-image" />
+    </a>
+    
+    <div class="nav-links">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/start-journey" class="nav-link">Start Your Journey</a>
+      <a href="/resources" class="nav-link">Resources</a>
+      <a href="/about" class="nav-link">About Us</a>
+      <a href="/contact" class="nav-link">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <a href="/contact" class="btn btn-primary-dark">Get in Touch</a>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem 0;
+  }
+
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-image {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    color: var(--color-text-main);
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  .nav-link:hover {
+    color: var(--color-primary);
+  }
+
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .icon-right {
+    margin-left: 0.5rem;
+  }
+
+  .btn-primary-dark {
+    background-color: #0b2242;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-primary-dark:hover {
+    background-color: #1a365d;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  }
+</style>

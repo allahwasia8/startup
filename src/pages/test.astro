@@ -1,0 +1,6 @@
+---
+import { getCollection } from 'astro:content';
+const allPosts = await getCollection('blog');
+const p = allPosts[0];
+---
+<pre>{JSON.stringify(p.data, null, 2)}</pre>

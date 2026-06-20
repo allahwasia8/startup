@@ -1,0 +1,840 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Start Your Journey">
+  <div class="journey-page">
+    
+    <!-- Hero Section -->
+    <section class="journey-hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="section-tag text-red">START YOUR JOURNEY</span>
+          <h1 class="hero-title">
+            Take the first step towards building <span class="text-red">your startup</span> in the UK.
+          </h1>
+          <p class="hero-subtitle">
+            Tell us about your idea and goals, and we'll show you the right next steps to start, grow and scale with confidence.
+          </p>
+          
+          <div class="hero-features">
+            <div class="hf-item">
+              <div class="hf-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              </div>
+              <span>Personalised<br>guidance</span>
+            </div>
+            <div class="hf-item">
+              <div class="hf-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <span>Expert<br>support</span>
+            </div>
+            <div class="hf-item">
+              <div class="hf-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+              </div>
+              <span>Actionable<br>next steps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form & Tracker Section -->
+    <section class="form-section">
+      <div class="container form-container">
+        
+        <!-- Progress Tracker -->
+        <div class="progress-tracker">
+          <div class="step active">
+            <div class="step-circle">1</div>
+            <div class="step-text">
+              <span class="step-title">About You</span>
+              <span class="step-desc">Tell us about yourself</span>
+            </div>
+          </div>
+          <div class="step-divider"></div>
+          <div class="step">
+            <div class="step-circle">2</div>
+            <div class="step-text">
+              <span class="step-title">Your Startup</span>
+              <span class="step-desc">Share your idea</span>
+            </div>
+          </div>
+          <div class="step-divider"></div>
+          <div class="step">
+            <div class="step-circle">3</div>
+            <div class="step-text">
+              <span class="step-title">Your Goals</span>
+              <span class="step-desc">What are you aiming for?</span>
+            </div>
+          </div>
+          <div class="step-divider"></div>
+          <div class="step">
+            <div class="step-circle">4</div>
+            <div class="step-text">
+              <span class="step-title">Get Your Plan</span>
+              <span class="step-desc">We'll guide you next</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Main Form Grid -->
+        <div class="form-grid">
+          
+          <!-- Left: Form -->
+          <div class="form-column">
+            <h2>About You</h2>
+            <p class="form-intro">Let's start with a few details about you.</p>
+            
+            <form class="onboarding-form" onsubmit="event.preventDefault();">
+              <div class="input-row">
+                <div class="input-group">
+                  <input type="text" placeholder="First Name" required />
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Last Name" required />
+                </div>
+              </div>
+              
+              <div class="input-row">
+                <div class="input-group">
+                  <input type="email" placeholder="Email Address" required />
+                </div>
+                <div class="input-group">
+                  <input type="tel" placeholder="Phone Number" required />
+                </div>
+              </div>
+              
+              <div class="input-group">
+                <label>Country of Residence</label>
+                <div class="select-wrapper">
+                  <select required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="EU">European Union</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="input-group">
+                <label>How did you hear about us?</label>
+                <div class="select-wrapper">
+                  <select required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="Search">Search Engine</option>
+                    <option value="Social">Social Media</option>
+                    <option value="Referral">Friend / Colleague</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="form-actions">
+                <button type="submit" class="btn-submit">Continue &rarr;</button>
+              </div>
+            </form>
+          </div>
+          
+          <!-- Right: Info Card -->
+          <div class="info-sidebar">
+            <div class="info-card">
+              <div class="info-card-header">
+                <div class="illustration">
+                  <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="9" y1="15" x2="15" y2="15"></line>
+                    <line x1="9" y1="11" x2="15" y2="11"></line>
+                    <circle cx="16" cy="16" r="4" fill="#d6182a" stroke="#ffffff"></circle>
+                    <path d="M14.5 16l1 1 2-2" stroke="#ffffff"></path>
+                  </svg>
+                </div>
+                <h3>Why start with<br><span class="brand-text">uk<span class="text-red">startup</span>flow</span>.com?</h3>
+              </div>
+              
+              <ul class="benefits-list">
+                <li>
+                  <div class="b-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </div>
+                  <div class="b-text">
+                    <strong>Save time</strong>
+                    <p>We help you find the right path without the guesswork.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="b-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                  </div>
+                  <div class="b-text">
+                    <strong>Avoid mistakes</strong>
+                    <p>Learn from experts and proven frameworks.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="b-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                  </div>
+                  <div class="b-text">
+                    <strong>Build with confidence</strong>
+                    <p>Get clarity, support and connections at every step.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="b-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                  </div>
+                  <div class="b-text">
+                    <strong>Your information is secure</strong>
+                    <p>We respect your privacy and will never share your details.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Banner -->
+    <section class="features-banner">
+      <div class="container text-center">
+        <h2>We're with you, every step of the way.</h2>
+        <p class="features-subtitle">From idea to scale, we provide the resources, expertise and network you need to succeed in the UK.</p>
+        
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Start</h4>
+              <p>Validate your idea and set a strong foundation.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Grow</h4>
+              <p>Access the right tools, mentors and funding.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Scale</h4>
+              <p>Expand your business and reach new markets.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0b2242" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Succeed</h4>
+              <p>Build a lasting impact in the UK and beyond.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA Block -->
+    <section class="bottom-cta-wrap">
+      <div class="container">
+        <div class="help-box">
+          <div class="help-left">
+            <div class="help-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+            <div class="help-text">
+              <h4>Need help before getting started?</h4>
+              <p>Our team is here to answer your questions.</p>
+            </div>
+          </div>
+          <div class="help-right">
+            <a href="/contact" class="btn-secondary-outline">Get in Touch &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
+
+<style>
+  .journey-page {
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .text-red {
+    color: #d6182a;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  /* Hero Section */
+  .journey-hero {
+    position: relative;
+    padding: 80px 0;
+    background-color: #f8fbff;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #edf2f7;
+  }
+
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    background-image: linear-gradient(to right, #f8fbff 0%, rgba(248,251,255,0.8) 20%, transparent 100%), url('/images/london-hero.jpg');
+    background-size: cover;
+    background-position: center right;
+    z-index: 1;
+    mask-image: linear-gradient(to left, black, transparent);
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+  }
+  
+  .hero-bg::after {
+    content: '';
+    position: absolute;
+    bottom: 5%;
+    right: -10%;
+    width: 120%;
+    height: 180px;
+    background: linear-gradient(to bottom, #d6182a 0%, #d6182a 33%, #ffffff 33%, #ffffff 66%, #0b2242 66%, #0b2242 100%);
+    transform: rotate(-15deg);
+    opacity: 0.85;
+    z-index: 2;
+  }
+
+  .hero-container {
+    position: relative;
+    z-index: 10;
+  }
+
+  .hero-content {
+    max-width: 650px;
+  }
+
+  .section-tag {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #0b2242;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+    font-family: var(--font-heading, sans-serif);
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    max-width: 550px;
+  }
+
+  .hero-features {
+    display: flex;
+    gap: 32px;
+  }
+
+  .hf-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hf-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 12px;
+    border: 1px solid #edf2f7;
+  }
+
+  .hf-item span {
+    font-size: 14px;
+    color: #0b2242;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  /* Form Section */
+  .form-section {
+    padding: 60px 0 100px;
+    background-color: #ffffff;
+  }
+
+  /* Progress Tracker */
+  .progress-tracker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #0b2242;
+    border-bottom-width: 3px;
+    border-bottom-color: #0b2242;
+    position: relative;
+  }
+  
+  .progress-tracker::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 200px;
+    right: 0;
+    height: 3px;
+    background-color: #edf2f7;
+  }
+
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    opacity: 0.5;
+  }
+
+  .step.active {
+    opacity: 1;
+  }
+
+  .step-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4a5568;
+    background-color: #ffffff;
+  }
+
+  .step.active .step-circle {
+    background-color: #0b2242;
+    border-color: #0b2242;
+    color: #ffffff;
+  }
+
+  .step-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0b2242;
+  }
+
+  .step-desc {
+    font-size: 13px;
+    color: #718096;
+  }
+
+  .step-divider {
+    flex-grow: 1;
+    height: 2px;
+    background-image: linear-gradient(to right, #cbd5e0 50%, transparent 50%);
+    background-size: 10px 100%;
+    margin: 0 16px;
+    opacity: 0.5;
+  }
+
+  /* Form Grid */
+  .form-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 60px;
+  }
+
+  .form-column h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0b2242;
+    margin-bottom: 8px;
+  }
+
+  .form-intro {
+    font-size: 16px;
+    color: #4a5568;
+    margin-bottom: 32px;
+  }
+
+  .onboarding-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #2d3748;
+    background-color: #ffffff;
+    transition: border-color 0.2s ease;
+    font-family: inherit;
+    outline: none;
+  }
+
+  input:focus, select:focus {
+    border-color: #0b2242;
+  }
+
+  .select-wrapper {
+    position: relative;
+  }
+
+  .select-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #a0aec0;
+    pointer-events: none;
+  }
+
+  select {
+    appearance: none;
+    cursor: pointer;
+  }
+
+  .form-actions {
+    margin-top: 16px;
+  }
+
+  .btn-submit {
+    background-color: #0b2242;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-submit:hover {
+    background-color: #1a365d;
+  }
+
+  /* Info Sidebar */
+  .info-sidebar {
+    position: relative;
+  }
+
+  .info-card {
+    background-color: #f8fbff;
+    border: 1px solid #edf2f7;
+    border-radius: 16px;
+    padding: 40px;
+    position: sticky;
+    top: 100px;
+  }
+
+  .info-card-header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .illustration {
+    margin-bottom: 16px;
+  }
+
+  .info-card-header h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0b2242;
+    line-height: 1.3;
+  }
+
+  .brand-text {
+    color: #0b2242;
+    font-weight: 800;
+  }
+
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .benefits-list li {
+    display: flex;
+    gap: 16px;
+  }
+
+  .b-icon {
+    flex-shrink: 0;
+    color: #0b2242;
+    margin-top: 2px;
+  }
+
+  .b-text strong {
+    display: block;
+    font-size: 15px;
+    color: #0b2242;
+    margin-bottom: 4px;
+  }
+
+  .b-text p {
+    font-size: 13px;
+    color: #4a5568;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Features Banner */
+  .features-banner {
+    background-color: #f8fbff;
+    padding: 80px 0;
+    border-top: 1px solid #edf2f7;
+  }
+
+  .features-banner h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0b2242;
+    margin-bottom: 16px;
+  }
+
+  .features-subtitle {
+    font-size: 18px;
+    color: #4a5568;
+    max-width: 600px;
+    margin: 0 auto 48px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: left;
+  }
+
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .feature-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #edf2f7;
+  }
+
+  .feature-text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0b2242;
+    margin-bottom: 8px;
+  }
+
+  .feature-text p {
+    font-size: 14px;
+    color: #4a5568;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Bottom CTA */
+  .bottom-cta-wrap {
+    padding: 80px 0;
+    background-color: #ffffff;
+  }
+
+  .help-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 40px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background-color: #fcfdfe;
+  }
+
+  .help-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .help-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #f8fbff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0b2242;
+    border: 1px solid #edf2f7;
+  }
+
+  .help-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0b2242;
+    margin-bottom: 4px;
+  }
+
+  .help-text p {
+    font-size: 15px;
+    color: #4a5568;
+    margin: 0;
+  }
+
+  .btn-secondary-outline {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    color: #0b2242;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .btn-secondary-outline:hover {
+    border-color: #0b2242;
+    background-color: #f8fbff;
+  }
+
+  /* Responsive styling */
+  @media (max-width: 1024px) {
+    .progress-tracker {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .progress-tracker::after {
+      display: none;
+    }
+    .step-divider {
+      display: none;
+    }
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+    .info-card {
+      position: static;
+    }
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 40px;
+    }
+    .hero-bg {
+      width: 100%;
+      opacity: 0.2;
+    }
+    .input-row {
+      grid-template-columns: 1fr;
+    }
+    .help-box {
+      flex-direction: column;
+      text-align: center;
+      gap: 24px;
+    }
+    .help-left {
+      flex-direction: column;
+    }
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+    .hero-features {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .hf-item {
+      flex-direction: row;
+      gap: 16px;
+      text-align: left;
+    }
+    .hf-item span {
+      br { display: none; }
+    }
+  }
+</style>

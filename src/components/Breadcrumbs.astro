@@ -1,0 +1,74 @@
+---
+interface Props {
+  category: string;
+  title: string;
+}
+
+const { category, title } = Astro.props;
+const categorySlug = category.toLowerCase().replace(/ /g, '-');
+---
+
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    <li class="separator">/</li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href={`/blog/category/${categorySlug}`}>
+        <span itemprop="name">{category}</span>
+      </a>
+      <meta itemprop="position" content="2" />
+    </li>
+    <li class="separator">/</li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name" class="current">{title}</span>
+      <meta itemprop="position" content="3" />
+    </li>
+  </ol>
+</nav>
+
+<style>
+  .breadcrumbs {
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .breadcrumbs ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .breadcrumbs a {
+    color: #676879;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumbs a:hover {
+    color: #006278;
+    text-decoration: underline;
+  }
+
+  .breadcrumbs .separator {
+    color: #c3c6d4;
+  }
+
+  .breadcrumbs .current {
+    color: #000000;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+  }
+</style>

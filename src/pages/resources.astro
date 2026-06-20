@@ -1,0 +1,264 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogCard from '../components/BlogCard.astro';
+
+const allPosts = await getCollection('blog');
+
+// Extract unique categories for filtering
+const categories = [...new Set(allPosts.map((post) => post.data.category || 'Insights'))].sort();
+---
+
+<BaseLayout title="Resources">
+  <div class="resources-page">
+    <div class="hero-ribbon"></div>
+    
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container text-center">
+        <h1 class="header-title">Resources & <span class="text-red">Insights</span></h1>
+        <p class="header-subtitle">Your central hub for expert guides, startup advice, and the latest news on building your business in the UK.</p>
+      </div>
+    </header>
+
+    <!-- Blog Grid Section -->
+    <section class="section blog-section">
+      <div class="blog-container">
+        
+        <div class="category-filters">
+          <a href="/resources" class="cat-pill active">All</a>
+          {categories.map(cat => (
+            <a href={`/blog/category/${cat.toLowerCase().replace(/ /g, '-')}`} class="cat-pill">{cat}</a>
+          ))}
+        </div>
+
+        <div class="blog-grid">
+          {allPosts.map((post) => (
+            <div class="box-item-wrapper">
+              <BlogCard 
+                title={post.data.title}
+                excerpt={post.data.excerpt || 'Read more about this topic.'}
+                category={post.data.category || 'Insights'}
+                date={post.data.date || 'Recent'}
+                slug={post.id}
+                image={post.data.image}
+              />
+            </div>
+          ))}
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter-cta">
+      <div class="blog-container newsletter-container">
+        <h2 class="newsletter-title">Get our best tips directly in your inbox</h2>
+        <p class="newsletter-subtitle">Join thousands of founders who read our newsletter.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your work email" class="newsletter-input" required />
+          <button type="submit" class="btn btn-submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
+
+<style>
+  .resources-page {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-ribbon {
+    position: absolute;
+    top: -150px;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom, #d6182a 0%, #d6182a 33%, #ffffff 33%, #ffffff 66%, #0b2242 66%, #0b2242 100%);
+    transform: rotate(35deg);
+    border-radius: 50%;
+    opacity: 0.05;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .page-header {
+    padding: 80px 20px;
+    background-color: #f8fbff;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #edf2f7;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0b2242;
+    margin-bottom: 16px;
+    font-family: var(--font-heading, sans-serif);
+    letter-spacing: -0.02em;
+  }
+
+  .text-red {
+    color: #d6182a;
+  }
+
+  .header-subtitle {
+    font-size: 18px;
+    color: #4a5568;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .blog-container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .section {
+    padding: 60px 0;
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
+  }
+
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e9ef;
+  }
+
+  .cat-pill {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: #f5f6f8;
+    color: #323338;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cat-pill:hover {
+    background: #e6e9ef;
+  }
+
+  .cat-pill.active {
+    background: #0b2242;
+    color: #ffffff;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 60px 30px;
+  }
+
+  .box-item-wrapper {
+    width: 100%;
+    max-width: 432px;
+    justify-self: center;
+  }
+
+  /* Newsletter CTA */
+  .newsletter-cta {
+    background-color: #0b2242;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .newsletter-container {
+    max-width: 600px;
+  }
+
+  .newsletter-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .newsletter-subtitle {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .newsletter-input {
+    flex-grow: 1;
+    background: #ffffff;
+    border: 1px solid #c3c6d4;
+    border-radius: 6px;
+    padding: 14px 16px;
+    color: #2d3748;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+
+  .newsletter-input:focus {
+    border-color: #3182ce;
+  }
+
+  .btn-submit {
+    background-color: #d6182a;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .btn-submit:hover {
+    background-color: #b51222;
+  }
+
+  @media (max-width: 992px) {
+    .blog-grid {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 40px 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 36px;
+    }
+    .blog-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .newsletter-form {
+      flex-direction: column;
+    }
+    .newsletter-title {
+      font-size: 24px;
+    }
+  }
+</style>

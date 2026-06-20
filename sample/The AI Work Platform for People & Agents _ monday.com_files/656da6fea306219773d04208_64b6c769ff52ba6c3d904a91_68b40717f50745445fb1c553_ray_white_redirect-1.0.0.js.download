@@ -1,0 +1,4 @@
+// Redirect from old Ray White customer story to new customer stories page
+if (window.location.pathname === '/customer-stories/ray-white') {
+  window.location.replace('/w/customer-stories');
+}

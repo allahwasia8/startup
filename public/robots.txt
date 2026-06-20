@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow AI and Agentic crawlers
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap-index.xml

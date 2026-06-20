@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page Not Found" description="The page you are looking for does not exist.">
+  <div class="not-found">
+    <div class="container--wide main__container">
+      <div class="not-found__content">
+        <h1>404</h1>
+        <h2>Oops! We can't seem to find the page you're looking for.</h2>
+        <p>The link might be broken, or the page may have been removed.</p>
+        <div class="not-found__actions">
+          <a href="/" class="btn btn-primary">Return to Homepage</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .not-found {
+    padding: 120px 0;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    background-color: #f5f6f8;
+  }
+
+  .not-found__content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 700;
+    color: #006278; /* Brand color */
+    margin-bottom: 24px;
+    letter-spacing: -2px;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 16px;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #676879;
+    margin-bottom: 40px;
+  }
+
+  .not-found__actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .btn {
+    padding: 14px 28px;
+    border-radius: 68px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .btn-primary {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .btn-primary:hover {
+    background-color: #323338;
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #c3c6d4;
+  }
+
+  .btn-secondary:hover {
+    border-color: #000000;
+  }
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 80px;
+    }
+    h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .not-found__actions {
+      flex-direction: column;
+    }
+  }
+</style>
