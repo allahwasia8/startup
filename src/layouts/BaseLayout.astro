@@ -8,7 +8,7 @@ interface Props {
 	description?: string;
 }
 
-const { title, description = "Your trusted partner for starting, growing, and scaling your business in the UK." } = Astro.props;
+const { title, description = "Your trusted partner for starting, growing, and scaling your business in the UK. Discover expert guidance, resources, and insights for UK entrepreneurs." } = Astro.props;
 
 // Compute canonical URL and strip trailing slash to match internal links consistently
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
