@@ -1,0 +1,86 @@
+---
+interface Props {
+  page: any;
+}
+
+const { page } = Astro.props;
+---
+
+{page.lastPage > 1 && (
+  <nav class="pagination" aria-label="Blog pagination">
+    {page.url.prev ? (
+      <a href={page.url.prev} class="page-link prev">
+        &larr; Previous
+      </a>
+    ) : (
+      <span class="page-link prev disabled">&larr; Previous</span>
+    )}
+
+    <div class="page-info">
+      <span class="page-text">Page {page.currentPage} of {page.lastPage}</span>
+    </div>
+
+    {page.url.next ? (
+      <a href={page.url.next} class="page-link next">
+        Next &rarr;
+      </a>
+    ) : (
+      <span class="page-link next disabled">Next &rarr;</span>
+    )}
+  </nav>
+)}
+
+<style>
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #e6e9ef;
+  }
+
+  .page-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    background: #ffffff;
+    border: 1px solid #c3c6d4;
+    color: #0b2242;
+  }
+
+  .page-link:hover:not(.disabled) {
+    border-color: #0b2242;
+    background: #f8fbff;
+    color: #d6182a;
+  }
+
+  .page-link.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #f5f6f8;
+  }
+
+  .page-info {
+    font-size: 16px;
+    color: #4a5568;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .pagination {
+      flex-direction: column;
+      gap: 16px;
+    }
+    .page-link {
+      width: 100%;
+    }
+  }
+</style>
