@@ -24,7 +24,7 @@ const schema = {
   "@type": "Article",
   "headline": entry.data.seo_title || entry.data.title,
   "description": entry.data.seo_description || entry.data.excerpt || '',
-  "image": entry.data.image || "/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png",
+  "image": entry.data.image || "/images/blog/default-featured-image.webp",
   "author": {
     "@type": "Organization",
     "name": "UK Startup Flow Team"
@@ -64,7 +64,7 @@ const schema = {
         {entry.data.image ? (
           <img src={entry.data.image} alt={entry.data.title} class="hero__featured-img" fetchpriority="high" loading="eager" />
         ) : (
-          <img src="/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png" alt="Default Featured Image" class="hero__featured-img" fetchpriority="high" loading="eager" />
+          <img src="/images/blog/default-featured-image.webp" alt="Default Featured Image" class="hero__featured-img" fetchpriority="high" loading="eager" />
         )}
       </div>
     </div>

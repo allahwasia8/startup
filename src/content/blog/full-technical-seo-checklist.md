@@ -3,7 +3,7 @@ title: "Full Technical SEO Checklist: Semrush Data & Core Metrics"
 excerpt: "A highly structured, scannable summary of the Full Technical SEO Checklist, enriched with Semrush’s data benchmarks and core performance metrics."
 date: "Jun 14, 2026"
 category: "Business"
-image: "/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png"
+image: "/images/blog/default-featured-image.webp"
 seo_title: "Full Technical SEO Checklist: Semrush Data & Core Metrics"
 seo_description: "A highly structured, scannable summary of the Full Technical SEO Checklist, enriched with Semrush’s data benchmarks and core performance metrics."
 ---

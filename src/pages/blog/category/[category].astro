@@ -44,7 +44,7 @@ const allCategories = [...new Set(allPosts.map((post) => post.data.category || '
           {featuredPost.data.image ? (
             <img src={featuredPost.data.image} alt={featuredPost.data.title} class="carousel-featured-img" fetchpriority="high" loading="eager" />
           ) : (
-            <img src="/images/blog/0193acea-fa36-459d-9010-b4053ea4d8f7.png" alt="Default Featured Image" class="carousel-featured-img" fetchpriority="high" loading="eager" />
+            <img src="/images/blog/default-featured-image.webp" alt="Default Featured Image" class="carousel-featured-img" fetchpriority="high" loading="eager" />
           )}
         </div>
       </div>
