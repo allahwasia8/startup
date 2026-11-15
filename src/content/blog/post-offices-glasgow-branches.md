@@ -2,7 +2,7 @@
 title: "Post Offices in Glasgow: Branches, Opening Times and Nearby Services"
 excerpt: "Whether you need to post a parcel, pick up foreign currency or pay a bill, knowing where to find a post office in Glasgow can save you a frustratin..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Top Post Offices Glasgow: Your Guide to Postal Services in the City"
 seo_description: "Explore the top post offices in Glasgow for reliable postal services. Find essential information to navigate your mailing needs—read the guide now!"
 image: "/images/blog/post-offices-glasgow-branches-main.webp"

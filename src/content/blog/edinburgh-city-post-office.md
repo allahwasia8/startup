@@ -2,7 +2,7 @@
 title: "Edinburgh City Post Office – Guide to Services and Locations"
 excerpt: "Whether you are a resident posting a parcel or a visitor exchanging currency before heading to the Royal Mile, knowing where to find the right post..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Your Guide to the Edinburgh City Post Office Services and Locations"
 seo_description: "Discover essential information on Edinburgh City Post Office services and locations. Find the nearest post office and learn about available services today!"
 image: "/images/blog/edinburgh-city-post-office-main.webp"

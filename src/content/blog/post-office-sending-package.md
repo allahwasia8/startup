@@ -2,9 +2,9 @@
 title: "Post Office Sending a Package: Step‑by‑Step Guide for UK Letters and Parcels"
 excerpt: "You can send letters and parcels across the UK or abroad via royal mail and parcelforce worldwide at any staffed post office branch, with staff rea..."
 date: "Oct 15, 2026"
-category: "Business"
-seo_title: "Post Office Sending a Package: Easy Steps for Hassle-Free Shipping"
-seo_description: "Master the art of hassle-free shipping with our easy steps for sending a package at the post office. Read the article to simplify your shipping process!"
+category: "Post Office"
+seo_title: "Post Office Sending a Parcel: UK Options"
+seo_description: "How to send a parcel with the Post Office: postage methods, tracking, sizes and step-by-step posting options for UK letters and packages."
 image: "/images/blog/post-office-sending-package-main.webp"
 ---
 

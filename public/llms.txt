@@ -1,26 +1,49 @@
 # UK Startup Flow
 
-> Your trusted partner for starting, growing, and scaling your business in the UK.
+> Expert guidance for starting, growing and scaling a business in the UK — plus practical guides on Companies House, HMRC, passports, MOT and benefits.
 
-UK Startup Flow provides startup-focused resources, business startup guidance, company formation information, funding and investment resources, and startup tools and templates for entrepreneurs in the United Kingdom.
+UK Startup Flow publishes clear, structured guides for UK founders, directors and self-employed people. Content is organised for both people and AI assistants: direct answers first, then steps, tables and FAQs.
 
-## Key Services
-- **Business Guidance**: Step-by-step guides on company formation, taxes, and scaling.
-- **Resources**: A comprehensive collection of articles covering Companies House filings, HMRC requirements, passports, MOTs, and Universal Credit.
-- **Expert Support**: Direct access to experts for actionable next steps.
+## Priority guides (high search demand)
 
-## Important Links
-- Home: [https://ukstartupflow.com/](https://ukstartupflow.com/)
-- Start Your Journey: [https://ukstartupflow.com/start-journey](https://ukstartupflow.com/start-journey)
-- Resources & Blog: [https://ukstartupflow.com/resources](https://ukstartupflow.com/resources)
-- About Us: [https://ukstartupflow.com/about](https://ukstartupflow.com/about)
-- Contact: [https://ukstartupflow.com/contact](https://ukstartupflow.com/contact)
+- Companies House registered email address: https://ukstartupflow.com/blog/companies-house-registered-email
+- How to get a UK passport: https://ukstartupflow.com/blog/apply-passport-uk-step
+- What is an unlimited company: https://ukstartupflow.com/blog/unlimited-company-meaning-risks
+- Book an MOT test online: https://ukstartupflow.com/blog/mot-close-me-book
+- MOT due date check: https://ukstartupflow.com/blog/my-mot-due-check
+- Post Office Ltd services: https://ukstartupflow.com/blog/post-office-ltd-services
+- Post Office banking: https://ukstartupflow.com/blog/post-office-bank-everyday
+- Post Office travel money: https://ukstartupflow.com/blog/travel-money-post-office
+- Tax credits / Working Tax Credit: https://ukstartupflow.com/blog/working-tax-credit-was
+- Venture capital definition: https://ukstartupflow.com/blog/definition-venture-capital-vc
+- Employed and sole trader at the same time: https://ukstartupflow.com/blog/employed-self-employed-same
+- Sole traders and Companies House: https://ukstartupflow.com/blog/companies-house-amp-sole
+- Sick pay if self-employed: https://ukstartupflow.com/blog/sickness-benefit-uk-claim
+- Carer's Allowance and Universal Credit: https://ukstartupflow.com/blog/carer-s-element-universal
+- How to appoint a company director: https://ukstartupflow.com/blog/appointment-director-appoint-new
+- Companies House forms: https://ukstartupflow.com/blog/companies-house-forms-essential
+- PLC vs Ltd: https://ukstartupflow.com/blog/define-plc-company-public
+- Company registration UK: https://ukstartupflow.com/blog/company-formation-step-step
+- Making Tax Digital: https://ukstartupflow.com/blog/making-tax-digital-income
+- Set up a CIC: https://ukstartupflow.com/blog/community-interest-company-cic
+- UK passport tracking: https://ukstartupflow.com/blog/british-passport-tracking-check
+- Where to sign a UK passport: https://ukstartupflow.com/blog/sign-passport-uk-amp
+
+## Site links
+
+- Home: https://ukstartupflow.com/
+- Resources: https://ukstartupflow.com/resources
+- Start Your Journey: https://ukstartupflow.com/start-journey
+- About: https://ukstartupflow.com/about
+- Contact: https://ukstartupflow.com/contact
 
 ## Audience
-Entrepreneurs, startup founders, directors, and small business owners based in or expanding to the United Kingdom.
+
+Entrepreneurs, startup founders, company directors, sole traders and people searching practical UK gov-adjacent topics (Companies House, HMRC, passports, MOT, Universal Credit, Post Office).
 
 ## Legal
+
 We are not a law firm, accounting firm, financial institution, investment adviser, or regulated financial services provider. Nothing on the platform constitutes legal, tax, accounting, financial, investment, or professional advice.
 
-Privacy Policy: [https://ukstartupflow.com/privacy](https://ukstartupflow.com/privacy)
-Terms of Service: [https://ukstartupflow.com/terms](https://ukstartupflow.com/terms)
+Privacy Policy: https://ukstartupflow.com/privacy
+Terms of Service: https://ukstartupflow.com/terms

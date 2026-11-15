@@ -3,8 +3,8 @@ title: "Family Allowance in the UK: From Family Allowances Act to Modern Child B
 excerpt: "The phrase \"family allowance\" still rolls off the tongue for millions of people across Great Britain, even though the official benefit it refers to..."
 date: "Oct 15, 2026"
 category: "Benefits"
-seo_title: "Understanding the Family Allowance in UK: Key Insights and Updates"
-seo_description: "Discover essential insights and the latest updates on the Family Allowance in the UK. Stay informed and understand your entitlements—read the article now!"
+seo_title: "Family Allowance UK: History & Child Benefit"
+seo_description: "What family allowance was in the UK, how it became Child Benefit, and how modern family payments compare for parents today."
 image: "/images/blog/family-allowance-uk-family-main.webp"
 ---
 

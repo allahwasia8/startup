@@ -2,9 +2,9 @@
 title: "Travel Money Post Office: How to Get the Best Rates and Easiest Access"
 excerpt: "The Post Office offers travel money in over 60 foreign currencies as cash and 22 currencies on a prepaid travel money card, with options to order o..."
 date: "Oct 15, 2026"
-category: "Business"
-seo_title: "Best Travel Money Post Office Options for Your Next Adventure"
-seo_description: "Discover the best travel money options at the Post Office for your next adventure. Get practical insights to maximize your travel budget. Read more!"
+category: "Post Office"
+seo_title: "Post Office Travel Money & Currency Exchange"
+seo_description: "Buy travel money and exchange currency at the Post Office: rates, order online for click & collect, euros, dollars and branch collection tips."
 image: "/images/blog/travel-money-post-office-main.webp"
 ---
 

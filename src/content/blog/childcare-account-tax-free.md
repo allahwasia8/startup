@@ -2,7 +2,7 @@
 title: "Childcare Account: How Tax-Free Childcare Works and How to Use Your Online Account"
 excerpt: "If you're a working parent in the UK, chances are you've heard about the childcare account but aren't entirely sure how it works, who qualifies, or..."
 date: "Oct 15, 2026"
-category: "Motoring"
+category: "Benefits"
 seo_title: "Maximize Your Benefits: Understanding Your Childcare Account Options"
 seo_description: "Explore your childcare account options and learn how to maximize your benefits. Make informed choices for your family's financial well-being. Read more!"
 image: "/images/blog/childcare-account-tax-free-main.webp"

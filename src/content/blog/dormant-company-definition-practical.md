@@ -3,8 +3,8 @@ title: "Dormant Company Definition: A Practical Guide for UK Directors"
 excerpt: "If you have a UK limited company that is not trading, you need to understand what dormant means in practice. Getting it wrong can lead to unexpecte..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Understanding the Dormant Company Definition: Key Insights Explained"
-seo_description: "Discover the essential definition of a dormant company and its implications. Gain clarity on key insights and understand its relevance today. Read more!"
+seo_title: "What Is a Dormant Company in the UK?"
+seo_description: "Dormant company definition for UK directors: filing rules, dividends, trading illegally risks and dormant vs non-trading explained."
 image: "/images/blog/dormant-company-definition-practical-main.webp"
 ---
 

@@ -2,7 +2,7 @@
 title: "Manor Road Post Office – Services, Location &amp; Visitor Guide"
 excerpt: "The Manor Road Post Office is located at 4 Memorial Avenue, West Ham, London, and serves residents across the manor park area in the E12 postcode d..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Services at Manor Road Post Office: What You Need to Know"
 seo_description: "Discover essential services offered at Manor Road Post Office, from mailing to banking. Get informed and plan your visit effectively. Read more!"
 image: "/images/blog/manor-road-post-office-main.webp"

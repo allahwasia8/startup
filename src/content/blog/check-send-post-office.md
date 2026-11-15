@@ -2,7 +2,7 @@
 title: "Check and Send Post Office: Complete Guide to Digital and Paper Passport Services"
 excerpt: "Applying for a UK passport can feel overwhelming, especially when you're unsure whether your photos, forms, and documents meet the right standards...."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Passports"
 seo_title: "Maximize Your Experience with the Check and Send Post Office Service"
 seo_description: "Discover how to effectively use the Check and Send Post Office service to streamline your mailing process. Read the article for practical tips!"
 image: "/images/blog/check-send-post-office-main.webp"

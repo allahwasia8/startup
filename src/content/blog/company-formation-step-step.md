@@ -3,8 +3,8 @@ title: "Company Formation: Step‑by‑Step Guide to Setting Up a UK Limited Com
 excerpt: "Start with a clear plan of your limited company structure (directors, shareholders, share capital) and a compliant company name before you try to r..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Essential Guide to Companies Formation: Choose the Best Service Today"
-seo_description: "Navigate the complexities of company formation with our essential guide. Discover top services to make your business setup smooth—read the article now!"
+seo_title: "Company Registration UK: Formation Guide"
+seo_description: "Register a limited company in the UK step by step: Companies House filing, SIC codes, directors, registered office and first-year duties."
 image: "/images/blog/company-formation-step-step-main.webp"
 ---
 

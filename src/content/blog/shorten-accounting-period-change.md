@@ -3,8 +3,8 @@ title: "Shorten Accounting Period: How and Why to Change Your Company's Year End
 excerpt: "If your limited company needs to change its year end, shortening the accounting period at Companies House is a straightforward process-but one that..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "How to Effectively Shorten Accounting Period for Your Business"
-seo_description: "Learn how to effectively shorten your business's accounting period to improve efficiency and cash flow. Read the article for practical tips and insights."
+seo_title: "Change Accounting Reference Date (UK)"
+seo_description: "How to change or shorten your accounting reference date at Companies House, filing impact, and when directors use this option."
 image: "/images/blog/shorten-accounting-period-change-main.webp"
 ---
 

@@ -2,7 +2,7 @@
 title: "HM Passport Office Peterborough – Parking, Access &amp; Fast Track Services Guide"
 excerpt: "Planning a visit to HM Passport Office Peterborough? This guide covers everything you need to know - from parking and transport options to fast tra..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Passports"
 image: "/images/blog/hm-passport-office-peterborough-main.webp"
 seo_title: "HM Passport Office Peterborough – Parking, Access &amp; Fast..."
 seo_description: "Planning a visit to HM Passport Office Peterborough? This guide covers everything you need to know - from parking and transport options to fast tra..."

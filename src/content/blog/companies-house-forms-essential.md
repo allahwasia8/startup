@@ -3,8 +3,8 @@ title: "Companies House Forms: Essential Guide for UK Company Filings"
 excerpt: "Most routine companies house forms (AD01, AP01, CS01, PSC01, DS01, AA01 and others) can be filed online, and deadlines are strict-automatic late fi..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Essential Companies House Forms for Updating Your Business Information"
-seo_description: "Discover the key Companies House forms needed to update your business information effectively. Stay compliant and ensure your records are current—read more!"
+seo_title: "Companies House Forms: AP01, CS01 & More"
+seo_description: "Essential Companies House forms explained — AP01 director appointment, CS01, accounts and name changes — with when to use each one."
 image: "/images/blog/companies-house-forms-essential-main.webp"
 ---
 

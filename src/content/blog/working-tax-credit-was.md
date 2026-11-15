@@ -2,9 +2,9 @@
 title: "Working Tax Credit: What It Was, How It Worked, and What Replaced It"
 excerpt: "Working tax credit was one of the UK's main tools for supporting people in paid work on a low income. The system officially closed on 5 April 2025,..."
 date: "Oct 15, 2026"
-category: "Tax"
-seo_title: "Working Tax Credit: What It Was, How It Worked, and What Rep"
-seo_description: "Working tax credit was one of the UK's main tools for supporting people in paid work on a low income. The system officially closed on 5 April 2025,..."
+category: "Benefits"
+seo_title: "Tax Credits UK: Working Tax Credit Explained"
+seo_description: "What tax credits were, Working Tax Credit amounts and thresholds, and what replaced them (Universal Credit). Useful for overpayments and history."
 image: "/images/blog/working-tax-credit-was-main.webp"
 ---
 

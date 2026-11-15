@@ -3,8 +3,8 @@ title: "Community Interest Company (CIC): Complete 2026 Guide"
 excerpt: "If you're building something that serves a community rather than chasing unlimited private profit, the community interest company cic might be the ..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Essential Guide to Community Interest Company: Key Features..."
-seo_description: "Discover the key features and benefits of Community Interest Companies. Learn how they can support your mission and drive social change. Read more now!"
+seo_title: "How to Set Up a CIC (Community Interest Company)"
+seo_description: "CIC formation and registration step by step: CIC vs limited company, asset lock, regulator rules and how to set up a community interest company."
 image: "/images/blog/community-interest-company-cic-main.webp"
 ---
 

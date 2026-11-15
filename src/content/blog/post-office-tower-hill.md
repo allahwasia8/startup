@@ -2,7 +2,7 @@
 title: "Post Office Tower Hill: Location, Opening Times &amp; Visitor Guide"
 excerpt: "If you live in or around Kirkby, Liverpool, chances are Tower Hill Post Office is one of your closest options for postal, banking and government se..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Post Office Tower Hill: Essential Information and Services Guide"
 seo_description: "Discover essential services and information about Post Office Tower Hill. Get all the details you need to navigate your postal needs effectively. Read more!"
 image: "/images/blog/post-office-tower-hill-main.webp"

@@ -2,7 +2,7 @@
 title: "Post Office Baldock – Branches, Services, and Security Verification"
 excerpt: "Whether you need to send a parcel, exchange currency, or handle banking, knowing your local post office options in Baldock saves time and hassle. T..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Services at the Post Office Baldock: What You Need to Know"
 seo_description: "Discover essential services offered at the Post Office in Baldock, from mailing options to banking. Learn what you need to know before your visit!"
 image: "/images/blog/post-office-baldock-branches-main.webp"

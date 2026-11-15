@@ -3,8 +3,8 @@ title: "What Is a Hire Purchase? (HP) – How It Works, Costs, and Car Finance O
 excerpt: "If you're looking to spread the cost of a car or other expensive items without paying the full price upfront, hire purchase is one of the most stra..."
 date: "Oct 15, 2026"
 category: "Motoring"
-seo_title: "What is a Hire Purchase? Understanding the Basics and Benefits"
-seo_description: "Discover the essentials of hire purchase, its benefits, and how it can help you manage payments effectively. Read the article to learn more!"
+seo_title: "What Is Hire Purchase? HP Explained (Example)"
+seo_description: "Hire purchase meaning with a clear example: how HP car finance works, costs vs conditional sale, and what happens at the end of the agreement."
 image: "/images/blog/hire-purchase-hp-works-main.webp"
 ---
 

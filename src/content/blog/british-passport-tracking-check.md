@@ -3,8 +3,8 @@ title: "British passport tracking: how to check your UK passport application sta
 excerpt: "Waiting for a new passport can be stressful, especially with a trip on the horizon. The good news is that HM Passport Office provides several ways ..."
 date: "Oct 15, 2026"
 category: "Passports"
-seo_title: "Effortless British Passport Tracking: Stay Updated on Your Application"
-seo_description: "Track your British passport application effortlessly with our practical tips and updates. Stay informed and ensure a smooth process. Read more now!"
+seo_title: "UK Passport Tracking: Check Application Status"
+seo_description: "Track your UK or British passport application online: GOV.UK tracking, processing times, renewals and what to do if status stalls."
 image: "/images/blog/british-passport-tracking-check-main.webp"
 ---
 

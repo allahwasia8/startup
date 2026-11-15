@@ -2,7 +2,7 @@
 title: "Universal Credit and Childcare Costs: A Complete 2026 Guide"
 excerpt: "If you're a working parent on Universal Credit, the childcare costs element can make a real difference to your household budget. Here's what you ne..."
 date: "Oct 15, 2026"
-category: "Motoring"
+category: "Benefits"
 seo_title: "Navigating Universal Credit and Childcare Costs: What You Need to Know"
 seo_description: "Struggling with Universal Credit and childcare costs? Discover essential information and practical tips to navigate the system effectively. Read more!"
 image: "/images/blog/universal-credit-childcare-costs-main.webp"

@@ -2,7 +2,7 @@
 title: "Green Lanes Post Office &amp; Palmers Green Branch – Location, Services &amp; Visitor Guide"
 excerpt: "If you live in North London and need to send a parcel, exchange currency, or handle everyday banking, two post office branches on the Green Lanes c..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Information About Green Lanes Post Office and Its Services"
 seo_description: "Discover essential details about Green Lanes Post Office, its services, and how they can meet your needs. Read the article for all the information you need."
 image: "/images/blog/green-lanes-post-office-main.webp"

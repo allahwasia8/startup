@@ -14,57 +14,105 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 
-// Fetch recent posts for "Related Articles"
-const allPosts = await getCollection('blog');
-const relatedPosts = allPosts.filter(p => p.id !== entry.id).slice(0, 3);
+const site = Astro.site || new URL('https://ukstartupflow.com');
+const pageUrl = new URL(`/blog/${entry.id}`, site);
+const imagePath = entry.data.image || '/images/blog/default-featured-image.webp';
+const imageUrl = new URL(imagePath, site).href;
+const publishedDate = entry.data.date
+  ? new Date(entry.data.date).toISOString()
+  : undefined;
+const displayDate = entry.data.date || 'Recent';
 
-// JSON-LD Schema
+const wordCount = (entry.body || '')
+  .replace(/<[^>]+>/g, ' ')
+  .trim()
+  .split(/\s+/)
+  .filter(Boolean).length;
+const readMinutes = Math.max(1, Math.round(wordCount / 200));
+
+const category = entry.data.category || 'Insights';
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter((p) => p.id !== entry.id && (p.data.category || 'Insights') === category)
+  .slice(0, 3);
+const relatedFallback = relatedPosts.length
+  ? relatedPosts
+  : allPosts.filter((p) => p.id !== entry.id).slice(0, 3);
+
+const shareUrl = encodeURIComponent(pageUrl.href);
+const shareTitle = encodeURIComponent(entry.data.title);
+const shareLinks = {
+  facebook: `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`,
+  twitter: `https://twitter.com/intent/tweet?url=${shareUrl}&text=${shareTitle}`,
+  linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`,
+};
+
 const schema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": entry.data.seo_title || entry.data.title,
-  "description": entry.data.seo_description || entry.data.excerpt || '',
-  "image": entry.data.image || "/images/blog/default-featured-image.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "UK Startup Flow Team"
-  }
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.seo_title || entry.data.title,
+  description: entry.data.seo_description || entry.data.excerpt || '',
+  image: [imageUrl],
+  datePublished: publishedDate,
+  dateModified: publishedDate,
+  author: {
+    '@type': 'Organization',
+    name: 'UK Startup Flow Team',
+    url: site.href,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'UK Startup Flow',
+    logo: {
+      '@type': 'ImageObject',
+      url: new URL('/images/logo_final_transparent.png', site).href,
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': pageUrl.href,
+  },
+  url: pageUrl.href,
 };
 ---
 
-<BaseLayout title={entry.data.seo_title || entry.data.title} description={entry.data.seo_description || entry.data.excerpt || 'Read more about this topic.'}>
+<BaseLayout
+  title={entry.data.seo_title || entry.data.title}
+  description={entry.data.seo_description || entry.data.excerpt || 'Read more about this topic.'}
+  ogImage={imagePath}
+  ogType="article"
+>
   <script type="application/ld+json" set:html={JSON.stringify(schema)} slot="head" />
   <!-- Hero Section -->
   <div class="hero aqua">
     <div class="hero__container container--wide main__container">
       <div class="hero__content">
-        <Breadcrumbs category={entry.data.category || 'Insights'} title={entry.data.title} />
-        <span class="hero__category">{entry.data.category || 'Insights'}</span>
+        <Breadcrumbs category={category} title={entry.data.title} />
+        <span class="hero__category">{category}</span>
         <h1 class="hero__title">{entry.data.title}</h1>
         <div class="hero__author-meta">
-          <div class="hero__author-avatar"></div>
+          <div class="hero__author-avatar" aria-hidden="true"></div>
           <div class="hero__author-details">
             <span class="hero__author-name">By UK Startup Flow Team</span>
-            <span class="hero__author-date">{entry.data.date || 'Oct 15, 2026'} &bull; 24 min read</span>
+            <span class="hero__author-date">{displayDate} &bull; {readMinutes} min read</span>
           </div>
         </div>
         <div class="hero__ctas">
           <a href="/start-journey" class="cta-button blue-button">Try UK Startup Flow CRM</a>
           <a href="/contact" class="cta-button cta-button-arrow blue-button button-brand">Contact sales</a>
         </div>
-        <!-- Mobile Socials -->
         <div class="hero__socials mobile-only">
           <span>Share</span>
-          <a href="#">FB</a>
-          <a href="#">TW</a>
-          <a href="#">IN</a>
+          <a href={shareLinks.facebook} rel="noopener noreferrer" target="_blank">FB</a>
+          <a href={shareLinks.twitter} rel="noopener noreferrer" target="_blank">TW</a>
+          <a href={shareLinks.linkedin} rel="noopener noreferrer" target="_blank">IN</a>
         </div>
       </div>
       <div class="hero__image">
         {entry.data.image ? (
-          <img src={entry.data.image} alt={entry.data.title} class="hero__featured-img" fetchpriority="high" loading="eager" />
+          <img src={entry.data.image} alt={entry.data.title} class="hero__featured-img" width="720" height="410" fetchpriority="high" loading="eager" decoding="async" />
         ) : (
-          <img src="/images/blog/default-featured-image.webp" alt="Default Featured Image" class="hero__featured-img" fetchpriority="high" loading="eager" />
+          <img src="/images/blog/default-featured-image.webp" alt="" class="hero__featured-img" width="720" height="410" fetchpriority="high" loading="eager" decoding="async" />
         )}
       </div>
     </div>
@@ -74,14 +122,14 @@ const schema = {
     <div class="container--wide main__container article__container">
       
       <!-- Mobile TOC Toggle -->
-      <button class="scrollspy-current mobile-only">
-        Explore article topics <span class="arrow">&#9662;</span>
+      <button type="button" class="scrollspy-current mobile-only" aria-expanded="false" aria-controls="article-toc">
+        Explore article topics <span class="arrow" aria-hidden="true">&#9662;</span>
       </button>
 
       <!-- Sidebar -->
-      <aside class="article__scrollspy-block desktop-only">
+      <aside class="article__scrollspy-block desktop-only" aria-label="On this page">
         <div class="scrollspy-menu--wrap">
-          <ul class="scrollspy-menu">
+          <ul id="article-toc" class="scrollspy-menu">
             {headings.filter(h => h.depth <= 3).map(heading => (
               <li>
                 <a href={`#${heading.slug}`} class={`scrollspy-link ${heading.depth === 3 ? 'inner' : ''}`}>
@@ -90,14 +138,14 @@ const schema = {
               </li>
             ))}
           </ul>
-          
+
           <!-- Desktop Socials -->
           <div class="sidebar__socials">
             <span>Share</span>
             <div class="social-icons">
-              <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
-              <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
-              <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              <a href={shareLinks.facebook} aria-label="Share on Facebook" rel="noopener noreferrer" target="_blank"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+              <a href={shareLinks.twitter} aria-label="Share on X" rel="noopener noreferrer" target="_blank"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+              <a href={shareLinks.linkedin} aria-label="Share on LinkedIn" rel="noopener noreferrer" target="_blank"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
             </div>
           </div>
 
@@ -137,9 +185,9 @@ const schema = {
     <div class="container--wide main__container">
       <h2 class="section-heading">Explore more content</h2>
       <div class="blog-grid">
-        {relatedPosts.map(post => (
+        {relatedFallback.map(post => (
           <div class="box-item-wrapper">
-            <BlogCard 
+            <BlogCard
               title={post.data.title}
               excerpt={post.data.excerpt || 'Read more about this topic.'}
               category={post.data.category || 'Insights'}
@@ -153,12 +201,6 @@ const schema = {
     </div>
   </section>
 </BaseLayout>
-
-<style is:global>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
 
 <style>
   /* Base Containers */
@@ -684,17 +726,18 @@ const schema = {
     const scrollspyMenu = document.querySelector('.article__scrollspy-block');
 
     if (mobileToggle && scrollspyMenu) {
+      const syncTocState = (open) => {
+        scrollspyMenu.classList.toggle('show-mobile', open);
+        mobileToggle.classList.toggle('open', open);
+        mobileToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      };
+
       mobileToggle.addEventListener('click', () => {
-        scrollspyMenu.classList.toggle('show-mobile');
-        mobileToggle.classList.toggle('open');
+        syncTocState(!scrollspyMenu.classList.contains('show-mobile'));
       });
-      
-      // Auto-close when a link is clicked on mobile
+
       scrollspyMenu.querySelectorAll('.scrollspy-link').forEach(link => {
-        link.addEventListener('click', () => {
-          scrollspyMenu.classList.remove('show-mobile');
-          mobileToggle.classList.remove('open');
-        });
+        link.addEventListener('click', () => syncTocState(false));
       });
     }
   });

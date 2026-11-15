@@ -2,7 +2,7 @@
 title: "Cold Weather Payments: Full Guide to the 2026/27 Scheme"
 excerpt: "If you receive certain benefits and live in England, Wales or Northern Ireland, you could be entitled to extra money every time a freezing spell hi..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Benefits"
 seo_title: "Essential Payments for Cold Weather: Know Your Options and Eligibility"
 seo_description: "Discover essential payment options for cold weather assistance. Learn about eligibility and how to secure the support you need this season. Read more now!"
 image: "/images/blog/cold-weather-payments-full-main.webp"

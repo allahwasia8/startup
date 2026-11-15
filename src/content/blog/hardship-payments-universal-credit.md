@@ -3,8 +3,8 @@ title: "Hardship Payments for Universal Credit and Other Benefits"
 excerpt: "If your Universal Credit, Jobseeker's Allowance or Employment and Support Allowance has been cut because of a sanction, you might be able to get em..."
 date: "Oct 15, 2026"
 category: "Benefits"
-seo_title: "Understanding Hardship Payments: Your Guide to Eligibility and Support"
-seo_description: "Discover your eligibility for hardship payments and the support available. Get informed and take the first step to financial relief—read more now!"
+seo_title: "Universal Credit Hardship Payment Guide"
+seo_description: "What a Universal Credit hardship payment is, how much you may get, eligibility and how to apply for a hardship payment online."
 image: "/images/blog/hardship-payments-universal-credit-main.webp"
 ---
 

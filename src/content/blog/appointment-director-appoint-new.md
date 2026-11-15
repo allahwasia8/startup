@@ -3,8 +3,8 @@ title: "Appointment of Director: How to Appoint a New Company Director in the UK
 excerpt: "Every UK company must have at least one director who is a natural person, and all appointments must follow the Companies Act 2006, the company's ar..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Essential Steps for the Appointment of Director in Your Company"
-seo_description: "Learn the essential steps for appointing a director in your company to ensure compliance and smooth operations. Read the article for detailed guidance."
+seo_title: "How to Appoint a Company Director (UK)"
+seo_description: "How to appoint or add a director to a UK company: AP01 form, Companies House filing, identity checks and step-by-step process."
 image: "/images/blog/appointment-director-appoint-new-main.webp"
 ---
 

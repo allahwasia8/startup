@@ -2,7 +2,7 @@
 title: "Post Offices Brighton – Locations, Royal Mail Delivery Offices &amp; Opening Hours"
 excerpt: "The flagship Brighton Post Office is located at Unit 2, Churchill Square, BN1 2TA, offering services Monday to Saturday 09:00–17:30 and Sundays 11:..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Guide to Post Offices Brighton: Locations and Services"
 seo_description: "Discover essential post office locations and services in Brighton. Navigate your mailing needs with ease. Read the guide to find out more!"
 image: "/images/blog/post-offices-brighton-locations-main.webp"

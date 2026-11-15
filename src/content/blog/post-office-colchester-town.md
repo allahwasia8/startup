@@ -2,7 +2,7 @@
 title: "Post Office Colchester Town – Branch Guide, Services &amp; Opening Times"
 excerpt: "The main post office in Colchester is located inside WHSmith at 19 Culver Walk, lion walk shopping centre, with the postcode CO1 1DF."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Guide to Post Office Colchester Town Services and Locations"
 seo_description: "Discover essential services and locations of Post Office in Colchester Town. Get the information you need to navigate your local postal options. Read more!"
 image: "/images/blog/post-office-colchester-town-main.webp"

@@ -2,7 +2,7 @@
 title: "Longmoor Lane Post Office"
 excerpt: "Longmoor Lane Post Office is located at 714 Longmoor Lane, Liverpool, Merseyside, L10 7LN, and operates as a combined post office and convenience s..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Exploring the Longmoor Lane Post Office: Services and Community Impact"
 seo_description: "Discover the vital services provided by Longmoor Lane Post Office and its positive influence on the local community. Read more to learn about its impact!"
 image: "/images/blog/longmoor-lane-post-office-main.webp"

@@ -3,8 +3,8 @@ title: "Define SIC Codes: A Practical Guide for UK Company Owners"
 excerpt: "If you run or are setting up a limited company in the UK, you will come across sic codes almost immediately. They look like small, forgettable numb..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Define SIC Codes: A Clear Guide for Businesses and Compliance"
-seo_description: "Understand SIC codes and their importance for business compliance. Get clear insights and practical guidance in our comprehensive guide. Read more now!"
+seo_title: "What Is a SIC Code? UK Business Guide"
+seo_description: "SIC code meaning for UK companies: how many you can have, choosing the right nature of business code, and updating Companies House."
 image: "/images/blog/define-sic-codes-practical-main.webp"
 ---
 

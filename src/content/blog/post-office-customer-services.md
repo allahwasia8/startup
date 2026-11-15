@@ -2,7 +2,7 @@
 title: "Post Office Customer Services Number: How to Get Help Fast"
 excerpt: "The main post office customer services number operates during standard weekday opening hours, typically 08:00–18:00 Monday to Friday, with reduced ..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Reach Out: Your Guide to the Post Office Customer Services Number"
 seo_description: "Need help with the Post Office? Our guide provides essential customer service numbers and tips. Read on to find the assistance you need."
 image: "/images/blog/post-office-customer-services-main.webp"

@@ -2,7 +2,7 @@
 title: "Warwick Post Office: Services, Opening Times &amp; Delivery Office Guide"
 excerpt: "Whether you need to post a parcel, renew your car tax, or get your passport application checked before it goes off to HM Passport Office, Warwick P..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Information About Warwick Post Office Services and Hours"
 seo_description: "Discover essential details about Warwick Post Office services and hours to plan your visits effectively. Read the article for all the information you need!"
 image: "/images/blog/warwick-post-office-services-main.webp"

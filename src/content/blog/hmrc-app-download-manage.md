@@ -3,8 +3,8 @@ title: "HMRC App: How to Download It and Manage Tax, National Insurance, Pension
 excerpt: "Managing your tax, benefits and pension used to mean waiting on hold, filling out paper forms and hunting for misplaced letters. The hmrc app chang..."
 date: "Oct 15, 2026"
 category: "Tax"
-seo_title: "Essential Guide to the HMRC App: Manage Your Taxes Efficiently"
-seo_description: "Discover how to efficiently manage your taxes with the HMRC app. Get practical tips and insights to simplify your tax process. Read the article now!"
+seo_title: "HMRC App: Download & Manage Your Tax"
+seo_description: "Download the HMRC app to manage tax, National Insurance, Self Assessment and benefits. Features, login and what you can do on mobile."
 image: "/images/blog/hmrc-app-download-manage-main.webp"
 ---
 

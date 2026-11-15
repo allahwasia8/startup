@@ -3,8 +3,8 @@ title: "Making Tax Digital for Income Tax: Practical Guide for 2026 and Beyond"
 excerpt: "If you're a sole trader or landlord filing a self assessment tax return each year, the way you report your income to HMRC is about to change signif..."
 date: "Oct 15, 2026"
 category: "Tax"
-seo_title: "Making Tax Digital: Your Essential Guide to Compliance and Benefits"
-seo_description: "Navigate the essentials of Making Tax Digital compliance and discover its benefits. Enhance your understanding and streamline your tax process. Read more!"
+seo_title: "Making Tax Digital for Self Assessment"
+seo_description: "Making Tax Digital for Income Tax Self Assessment: qualifying income thresholds, software, quarterly updates and digital tax returns."
 image: "/images/blog/making-tax-digital-income-main.webp"
 ---
 

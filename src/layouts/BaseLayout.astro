@@ -6,55 +6,76 @@ import Footer from '../components/Footer.astro';
 interface Props {
 	title: string;
 	description?: string;
+	ogImage?: string;
+	ogType?: string;
 }
 
-const { title, description = "Your trusted partner for starting, growing, and scaling your business in the UK. Discover expert guidance, resources, and insights for UK entrepreneurs." } = Astro.props;
+const {
+	title,
+	description = "Your trusted partner for starting, growing, and scaling your business in the UK. Discover expert guidance, resources, and insights for UK entrepreneurs.",
+	ogImage = '/images/london-hero.jpg',
+	ogType = 'website',
+} = Astro.props;
 
-// Compute canonical URL and strip trailing slash to match internal links consistently
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
-const canonicalURL = new URL(pathname, Astro.site || 'https://ukstartupflow.com');
+const site = Astro.site || new URL('https://ukstartupflow.com');
+const canonicalURL = new URL(pathname, site);
+const ogImageURL = new URL(ogImage, site);
+const fullTitle = `${title} | UK Startup Flow`;
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-752HTTXGXT"></script>
-		<script is:inline>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-752HTTXGXT');
-		</script>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={description} />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="canonical" href={canonicalURL} />
-		<title>{title} | UK Startup Flow</title>
-		
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content={canonicalURL} />
-		<meta property="og:title" content={`${title} | UK Startup Flow`} />
-		<meta property="og:description" content={description} />
-		<meta property="og:image" content={new URL('/images/london-hero.jpg', canonicalURL)} />
+		<title>{fullTitle}</title>
 
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content={canonicalURL} />
-		<meta property="twitter:title" content={`${title} | UK Startup Flow`} />
-		<meta property="twitter:description" content={description} />
-		<meta property="twitter:image" content={new URL('/images/london-hero.jpg', canonicalURL)} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		/>
+
+		<meta property="og:type" content={ogType} />
+		<meta property="og:url" content={canonicalURL} />
+		<meta property="og:title" content={fullTitle} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImageURL} />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content={canonicalURL} />
+		<meta name="twitter:title" content={fullTitle} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImageURL} />
+
+		<script
+			async
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9457208945905981"
+			crossorigin="anonymous"
+		></script>
+
 		<slot name="head" />
 	</head>
 	<body>
+		<a class="skip-link" href="#main-content">Skip to main content</a>
 		<Navbar />
-		<main>
+		<main id="main-content">
 			<slot />
 		</main>
 		<Footer />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-752HTTXGXT" fetchpriority="low"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-752HTTXGXT');
+		</script>
 	</body>
 </html>

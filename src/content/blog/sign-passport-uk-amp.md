@@ -3,8 +3,8 @@ title: "Where Do You Sign Your Passport? (UK &amp; Irish Guidance)"
 excerpt: "If you've just received a new passport in the post, the first thing you need to do - before booking flights or packing your bags - is sign it. This..."
 date: "Oct 15, 2026"
 category: "Passports"
-seo_title: "Where Do You Sign Your Passport: A Quick Guide to Your Signature"
-seo_description: "Learn where to sign your passport correctly to avoid delays. Get clear guidance and tips to ensure your travel documents are in order. Read more!"
+seo_title: "Where to Sign a UK Passport (New Passport)"
+seo_description: "Where do you sign your new UK passport? Exact signature box location, tips to avoid rejection, and rules for children and renewals."
 image: "/images/blog/sign-passport-uk-amp-main.webp"
 ---
 

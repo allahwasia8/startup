@@ -3,8 +3,8 @@ title: "Accounts Companies House: How to File Your Annual Company Accounts in 20
 excerpt: "All UK limited companies must file annual accounts with Companies House and a separate company tax return with HMRC every year, even if the company..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Essential Guide to Filing Accounts Companies House Efficiently"
-seo_description: "Master the process of filing accounts with our essential guide. Streamline your submissions to Companies House efficiently. Read more for expert tips!"
+seo_title: "File Company Accounts with Companies House"
+seo_description: "How to file company accounts with Companies House (and link to HMRC): deadlines, micro-entity options and common filing mistakes to avoid."
 image: "/images/blog/accounts-companies-house-file-main.webp"
 ---
 

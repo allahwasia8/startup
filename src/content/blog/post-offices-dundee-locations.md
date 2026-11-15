@@ -2,7 +2,7 @@
 title: "Post Offices in Dundee: Locations, Services and Royal Mail Options"
 excerpt: "The main Dundee Post Office at 30 Whitehall Street (DD1 4AF) is the city's primary branch, open 09:00–17:30 on weekdays and 09:00–15:00 on Saturday..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Top Post Offices Dundee: Your Guide to Local Services and Locations"
 seo_description: "Discover essential information on top post offices in Dundee, including services and locations. Read our guide to find the best options near you."
 image: "/images/blog/post-offices-dundee-locations-main.webp"

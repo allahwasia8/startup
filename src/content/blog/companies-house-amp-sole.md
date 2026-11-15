@@ -3,8 +3,8 @@ title: "Companies House &amp; Sole Traders: Do You Need to Register?"
 excerpt: "One of the most common questions new business owners in the UK ask is whether they need to register with Companies House as a sole trader. The shor..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Essential Guide to Companies House Sole Trader Registration"
-seo_description: "Learn how to register as a sole trader with Companies House. Get step-by-step guidance and essential tips to simplify your registration process. Read more!"
+seo_title: "Do Sole Traders Register with Companies House?"
+seo_description: "Sole traders do not register with Companies House or get a company number. What you must do with HMRC instead, and when to incorporate."
 image: "/images/blog/companies-house-amp-sole-main.webp"
 ---
 

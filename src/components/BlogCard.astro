@@ -13,9 +13,9 @@ const { title, excerpt, date, category, slug, image } = Astro.props;
 <a href={`/blog/${slug}`} class="blog-card">
   <div class="card-image">
     {image ? (
-      <img src={image} alt={title} class="card-featured-img" loading="lazy" decoding="async" />
+      <img src={image} alt="" class="card-featured-img" width="432" height="205" loading="lazy" decoding="async" />
     ) : (
-      <img src="/images/blog/default-featured-image.webp" alt="Default Featured Image" class="card-featured-img" loading="lazy" decoding="async" />
+      <img src="/images/blog/default-featured-image.webp" alt="" class="card-featured-img" width="432" height="205" loading="lazy" decoding="async" />
     )}
   </div>
   <div class="card-content">

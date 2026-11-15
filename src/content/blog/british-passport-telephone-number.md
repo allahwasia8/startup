@@ -2,7 +2,7 @@
 title: "British passport telephone number: how to contact HM Passport Office"
 excerpt: "If you need to get in touch with His Majesty's Passport Office about a new passport, a renewal, or a delayed application, having the right telephon..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Passports"
 seo_title: "Essential Guide to the British Passport Telephone Number"
 seo_description: "Find the essential British passport telephone number and tips for contacting the passport office. Get the assistance you need—read the article now!"
 image: "/images/blog/british-passport-telephone-number-main.webp"

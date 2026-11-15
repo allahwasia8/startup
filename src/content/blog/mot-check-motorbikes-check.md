@@ -3,8 +3,8 @@ title: "MOT Check for Motorbikes: How to Check, What's Tested, and What It All M
 excerpt: "Riders can perform a free mot check on any UK motorbike using its registration number, pulling data directly from official dvsa records held by the..."
 date: "Oct 15, 2026"
 category: "Motoring"
-seo_title: "Essential Guide to MOT Check Motorbike: Status and History Explained"
-seo_description: "Discover the essentials of checking your motorbike's MOT status and history. Ensure safety and compliance—read the full guide now!"
+seo_title: "Motorbike MOT: Check, Cost & Booking"
+seo_description: "Motorbike MOT rules: when bikes need a test, typical price, how to check history and book a motorcycle MOT in the UK."
 image: "/images/blog/mot-check-motorbikes-check-main.webp"
 ---
 

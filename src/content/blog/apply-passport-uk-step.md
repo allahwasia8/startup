@@ -3,8 +3,8 @@ title: "How to Apply for a Passport in the UK: Step‑by‑Step Guide"
 excerpt: "Whether you need a first adult british passport, a renewal, or a child passport, the process is straightforward once you know the steps. This guide..."
 date: "Oct 15, 2026"
 category: "Passports"
-seo_title: "Your Essential Guide to Apply for a Passport: Step-by-Step Process"
-seo_description: "Navigate the passport application process effortlessly with our step-by-step guide. Start your journey today and ensure you have all the essentials covered!"
+seo_title: "How to Get a Passport in the UK (Step-by-Step)"
+seo_description: "How to get a UK passport online or by post: fees, photos, processing times and Check & Send. Apply for your first passport or renew today."
 image: "/images/blog/apply-passport-uk-step-main.webp"
 ---
 

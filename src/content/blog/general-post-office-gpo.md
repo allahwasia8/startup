@@ -2,7 +2,7 @@
 title: "The General Post Office (GPO): From 17th‑Century Mail to Modern Postal Services"
 excerpt: "Few institutions have shaped everyday life in the United Kingdom quite like the General Post Office. From a single London sorting room handling roy..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Understanding the GPO: A Historical Overview of Postal Innovation"
 seo_description: "Explore the evolution of postal innovation through the lens of the GPO's history. Discover key developments that shaped modern mailing practices. Read more!"
 image: "/images/blog/general-post-office-gpo-main.webp"

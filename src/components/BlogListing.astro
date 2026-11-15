@@ -1,0 +1,148 @@
+---
+import BlogCard from './BlogCard.astro';
+import '../styles/blog-listing.css';
+
+interface PostLike {
+  id: string;
+  data: {
+    title: string;
+    excerpt?: string;
+    category?: string;
+    date?: string;
+    image?: string;
+  };
+}
+
+interface Props {
+  featuredPost?: PostLike | null;
+  gridPosts: PostLike[];
+  categories: string[];
+  heading: string;
+  headingLevel?: 'h1' | 'h2';
+  activeCategory?: string | null;
+  showResourcesLink?: boolean;
+  newsletterId?: string;
+}
+
+const {
+  featuredPost = null,
+  gridPosts,
+  categories,
+  heading,
+  headingLevel = 'h2',
+  activeCategory = null,
+  showResourcesLink = false,
+  newsletterId = 'newsletter-email',
+} = Astro.props;
+
+const HeadingTag = headingLevel;
+---
+
+{featuredPost && (
+  <div class="carousel-primary">
+    <div class="blog-container carousel-grid">
+      <div class="carousel-content">
+        <span class="carousel-cat">{featuredPost.data.category || 'Insights'}</span>
+        <h2 class="carousel-title">
+          <a href={`/blog/${featuredPost.id}`}>{featuredPost.data.title}</a>
+        </h2>
+        <p class="carousel-excerpt">{featuredPost.data.excerpt || 'Read the full story to discover more about our latest insights and strategies for the modern workplace.'}</p>
+        <a href={`/blog/${featuredPost.id}`} class="carousel-read-more">Read more &rarr;</a>
+      </div>
+      <div class="carousel-image">
+        {featuredPost.data.image ? (
+          <img
+            src={featuredPost.data.image}
+            alt={featuredPost.data.title}
+            class="carousel-featured-img"
+            width="810"
+            height="410"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+          />
+        ) : (
+          <img
+            src="/images/blog/default-featured-image.webp"
+            alt=""
+            class="carousel-featured-img"
+            width="810"
+            height="410"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+          />
+        )}
+      </div>
+    </div>
+  </div>
+)}
+
+<section class="blog-listing-section" aria-labelledby="blog-listing-heading">
+  <div class="blog-container">
+    <HeadingTag id="blog-listing-heading" class="section-heading">{heading}</HeadingTag>
+
+    <div class="category-filters">
+      <a
+        href="/"
+        class:list={['cat-pill', { active: !activeCategory }]}
+        aria-current={!activeCategory ? 'page' : undefined}
+      >
+        All
+      </a>
+      {categories.map((cat) => {
+        const isActive = cat === activeCategory;
+        return (
+          <a
+            href={`/blog/category/${cat.toLowerCase().replace(/ /g, '-')}`}
+            class:list={['cat-pill', { active: isActive }]}
+            aria-current={isActive ? 'page' : undefined}
+          >
+            {cat}
+          </a>
+        );
+      })}
+    </div>
+
+    <div class="blog-grid">
+      {gridPosts.map((post) => (
+        <div class="box-item-wrapper">
+          <BlogCard
+            title={post.data.title}
+            excerpt={post.data.excerpt || 'Read more about this topic.'}
+            category={post.data.category || 'Insights'}
+            date={post.data.date || 'Recent'}
+            slug={post.id}
+            image={post.data.image}
+          />
+        </div>
+      ))}
+    </div>
+
+    {showResourcesLink && (
+      <p class="resources-link-wrap">
+        <a href="/resources" class="resources-link">View all resources &rarr;</a>
+      </p>
+    )}
+  </div>
+</section>
+
+<section class="newsletter-cta">
+  <div class="blog-container newsletter-container">
+    <h2 class="newsletter-title">Get our best tips directly in your inbox</h2>
+    <p class="newsletter-subtitle">Join over 200,000 professionals who read our newsletter.</p>
+    <form class="newsletter-form">
+      <label class="visually-hidden" for={newsletterId}>Work email</label>
+      <input
+        id={newsletterId}
+        name="email"
+        type="email"
+        autocomplete="email"
+        placeholder="Enter your work email"
+        class="newsletter-input"
+        required
+      />
+      <button type="submit" class="btn btn-primary newsletter-submit">Subscribe</button>
+    </form>
+  </div>
+</section>

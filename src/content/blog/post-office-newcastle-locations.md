@@ -2,7 +2,7 @@
 title: "Post Office in Newcastle: Locations, Services &amp; Delivery Offices"
 excerpt: "Whether you need to send a parcel, collect a missed delivery or access everyday banking, knowing exactly where to go in Newcastle saves time and fr..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Guide to the Post Office in Newcastle: Services &a..."
 seo_description: "Discover essential services and locations of the Newcastle Post Office. Find everything you need to navigate postal services effectively. Read more!"
 image: "/images/blog/post-office-newcastle-locations-main.webp"

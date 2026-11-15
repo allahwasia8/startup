@@ -2,7 +2,7 @@
 title: "Booker Avenue Post Office"
 excerpt: "Whether you need to send a tracked parcel, withdraw cash, or pick up a missed delivery, your local post office branch is often the most convenient ..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Booker Avenue Post Office: Your Guide to Local Services and Offers"
 seo_description: "Discover essential services and special offers at the Booker Avenue Post Office. Find out how to make the most of your local postal experience. Read more!"
 image: "/images/blog/booker-avenue-post-office-main.webp"

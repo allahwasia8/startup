@@ -1,31 +1,75 @@
 ---
-import { getCollection } from 'astro:content';
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 
-const allPosts = await getCollection('blog');
-const categories = [...new Set(allPosts.map((post) => post.data.category || 'Insights'))].sort();
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/start-journey', label: 'Start Your Journey' },
+  { href: '/resources', label: 'Resources' },
+  { href: '/about', label: 'About Us' },
+  { href: '/contact', label: 'Contact' },
+] as const;
+
+function isCurrent(href: string) {
+  if (href === '/') return pathname === '/';
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
 ---
-<nav class="navbar">
-  <div class="container navbar-container">
+
+<header class="site-header">
+  <div class="container header-inner">
     <a href="/" class="logo">
-      <img src="/images/logo_final_transparent.png" alt="UK Startup Flow" class="logo-image" />
+      <img
+        src="/images/logo_final_transparent.png"
+        alt="UK Startup Flow"
+        class="logo-image"
+        width="180"
+        height="48"
+        decoding="async"
+      />
     </a>
-    
-    <div class="nav-links">
-      <a href="/" class="nav-link">Home</a>
-      <a href="/start-journey" class="nav-link">Start Your Journey</a>
-      <a href="/resources" class="nav-link">Resources</a>
-      <a href="/about" class="nav-link">About Us</a>
-      <a href="/contact" class="nav-link">Contact</a>
-    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <button
+        class="menu-button"
+        type="button"
+        popovertarget="site-menu"
+        popovertargetaction="toggle"
+        aria-controls="site-menu"
+      >
+        <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <ul id="site-menu" class="site-menu">
+        {links.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class="nav-link"
+              aria-current={isCurrent(link.href) ? 'page' : undefined}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+        <li class="nav-cta-mobile">
+          <a href="/contact" class="btn btn-primary-dark">Get in Touch</a>
+        </li>
+      </ul>
+    </nav>
 
     <div class="nav-actions">
       <a href="/contact" class="btn btn-primary-dark">Get in Touch</a>
     </div>
   </div>
-</nav>
+</header>
 
 <style>
-  .navbar {
+  .site-header {
     position: sticky;
     top: 0;
     z-index: 100;
@@ -35,15 +79,17 @@ const categories = [...new Set(allPosts.map((post) => post.data.category || 'Ins
     padding: 1rem 0;
   }
 
-  .navbar-container {
+  .header-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .logo {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
   }
 
   .logo-image {
@@ -52,9 +98,34 @@ const categories = [...new Set(allPosts.map((post) => post.data.category || 'Ins
     object-fit: contain;
   }
 
-  .nav-links {
+  .site-nav {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+  }
+
+  .menu-button {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: #ffffff;
+    color: var(--color-text-main);
+    font: inherit;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+
+  .menu-icon {
+    flex-shrink: 0;
+  }
+
+  .site-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-link {
@@ -63,8 +134,14 @@ const categories = [...new Set(allPosts.map((post) => post.data.category || 'Ins
     font-size: 0.95rem;
   }
 
-  .nav-link:hover {
+  .nav-link:hover,
+  .nav-link[aria-current="page"] {
     color: var(--color-primary);
+  }
+
+  .nav-link[aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 0.35em;
   }
 
   .nav-actions {
@@ -73,8 +150,8 @@ const categories = [...new Set(allPosts.map((post) => post.data.category || 'Ins
     gap: 1.5rem;
   }
 
-  .icon-right {
-    margin-left: 0.5rem;
+  .nav-cta-mobile {
+    display: none;
   }
 
   .btn-primary-dark {
@@ -90,11 +167,104 @@ const categories = [...new Set(allPosts.map((post) => post.data.category || 'Ins
 
   .btn-primary-dark:hover {
     background-color: #1a365d;
+    color: #ffffff;
   }
 
-  @media (max-width: 768px) {
-    .nav-links {
+  /* Wide: inline nav */
+  @media (min-width: 769px) {
+    .site-menu {
+      position: static;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+      inset: auto;
+      margin: 0;
+      padding: 0;
+      overflow: visible;
+    }
+
+    .site-menu::backdrop {
       display: none;
     }
   }
+
+  /* Narrow: popover nav */
+  @media (max-width: 768px) {
+    .menu-button {
+      display: inline-flex;
+      anchor-name: --menu-button;
+    }
+
+    .nav-actions {
+      display: none;
+    }
+
+    .nav-cta-mobile {
+      display: block;
+      margin-block-start: 0.5rem;
+      padding-block-start: 0.75rem;
+      border-block-start: 1px solid var(--color-border);
+    }
+
+    .site-menu {
+      position: fixed;
+      inset: auto;
+      /* Fallback before anchor() for browsers without CSS Anchor Positioning */
+      inset-block-start: 4.75rem;
+      inset-block-start: anchor(--menu-button bottom);
+      inset-inline-end: 1rem;
+      inline-size: min(80dvw, 24rem);
+      max-inline-size: calc(100dvw - 2rem);
+      max-block-size: calc(100dvh - 6rem);
+      margin-block-start: 0.5rem;
+      padding: 1rem;
+      overflow: auto;
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      background: #ffffff;
+      box-shadow: var(--shadow-soft);
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .site-menu[popover]:not(:is(:popover-open, .\:popover-open)) {
+      display: none;
+    }
+
+    .site-menu:is(:popover-open, .\:popover-open) {
+      display: flex;
+    }
+
+    .site-menu .nav-link {
+      display: block;
+      padding: 0.75rem 0.5rem;
+      min-block-size: 44px;
+    }
+  }
 </style>
+
+<script>
+  // Apply popover only when collapsed so the list stays inline on wide screens.
+  const menu = document.getElementById('site-menu');
+  const mq = window.matchMedia('(max-width: 768px)');
+
+  function syncPopover() {
+    if (!menu) return;
+    if (mq.matches) {
+      if (!menu.hasAttribute('popover')) {
+        menu.setAttribute('popover', 'auto');
+      }
+    } else {
+      if (typeof menu.hidePopover === 'function' && menu.matches(':popover-open')) {
+        menu.hidePopover();
+      }
+      menu.removeAttribute('popover');
+    }
+  }
+
+  syncPopover();
+  mq.addEventListener('change', syncPopover);
+</script>

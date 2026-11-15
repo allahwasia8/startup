@@ -2,9 +2,9 @@
 title: "Carer's Element of Universal Credit in 2026: Eligibility, Amounts and How It Works"
 excerpt: "The carer's element of universal credit is £209.34 per month in 2026/27, paid on top of your universal credit standard allowance to recognise unpai..."
 date: "Oct 15, 2026"
-category: "Motoring"
-seo_title: "Understanding the Carer Element: Eligibility and Benefits Explained"
-seo_description: "Explore the eligibility and benefits of the Carer Element. Understand how it can support you or your loved ones. Read more to learn how to apply."
+category: "Benefits"
+seo_title: "Does Carer's Allowance Affect Universal Credit?"
+seo_description: "How Carer's Allowance interacts with Universal Credit, the carer's element amount in 2026, eligibility and what changes on your UC claim."
 image: "/images/blog/carer-s-element-universal-main.webp"
 ---
 
@@ -100,7 +100,9 @@ image: "/images/blog/carer-s-element-universal-main.webp"
 
 ## Frequently Asked Questions
 
+### Does Carer's Allowance affect Universal Credit?
 
+<p><strong>Yes.</strong> Carer's Allowance counts as unearned income and is deducted pound-for-pound from Universal Credit. You can still be better off overall because the carer's element (£209.34 per month in 2026/27) can be added to your UC award if you meet the caring rules. Report Carer's Allowance start and end dates promptly to avoid overpayments. See the section above on Carer's Allowance and legacy benefits for the full interaction rules.</p>
 
 ### Can I get the carer's element if I work full-time?
 

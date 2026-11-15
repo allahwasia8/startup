@@ -2,7 +2,7 @@
 title: "Post Office Erdington: Services, Location &amp; Visitor Guide"
 excerpt: "Whether you need to send a parcel, exchange currency, or sort out your banking, Erdington Post Office on the High Street is the go-to branch for th..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Guide to the Post Office Erdington: Services and Hours"
 seo_description: "Discover essential services and hours at the Post Office in Erdington. Get all the information you need to plan your visit—read the full guide now!"
 image: "/images/blog/post-office-erdington-services-main.webp"

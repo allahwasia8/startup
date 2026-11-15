@@ -3,8 +3,8 @@ title: "Unlimited company: meaning, risks, and how it differs from a limited com
 excerpt: "An unlimited company is a private company with no limit on liability for its members, meaning shareholders can be personally responsible for the co..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Key Differences Between an Unlimited Company and Other Business Types"
-seo_description: "Explore the key differences between unlimited companies and other business types to make informed decisions. Read more to find the right fit for your needs."
+seo_title: "What Is an Unlimited Company in the UK?"
+seo_description: "Unlimited company meaning, risks and unlimited vs limited company differences. When UK businesses use this structure — and when to avoid it."
 image: "/images/blog/unlimited-company-meaning-risks-main.webp"
 ---
 

@@ -2,7 +2,7 @@
 title: "Universal Credit identity check: how to confirm your identity online, by phone or at the Post Office"
 excerpt: "You must confirm your identity shortly after you claim universal credit, usually through your online account, before your first payment can be made..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Benefits"
 seo_title: "Essential Guide to Your Universal Credit Identity Check Process"
 seo_description: "Navigate the Universal Credit identity check process with ease. Understand the steps, requirements, and tips to ensure a smooth experience. Read more."
 image: "/images/blog/universal-credit-identity-check-main.webp"

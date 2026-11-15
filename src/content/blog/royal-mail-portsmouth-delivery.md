@@ -2,7 +2,7 @@
 title: "Royal Mail Portsmouth Delivery Office – Location, Services &amp; Visitor Guide"
 excerpt: "Whether you have a \"Something for you\" card waiting on your doormat or you need to drop off a prepaid return, the Royal Mail Portsmouth Delivery Of..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Essential Guide to the Royal Mail Portsmouth Delivery Office Services"
 seo_description: "Explore the services offered by the Royal Mail Portsmouth Delivery Office, including delivery options, collection points, and more. Read the full guide now!"
 image: "/images/blog/royal-mail-portsmouth-delivery-main.webp"

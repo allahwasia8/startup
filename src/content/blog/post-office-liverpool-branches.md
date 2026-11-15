@@ -2,7 +2,7 @@
 title: "Post Office Liverpool: Branches, Opening Times &amp; Essential Services"
 excerpt: "Whether you're posting a parcel, exchanging travel money or picking up a missed delivery, knowing where to find your nearest post office in Liverpo..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Top Services at the Post Office Liverpool for Your Everyday Needs"
 seo_description: "Discover essential services at Post Office Liverpool that cater to your daily needs. Read on to make the most of your local post office experience."
 image: "/images/blog/post-office-liverpool-branches-main.webp"

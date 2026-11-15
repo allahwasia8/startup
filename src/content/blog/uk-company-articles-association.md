@@ -3,8 +3,8 @@ title: "UK company articles of association: model articles, bespoke rules, and C
 excerpt: "Every UK limited company needs a rulebook. That rulebook is the company's articles of association-a legally binding document that dictates how the ..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Understanding UK Company Articles of Association: A Guide"
-seo_description: "Discover the essentials of UK Company Articles of Association and learn how they govern your business. Read the guide to ensure compliance and clarity."
+seo_title: "Model Articles of Association (UK Companies)"
+seo_description: "Model articles for private companies limited by shares: what they cover, when to customise, and Companies House defaults explained."
 image: "/images/blog/uk-company-articles-association-main.webp"
 ---
 

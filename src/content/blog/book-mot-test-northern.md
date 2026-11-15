@@ -3,8 +3,8 @@ title: "Book an MOT Test in Northern Ireland: Complete 2026 Guide"
 excerpt: "If you need to book an MOT test in Northern Ireland, the process works differently from the rest of the UK. All vehicle tests are managed exclusive..."
 date: "Oct 15, 2026"
 category: "Motoring"
-seo_title: "How to Book an MOT Test in Northern Ireland Easily and Efficiently"
-seo_description: "Learn how to book your MOT test in Northern Ireland with ease. Follow our simple steps for a smooth and efficient process. Read the article now!"
+seo_title: "Book an MOT Test in Northern Ireland (NI)"
+seo_description: "Book your MOT online in Northern Ireland: DVA centres, costs, retests and how NI MOT booking differs from Great Britain."
 image: "/images/blog/book-mot-test-northern-main.webp"
 ---
 

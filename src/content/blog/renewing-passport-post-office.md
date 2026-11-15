@@ -2,7 +2,7 @@
 title: "Renewing a Passport at a Post Office: Step-by-Step Guide (UK 2026)"
 excerpt: "If you need to renew your uk passport before your next trip, doing it through a Post Office branch can save you from costly mistakes. This guide co..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Passports"
 seo_title: "Guide to Renewing a Passport at a Post Office: Step-by-Step Process"
 seo_description: "Learn how to renew your passport at a post office with this step-by-step guide. Simplify the process and get ready for your next adventure. Read more!"
 image: "/images/blog/renewing-passport-post-office-main.webp"

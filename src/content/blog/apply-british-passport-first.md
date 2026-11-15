@@ -4,8 +4,8 @@ excerpt: "If you need to apply for a british passport first time, the process in
 date: "Oct 15, 2026"
 category: "Passports"
 image: "/images/blog/apply-british-passport-first-main.webp"
-seo_title: "Apply for a British Passport for the First Time (Adult)"
-seo_description: "If you need to apply for a british passport first time, the process involves more paperwork and checks than a simple renewal. This guide walks you ..."
+seo_title: "How to Apply for a British Passport First Time"
+seo_description: "First adult British passport: documents, fees, photos and timelines. Clear steps to apply online or via the Post Office Check & Send service."
 ---
 
 <p>If you need to apply for a british passport first time, the process involves more paperwork and checks than a simple renewal. This guide walks you through every stage of the application process for 2026, from confirming your british citizenship to receiving your new passport by post.</p>

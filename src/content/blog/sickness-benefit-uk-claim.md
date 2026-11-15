@@ -2,9 +2,9 @@
 title: "Sickness Benefit in the UK: How to Claim Financial Support When You're Too Ill to Work"
 excerpt: "Sickness benefit in the UK usually starts with statutory sick pay from your employer, then may move to employment and support allowance or universa..."
 date: "Oct 15, 2026"
-category: "Business"
-seo_title: "Understanding Sickness Benefit: Eligibility and How to Claim It"
-seo_description: "Learn about sickness benefit eligibility and the claiming process. Get the information you need to navigate your rights and support options. Read more now!"
+category: "Benefits"
+seo_title: "Sick Pay If Self Employed: Benefits Guide"
+seo_description: "Can self-employed claim sick pay? SSP rules, Universal Credit when ill, ESA and how to claim sickness benefits if you cannot work."
 image: "/images/blog/sickness-benefit-uk-claim-main.webp"
 ---
 
@@ -13,6 +13,10 @@ image: "/images/blog/sickness-benefit-uk-claim-main.webp"
 ## Key Takeaways
 
 <ul><li><p>Sickness benefit in the UK usually starts with statutory sick pay from your employer, then may move to employment and support allowance or universal credit with a health element if you remain unable to work.</p></li><li><p>If you have a health condition or disability that gives you limited capability for work, you may get extra money through Universal Credit (LCW / LCWRA) or new style employment and support allowance.</p></li><li><p>You can self-certify sickness for the first 7 days and then need a fit note from your GP or other authorised medical professional from day 8.</p></li><li><p>People on a low income or with no income can claim universal credit, and fit notes, Work Capability Assessments and the claimant commitment are central parts of the process.</p></li><li><p>Special rules apply if a medical professional expects you to have 12 months or less to live, giving faster decisions and higher rates of financial support.</p></li></ul>
+
+## Can self-employed people claim sick pay?
+
+<p><strong>Short answer:</strong> Self-employed people cannot claim Statutory Sick Pay (SSP) from an employer, because SSP is only for employees. If you are self-employed and too ill to work, check Universal Credit (declare your health condition), new style Employment and Support Allowance if you have enough National Insurance contributions, and any private income protection insurance. Many “can I claim sick pay if self employed” searches are really about these alternatives — not SSP.</p>
 
 ## Introduction: What Are Sickness Benefits in the UK?
 
@@ -68,7 +72,9 @@ image: "/images/blog/sickness-benefit-uk-claim-main.webp"
 
 ## Frequently Asked Questions about Sickness Benefits
 
+### Can I claim sick pay if I am self-employed?
 
+<p>No — you cannot claim Statutory Sick Pay if you are self-employed. SSP is paid by employers to employees only. Instead, look at Universal Credit with a reported health condition, new style ESA (if your National Insurance record qualifies), and any income protection cover you hold. Keep fit notes from day 8 if you claim UC or ESA while off sick.</p>
 
 ### Can I work while getting sickness benefits like ESA or Universal Credit with LCW/LCWRA?
 

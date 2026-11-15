@@ -3,8 +3,8 @@ title: "MOT reminders: how to set them up, manage them, and never miss your test
 excerpt: "Forgetting your MOT date is easier than most people think. Research suggests that 28% of cars are overdue for MOTs at any time, largely due to forg..."
 date: "Oct 15, 2026"
 category: "Motoring"
-seo_title: "Essential MOT Reminders: Stay on Top of Your Vehicle's Safety Checks"
-seo_description: "Stay proactive with your vehicle's safety checks. Discover essential MOT reminders to keep your car roadworthy and avoid unexpected issues. Read more!"
+seo_title: "MOT Reminder Service: Never Miss Your Due Date"
+seo_description: "Set free MOT reminders by email or text, DVLA options, and how to manage MOT due alerts so you book before your certificate expires."
 image: "/images/blog/mot-reminders-set-them-main.webp"
 ---
 

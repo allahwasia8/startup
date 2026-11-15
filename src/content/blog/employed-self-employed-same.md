@@ -3,8 +3,8 @@ title: "Employed and Self-Employed at the Same Time: How It Works in the UK"
 excerpt: "Millions of people across the UK hold a full time job while running a business on the side. Whether you freelance as a graphic designer after hours..."
 date: "Oct 15, 2026"
 category: "Business"
-seo_title: "Understanding Employed Self Employed: Key Insights and Guidelines"
-seo_description: "Explore the differences between employed and self-employed work. Gain essential insights and practical guidelines to navigate your career path. Read more!"
+seo_title: "Can You Be a Sole Trader and Employed?"
+seo_description: "Yes — you can be employed and self-employed (or a sole trader) at the same time in the UK. Tax, NI, registration and rights explained."
 image: "/images/blog/employed-self-employed-same-main.webp"
 ---
 
@@ -13,6 +13,10 @@ image: "/images/blog/employed-self-employed-same-main.webp"
 ## Key Takeaways
 
 <ul><li><p>You can be both employed (on PAYE) and self employed at the same time in the UK. Your employer deducts income tax and national insurance from your salary, while you report self employed profits separately via a self assessment tax return.</p></li><li><p>If your gross self employed income exceeds the £1,000 trading allowance in a tax year, you need to register as self employed with HMRC by 5 October following the end of that tax year.</p></li><li><p>Side business income affects your overall tax bill, national insurance contributions, mortgage applications and financial planning. Keeping proper business records and opening a separate business bank account are strongly recommended.</p></li><li><p>Employment rights such as holiday pay, sick pay and redundancy protection apply only to your employed role. As a self employed person, you are responsible for arranging your own protections and insurance policies.</p></li><li><p>Self employed people must file a self assessment tax return annually, even if their side income is modest.</p></li></ul>
+
+## Can you be a sole trader and employed at the same time?
+
+<p><strong>Yes.</strong> You can be employed (PAYE) and a sole trader or otherwise self-employed in the same tax year. Your employer handles PAYE on your salary; you register with HMRC for Self Assessment if your side income goes above the £1,000 trading allowance and report profits separately. This is legal and common — the sections below cover tax, National Insurance, registration and employment rights.</p>
 
 ## What Does It Mean to Be Both Employed and Self-Employed?
 
@@ -53,6 +57,10 @@ image: "/images/blog/employed-self-employed-same-main.webp"
 ## FAQs
 
 
+
+### Can I be a sole trader and be employed?
+
+<p>Yes. Being a sole trader simply means you are self-employed as an individual (not a limited company). You can keep a PAYE job and run a sole trader side business at the same time. Sole traders do not register with Companies House; they register with HMRC for Self Assessment when required.</p>
 
 ### Can I be on PAYE in my main job and self-employed on the side at the same time?
 

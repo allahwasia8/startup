@@ -3,8 +3,8 @@ title: "MOT Close To Me – How To Book, What It Costs, And What Happens If Your
 excerpt: "Finding an mot close to me is one of the most common searches UK drivers make every year, and for good reason. Your mot certificate is a legal requ..."
 date: "Oct 15, 2026"
 category: "Motoring"
-seo_title: "MOT Close To Me – How To Book, What It Costs, And What Happe"
-seo_description: "Finding an mot close to me is one of the most common searches UK drivers make every year, and for good reason. Your mot certificate is a legal requ..."
+seo_title: "Book an MOT Test Online Near You"
+seo_description: "Book an MOT test online: find local centres, compare prices, same-day slots and what happens if your car fails. Max fee £54.85 for Class 4."
 image: "/images/blog/mot-close-me-book-main.webp"
 ---
 

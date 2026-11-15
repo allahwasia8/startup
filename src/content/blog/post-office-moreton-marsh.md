@@ -2,7 +2,7 @@
 title: "Post Office Moreton-in-Marsh – Services, Location &amp; Local Guide"
 excerpt: "Moreton-in-Marsh has two key postal locations: the main Post Office counter branch inside Budgens on the High Street (GL56 0AH) and the Midcounties..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Your Local Post Office Moreton in Marsh: Community and Services Guide"
 seo_description: "Discover essential services and community insights at your local post office in Moreton in Marsh. Read more to stay connected with your neighborhood!"
 image: "/images/blog/post-office-moreton-marsh-main.webp"

@@ -3,8 +3,8 @@ title: "When Is My MOT Due? Check Dates, Status &amp; MOT History"
 excerpt: "Every car owner in the UK needs to know exactly when their MOT is due. Miss the date, and you could face fines, invalidated insurance, or worse-dri..."
 date: "Oct 15, 2026"
 category: "Motoring"
-seo_title: "When is My MOT Due Check? Essential Guide and Tips for Vehicle Owners"
-seo_description: "Discover when your MOT is due and get essential tips for vehicle owners to ensure timely checks. Read the guide to stay compliant and safe."
+seo_title: "MOT Due Date Check: When Is My MOT Due?"
+seo_description: "Check your MOT due date and history online with your registration. Free MOT reminders, legal rules and how to book before it expires."
 image: "/images/blog/my-mot-due-check-main.webp"
 ---
 

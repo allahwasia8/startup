@@ -2,7 +2,7 @@
 title: "Sunbridge Road Post Office: Services, Address &amp; New Location Plans"
 excerpt: "Sunbridge Road Post Office is currently located at 52 Sunbridge Road, Bradford, BD1 2AB, serving the Bradford BD1 area with a full range of counter..."
 date: "Oct 15, 2026"
-category: "Business"
+category: "Post Office"
 seo_title: "Sunbridge Road Post Office: Services, Address &amp; New Loca"
 seo_description: "Sunbridge Road Post Office is currently located at 52 Sunbridge Road, Bradford, BD1 2AB, serving the Bradford BD1 area with a full range of counter..."
 image: "/images/blog/sunbridge-road-post-office-main.webp"
